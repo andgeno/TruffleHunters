@@ -124,8 +124,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gameCameraPrefab: {fileID: 11400000, guid: 2e667a66dd21e294e88765e0491d5fe9, type: 2}
   body: {fileID: 400000}
-  maxSpeed: 3
+  maxSpeed: 2.4000001
   acceleration: 8
+  zSpeedMult: 1.79999995
 --- !u!114 &11400002
 MonoBehaviour:
   m_ObjectHideFlags: 1

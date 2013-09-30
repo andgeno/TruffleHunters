@@ -538,17 +538,17 @@ MonoBehaviour:
     attachPoints: []
   - name: FenceV1
     boundsData:
-    - {x: .0703125, y: -.07421875, z: 0}
+    - {x: .0703125, y: .92578125, z: 0}
     - {x: .328125, y: 1.8203125, z: 0}
     untrimmedBoundsData:
-    - {x: 0, y: 0, z: 0}
+    - {x: 0, y: 1, z: 0}
     - {x: 2, y: 2, z: 0}
     texelSize: {x: .0078125, y: .0078125}
     positions:
-    - {x: -.09375, y: -.984375, z: 0}
-    - {x: .234375, y: -.984375, z: 0}
-    - {x: -.09375, y: .8359375, z: 0}
-    - {x: .234375, y: .8359375, z: 0}
+    - {x: -.09375, y: .015625, z: 0}
+    - {x: .234375, y: .015625, z: 0}
+    - {x: -.09375, y: 1.8359375, z: 0}
+    - {x: .234375, y: 1.8359375, z: 0}
     normals: []
     tangents: []
     uvs:
@@ -576,17 +576,17 @@ MonoBehaviour:
     attachPoints: []
   - name: FenceV0
     boundsData:
-    - {x: .0390625, y: -.02734375, z: 0}
+    - {x: .0390625, y: .97265625, z: 0}
     - {x: .59375, y: 1.8046875, z: 0}
     untrimmedBoundsData:
-    - {x: 0, y: 0, z: 0}
+    - {x: 0, y: 1, z: 0}
     - {x: 2, y: 2, z: 0}
     texelSize: {x: .0078125, y: .0078125}
     positions:
-    - {x: -.2578125, y: -.9296875, z: 0}
-    - {x: .3359375, y: -.9296875, z: 0}
-    - {x: -.2578125, y: .875, z: 0}
-    - {x: .3359375, y: .875, z: 0}
+    - {x: -.2578125, y: .0703125, z: 0}
+    - {x: .3359375, y: .0703125, z: 0}
+    - {x: -.2578125, y: 1.875, z: 0}
+    - {x: .3359375, y: 1.875, z: 0}
     normals: []
     tangents: []
     uvs:
@@ -625,7 +625,7 @@ MonoBehaviour:
   loadable: 0
   invOrthoSize: 2
   halfTargetHeight: 64
-  buildKey: 186792460
+  buildKey: 713200041
   dataGuid: bd6d2e09d3247f145ae0a6dd3b2933bb
   managedSpriteCollection: 0
   hasPlatformData: 0

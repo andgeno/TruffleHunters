@@ -5,8 +5,10 @@ public class RandSprite : MonoBehaviour {
 	
 	public string prefix;
 	public int count;
-	public bool randFlipX = false;
-	public bool randFlipY = false;
+	public bool randFlipX;
+	public bool randFlipY;
+	public float staggerX;
+	public float staggerZ;
 	
 	tk2dSprite sprite;
 	
@@ -16,10 +18,15 @@ public class RandSprite : MonoBehaviour {
 		sprite = GetComponent<tk2dSprite>();
 		sprite.SetSprite(prefix + (count > 0 ? "" + Rand.Int(count) : ""));
 		
+		
+		
 		if (randFlipX)
 			sprite.FlipX = Rand.Int(2) == 0;
 		if (randFlipY)
 			sprite.FlipY = Rand.Int(2) == 0;
+		
+		sprite.transform.SetX(sprite.transform.localPosition.x - staggerX + Rand.Float(staggerX * 2));
+		sprite.transform.SetZ(sprite.transform.localPosition.z - staggerZ + Rand.Float(staggerZ * 2));
 	}
 
 }

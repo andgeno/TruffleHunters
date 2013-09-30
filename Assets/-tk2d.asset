@@ -156,16 +156,40 @@ MonoBehaviour:
     - playerFrontWalk0003
     - playerFrontWalk0001
     - playerFrontWalk0002
+    - PlayerBackWalk0002
+    - PlayerBackWalk0001
+    - PlayerBackWalk0000
+    - PlayerBackWalk0003
+    - PlayerFrontWalkBlink0001
+    - PlayerFrontWalkBlink0002
+    - PlayerFrontWalkBlink0000
+    - PlayerFrontWalkBlink0003
     spriteTextureGUIDs:
     - 36329d8d986903345b45f4da14c8a0b1
     - 7c2a5360ff4bb4b4c915e1032f4def1d
     - b357e13ceedb32d47993eb65b05d018d
     - e90a22e00526ff74d93bafc61b4fae03
+    - 773c33c07231a4f4199deafa5b747a60
+    - 9e75e28990dd29f4d9ac6ecdd983cfff
+    - f5d965f9b7cd4884da9fda579f463a1d
+    - e03de52bff919574080e2084d95db4c0
+    - 9e1ab2c0cc02bfe45b8193fa58e250ef
+    - 74488b513c57e9c4d85770a20eabb2e3
+    - df999907bdbce544187edf8f076d1feb
+    - 2bde35eb4833ac84f8f17e13481ef9be
     spriteTextureTimeStamps:
-    - 1380507267.279
-    - 1380507267.28201
-    - 1380507267.28
-    - 1380507267.281
+    - 1380506727.22478
+    - 1380506727.23078
+    - 1380506727.22678
+    - 1380506727.22878
+    - 1380509004.26137
+    - 1380509004.25937
+    - 1380509004.25737
+    - 1380509004.26337
+    - 1380509004.26737
+    - 1380509004.26837
+    - 1380509004.26537
+    - 1380509004.27037
     managedSpriteCollection: 0
     loadable: 0
     assetName: 

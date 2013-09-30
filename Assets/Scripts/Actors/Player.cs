@@ -93,6 +93,7 @@ public class Player : Singleton<Player>
 		if (!velocity.IsZero())
 		{
 			controller.Move(velocity * Time.deltaTime);
+			transform.SetY(0);
 			return true;
 		}
 		else

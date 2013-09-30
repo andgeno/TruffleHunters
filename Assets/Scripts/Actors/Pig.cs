@@ -21,14 +21,14 @@ public class Pig : MonoBehaviour
 	
 	public int SetState(State newState)
 	{
-		StopCoroutine(state.ToString());
+		StopAllCoroutines();
 		state = newState;
 		StartCoroutine(state.ToString());
 		return 0;
 	}
 	public int SetState(State newState, object value)
 	{
-		StopCoroutine(state.ToString());
+		StopAllCoroutines();
 		state = newState;
 		StartCoroutine(state.ToString(), value);
 		return 0;
@@ -55,10 +55,11 @@ public class Pig : MonoBehaviour
 	{
 		var duration = 0.5f;
 		var distance = 4f;
+		var heightMult = 2.5f;
 		
 		var start = body.localPosition;
 		var end = Vector3.zero;
-		var control = Calc.BezierControl(start, end, start.y * 3);
+		var control = Calc.BezierControl(start, end, start.y * heightMult);
 		var velocity = direction * (Vector3.Distance(Vector3.zero, direction * distance) / duration);
 		
 		for (float time = 0; time < duration; time += Time.deltaTime)

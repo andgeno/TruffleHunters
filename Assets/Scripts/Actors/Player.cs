@@ -18,7 +18,7 @@ public class Player : Singleton<Player>
 	Vector3 moveAxis;
 	Vector3 velocity;
 	Carryable carrying;
-	Vector3 throwDirection;
+	Vector3 aimDirection;
 	
 	protected override void Awake ()
 	{
@@ -42,7 +42,7 @@ public class Player : Singleton<Player>
 		if (!moveAxis.IsZero())
 		{
 			moveAxis.Normalize();
-			throwDirection = moveAxis;
+			aimDirection = moveAxis;
 		}
 	}
 	
@@ -62,7 +62,7 @@ public class Player : Singleton<Player>
 		while (true)
 		{
 			//Update animation
-			animator.Play("PlayerIdle");
+			PlayAnim("PlayerIdle");
 			
 			TryApplyVelocity();
 			if (TryAccelerate())
@@ -80,15 +80,7 @@ public class Player : Singleton<Player>
 		while (true)
 		{
 			//Update animation
-			if (!Mathf.Approximately(moveAxis.x, 0))
-			{
-				animator.Play("PlayerWalkSide");
-				animator.Sprite.FlipX = moveAxis.x > 0;
-			}
-			else if (moveAxis.z > 0)
-				animator.Play("PlayerWalkBack");
-			else
-				animator.Play("PlayerWalkFront");
+			PlayAnim("PlayerWalk");
 			
 			TryApplyVelocity();
 			if (!TryAccelerate())
@@ -99,6 +91,19 @@ public class Player : Singleton<Player>
 				yield return 0;
 			yield return 0;
 		}
+	}
+	
+	void PlayAnim(string prefix)
+	{
+		if (!Mathf.Approximately(aimDirection.x, 0))
+		{
+			animator.Play(prefix + "Side");
+			animator.Sprite.FlipX = aimDirection.x > 0;
+		}
+		else if (aimDirection.z > 0)
+			animator.Play(prefix + "Back");
+		else
+			animator.Play(prefix + "Front");
 	}
 	
 	bool TryAccelerate()
@@ -154,7 +159,7 @@ public class Player : Singleton<Player>
 	{
 		if (carrying != null && Input.GetButtonDown("A"))
 		{
-			carrying.StopCarry(throwDirection);
+			carrying.StopCarry(aimDirection);
 			carrying = null;
 			return true;
 		}

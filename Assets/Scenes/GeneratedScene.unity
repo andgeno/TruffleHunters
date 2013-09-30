@@ -432,6 +432,14 @@ Prefab:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 8636825}
+    - target: {fileID: 11400000, guid: bad71921777f8d64babb6b62c3ca1e91, type: 2}
+      propertyPath: size.x
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: bad71921777f8d64babb6b62c3ca1e91, type: 2}
+      propertyPath: size.y
+      value: 25
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: bad71921777f8d64babb6b62c3ca1e91, type: 2}
   m_RootGameObject: {fileID: 1683392229}
@@ -952,7 +960,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e96244e90339d6747910555400dfbe36, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  size: {x: 30, y: 30}
+  size: {x: 25, y: 25}
   treeThreshold: .333000004
   treePerlinScale: .115999997
   treeInnerPercentage: .774999976

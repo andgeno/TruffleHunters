@@ -6,3 +6,7 @@
 *.csproj
 *.unityproj
 *.sln
+
+/Originals/Tree1.lip
+/Originals/Trees.lip
+/Originals/Trees.psd

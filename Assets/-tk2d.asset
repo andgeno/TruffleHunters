@@ -15,6 +15,19 @@ MonoBehaviour:
   spriteAnimationIndex: []
   fontIndex: []
   spriteCollectionIndex:
+  - name: Backgrounds
+    spriteCollectionGUID: 51d64c924f2cb444d91977ea9a195b36
+    spriteCollectionDataGUID: 50d1a83e5ace0304f9d4865e647e409e
+    spriteNames:
+    - Sky
+    spriteTextureGUIDs:
+    - 4c5785b0801d88c4198019af2aba7dca
+    spriteTextureTimeStamps:
+    - 1380500197.97366
+    managedSpriteCollection: 0
+    loadable: 0
+    assetName: 
+    version: 3
   - name: Props
     spriteCollectionGUID: 0180efe61c0911e4c8268cc3b6ddc27d
     spriteCollectionDataGUID: a5c1c5042f2afdb41b2f3822ec92cea7
@@ -51,21 +64,76 @@ MonoBehaviour:
     - 3855f136be8aca84482e24d67eed3ec4
     - 4ce5fe8ee186b044e90033959adb9901
     spriteTextureTimeStamps:
-    - 1380501274.78592
-    - 1380501274.78392
-    - 1380501274.78792
-    - 1380501274.78291
-    - 1380501274.78992
-    - 1380501274.77091
-    - 1380501274.76491
-    - 1380501274.77891
-    - 1380501274.76691
-    - 1380501274.76991
-    - 1380501274.76791
-    - 1380501274.78091
-    - 1380501274.77491
-    - 1380501274.77391
-    - 1380501274.77191
+    - 1380500197.96966
+    - 1380500197.96966
+    - 1380500197.97066
+    - 1380500197.96866
+    - 1380500197.97266
+    - 1380500197.96266
+    - 1380500197.96066
+    - 1380504262.17112
+    - 1380500197.96066
+    - 1380500197.96266
+    - 1380500197.96166
+    - 0
+    - 1380500197.96366
+    - 1380500197.96366
+    - 1380500197.96366
+    managedSpriteCollection: 0
+    loadable: 0
+    assetName: 
+    version: 3
+  - name: Props
+    spriteCollectionGUID: a63869f0d03e285428c46985e7789e60
+    spriteCollectionDataGUID: 0773f0f739644314a89367f5a2b2a630
+    spriteNames:
+    - TreeLeaves1
+    - TreeLeaves0
+    - TreeLeaves2
+    - TreeDry
+    - TreeStump
+    - FenceH4
+    - FenceH0
+    - Stone0
+    - FenceH1
+    - FenceH3
+    - FenceH2
+    - Stone1
+    - FenceV2
+    - FenceV1
+    - FenceV0
+    spriteTextureGUIDs:
+    - e24a7853e536dae4d970b251d26223d1
+    - 324001d6406a2ba48b9993bb398ed8f0
+    - 731c7ada308d2f44da114c5431093cb6
+    - e4fc9f9b5f5c75046aee9d73ebcf3cf3
+    - e7b1ea4c2f795b44bb6b38afc085e608
+    - 2c6360d708fd9c04e957f5f5fc429f78
+    - 46f4644ecbb46e148965138b68c9a475
+    - 52209a10ff9b30a43bf619b86b46d9b3
+    - 7a5793cc5713c3d4c8d89de846c102cd
+    - 89516e96d88166b409ae8f296bbac2cb
+    - a01477a26fa0e154db6ecf86ae7b6022
+    - f53bd71ed83c72448ad0867699c37171
+    - 2b5bd6fec21f9b84b937244f3ce7d913
+    - 3855f136be8aca84482e24d67eed3ec4
+    - 4ce5fe8ee186b044e90033959adb9901
+    spriteTextureTimeStamps:
+    - 1380500197.96966
+    - 1380500197.96966
+    - 1380500197.97066
+    - 1380500197.96866
+    - 1380500197.97266
+    - 1380500197.96266
+    - 1380500197.96066
+    - 1380504262.17112
+    - 1380500197.96066
+    - 1380500197.96266
+    - 1380500197.96166
+    - 0
+    - 1380500197.96366
+    - 1380500197.96366
+    - 1380500197.96366
     managedSpriteCollection: 0
     loadable: 0
     assetName: 

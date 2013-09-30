@@ -9,16 +9,7 @@ public class VisibilityObject : MonoBehaviour
 	void Awake()
 	{
 		renderers = GetComponentsInChildren<Renderer>();
-	}
-	
-	void OnEnable()
-	{
 		VisibilityManager.instance.objects.Add(this);
-	}
-	
-	void OnDisable()
-	{
-		VisibilityManager.instance.objects.Remove(this);
 	}
 	
 	public void SetVisible(bool visible)

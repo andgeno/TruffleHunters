@@ -250,7 +250,7 @@ MonoBehaviour:
     fps: 8
     loopStart: 0
     wrapMode: 0
-  - name: PlayerIdle
+  - name: PlayerIdleFront
     frames:
     - spriteCollection: {fileID: 11400000, guid: ca13771f86c5bc14fa9a29f3e6c36194,
         type: 2}
@@ -388,6 +388,156 @@ MonoBehaviour:
     - spriteCollection: {fileID: 11400000, guid: ca13771f86c5bc14fa9a29f3e6c36194,
         type: 2}
       spriteId: 28
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+    fps: 8
+    loopStart: 0
+    wrapMode: 0
+  - name: PlayerIdleBack
+    frames:
+    - spriteCollection: {fileID: 11400000, guid: ca13771f86c5bc14fa9a29f3e6c36194,
+        type: 2}
+      spriteId: 33
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+    - spriteCollection: {fileID: 11400000, guid: ca13771f86c5bc14fa9a29f3e6c36194,
+        type: 2}
+      spriteId: 34
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+    - spriteCollection: {fileID: 11400000, guid: ca13771f86c5bc14fa9a29f3e6c36194,
+        type: 2}
+      spriteId: 30
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+    - spriteCollection: {fileID: 11400000, guid: ca13771f86c5bc14fa9a29f3e6c36194,
+        type: 2}
+      spriteId: 31
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+    - spriteCollection: {fileID: 11400000, guid: ca13771f86c5bc14fa9a29f3e6c36194,
+        type: 2}
+      spriteId: 32
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+    fps: 8
+    loopStart: 0
+    wrapMode: 0
+  - name: PlayerIdleSide
+    frames:
+    - spriteCollection: {fileID: 11400000, guid: ca13771f86c5bc14fa9a29f3e6c36194,
+        type: 2}
+      spriteId: 38
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+    - spriteCollection: {fileID: 11400000, guid: ca13771f86c5bc14fa9a29f3e6c36194,
+        type: 2}
+      spriteId: 43
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+    - spriteCollection: {fileID: 11400000, guid: ca13771f86c5bc14fa9a29f3e6c36194,
+        type: 2}
+      spriteId: 42
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+    - spriteCollection: {fileID: 11400000, guid: ca13771f86c5bc14fa9a29f3e6c36194,
+        type: 2}
+      spriteId: 36
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+    - spriteCollection: {fileID: 11400000, guid: ca13771f86c5bc14fa9a29f3e6c36194,
+        type: 2}
+      spriteId: 40
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+    - spriteCollection: {fileID: 11400000, guid: ca13771f86c5bc14fa9a29f3e6c36194,
+        type: 2}
+      spriteId: 38
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+    - spriteCollection: {fileID: 11400000, guid: ca13771f86c5bc14fa9a29f3e6c36194,
+        type: 2}
+      spriteId: 43
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+    - spriteCollection: {fileID: 11400000, guid: ca13771f86c5bc14fa9a29f3e6c36194,
+        type: 2}
+      spriteId: 42
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+    - spriteCollection: {fileID: 11400000, guid: ca13771f86c5bc14fa9a29f3e6c36194,
+        type: 2}
+      spriteId: 36
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+    - spriteCollection: {fileID: 11400000, guid: ca13771f86c5bc14fa9a29f3e6c36194,
+        type: 2}
+      spriteId: 40
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+    - spriteCollection: {fileID: 11400000, guid: ca13771f86c5bc14fa9a29f3e6c36194,
+        type: 2}
+      spriteId: 37
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+    - spriteCollection: {fileID: 11400000, guid: ca13771f86c5bc14fa9a29f3e6c36194,
+        type: 2}
+      spriteId: 41
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+    - spriteCollection: {fileID: 11400000, guid: ca13771f86c5bc14fa9a29f3e6c36194,
+        type: 2}
+      spriteId: 35
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+    - spriteCollection: {fileID: 11400000, guid: ca13771f86c5bc14fa9a29f3e6c36194,
+        type: 2}
+      spriteId: 44
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+    - spriteCollection: {fileID: 11400000, guid: ca13771f86c5bc14fa9a29f3e6c36194,
+        type: 2}
+      spriteId: 39
       triggerEvent: 0
       eventInfo: 
       eventInt: 0

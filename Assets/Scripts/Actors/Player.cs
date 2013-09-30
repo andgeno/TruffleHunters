@@ -3,22 +3,22 @@ using System.Collections;
 
 public class Player : Singleton<Player>
 {
-	enum State { Idle, Walk }
-	
-	public GameCamera gameCameraPrefab;
 	public Transform body;
-	
 	public float maxSpeed;
 	public float acceleration;
 	public float zSpeedMult;
-	
-	State state = State.Idle;
-	Vector3 inputAxis;
-	Vector3 moveAxis;
-	Vector3 velocity;
+	public float grabRadius;
 	
 	CharacterController controller;
 	tk2dSpriteAnimator animator;
+	
+	enum State { None, Idle, Walk }
+	State state = State.None;
+	Vector3 inputAxis;
+	Vector3 moveAxis;
+	Vector3 velocity;
+	Carryable carrying;
+	Vector3 aimDirection;
 	
 	protected override void Awake ()
 	{
@@ -27,7 +27,7 @@ public class Player : Singleton<Player>
 		controller = GetComponent<CharacterController>();
 		animator = GetComponentInChildren<tk2dSpriteAnimator>();
 		
-		SetState(state);
+		SetState(State.Idle);
 	}
 	
 	void Update()
@@ -40,14 +40,20 @@ public class Player : Singleton<Player>
 		moveAxis = Camera.main.transform.TransformDirection(inputAxis);
 		moveAxis.y = 0;
 		if (!moveAxis.IsZero())
+		{
 			moveAxis.Normalize();
+			aimDirection = moveAxis;
+		}
 	}
 	
 	int SetState(State newState)
 	{
-		StopAllCoroutines();
-		state = newState;
-		StartCoroutine(state.ToString());
+		if (state != newState)
+		{
+			StopAllCoroutines();
+			state = newState;
+			StartCoroutine(state.ToString());
+		}
 		return 0;
 	}
 	
@@ -56,11 +62,15 @@ public class Player : Singleton<Player>
 		while (true)
 		{
 			//Update animation
-			animator.Play("PlayerIdle");
+			PlayAnim("PlayerIdle");
 			
 			TryApplyVelocity();
 			if (TryAccelerate())
 				yield return SetState(State.Walk);
+			if (TryCarry())
+				yield return 0;
+			if (TryThrow())
+				yield return 0;
 			yield return 0;	
 		}
 	}
@@ -70,21 +80,30 @@ public class Player : Singleton<Player>
 		while (true)
 		{
 			//Update animation
-			if (!Mathf.Approximately(moveAxis.x, 0))
-			{
-				animator.Play("PlayerWalkSide");
-				animator.Sprite.FlipX = moveAxis.x > 0;
-			}
-			else if (moveAxis.z > 0)
-				animator.Play("PlayerWalkBack");
-			else
-				animator.Play("PlayerWalkFront");
+			PlayAnim("PlayerWalk");
 			
 			TryApplyVelocity();
 			if (!TryAccelerate())
 				yield return SetState(State.Idle);
+			if (TryCarry())
+				yield return 0;
+			if (TryThrow())
+				yield return 0;
 			yield return 0;
 		}
+	}
+	
+	void PlayAnim(string prefix)
+	{
+		if (!Mathf.Approximately(aimDirection.x, 0))
+		{
+			animator.Play(prefix + "Side");
+			animator.Sprite.FlipX = aimDirection.x > 0;
+		}
+		else if (aimDirection.z > 0)
+			animator.Play(prefix + "Back");
+		else
+			animator.Play(prefix + "Front");
 	}
 	
 	bool TryAccelerate()
@@ -115,5 +134,35 @@ public class Player : Singleton<Player>
 		}
 		else
 			return false;
+	}
+	
+	bool TryCarry()
+	{
+		if (carrying == null && Input.GetButtonDown("A"))
+		{
+			var hits = Physics.OverlapSphere(transform.position, grabRadius);
+			foreach (var hit in hits)
+			{
+				var carryable = hit.GetComponent<Carryable>();
+				if (carryable != null)
+				{
+					carrying = carryable;
+					carrying.StartCarry(transform);
+					return true;
+				}
+			}
+		}
+		return false;
+	}
+	
+	bool TryThrow()
+	{
+		if (carrying != null && Input.GetButtonDown("A"))
+		{
+			carrying.StopCarry(aimDirection);
+			carrying = null;
+			return true;
+		}
+		return false;
 	}
 }

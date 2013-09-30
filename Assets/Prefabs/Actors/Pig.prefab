@@ -120,8 +120,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bf5ed55bf468f0f4d8c625d4c51d6e82, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0
-  minPlayerDistance: 0
+  speed: 3
+  minPlayerDistance: 1.5
 --- !u!114 &11400002
 MonoBehaviour:
   m_ObjectHideFlags: 1

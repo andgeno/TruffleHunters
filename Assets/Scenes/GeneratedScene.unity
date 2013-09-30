@@ -452,6 +452,26 @@ Prefab:
       propertyPath: fencePadding.y
       value: 6
       objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: bad71921777f8d64babb6b62c3ca1e91, type: 2}
+      propertyPath: treeThreshold
+      value: .333000004
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: bad71921777f8d64babb6b62c3ca1e91, type: 2}
+      propertyPath: treePerlinSeperation
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: bad71921777f8d64babb6b62c3ca1e91, type: 2}
+      propertyPath: treePerlinScale
+      value: .115999997
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: bad71921777f8d64babb6b62c3ca1e91, type: 2}
+      propertyPath: treeInnerPercentage
+      value: .774999976
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: bad71921777f8d64babb6b62c3ca1e91, type: 2}
+      propertyPath: treeOuterPercentage
+      value: .0450000018
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: bad71921777f8d64babb6b62c3ca1e91, type: 2}
   m_RootGameObject: {fileID: 1683392229}
@@ -586,8 +606,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   size: {x: 30, y: 30}
-  treesPerMeter: .0219999999
-  rocksPerMeter: .0107000005
+  treeThreshold: .333000004
+  treePerlinScale: .115999997
+  treeInnerPercentage: .774999976
+  treeOuterPercentage: .0450000018
   fencePadding: {x: 6, y: 6}
   hFencePerMeter: 3.20000005
   vFencePerMeter: 2

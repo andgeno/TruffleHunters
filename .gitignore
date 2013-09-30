@@ -6,6 +6,10 @@
 *.csproj
 *.unityproj
 *.sln
+*.suo
+*.user
+*.pidb
+*.userprefs
 
 /Originals/Tree1.lip
 /Originals/Trees.lip

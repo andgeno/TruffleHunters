@@ -4,9 +4,8 @@ using System.Collections.Generic;
 
 public class Pig : MonoBehaviour
 {
-	
-	enum State { Idle, Walk }
-	State state = State.Walk;
+	public enum State { Idle, Carry }
+	State state = State.Idle;
 	
 	public float speed;
 	public float minPlayerDistance;
@@ -19,7 +18,7 @@ public class Pig : MonoBehaviour
 		SetState(state);
 	}
 	
-	int SetState(State newState)
+	public int SetState(State newState)
 	{
 		StopCoroutine(state.ToString());
 		state = newState;
@@ -35,15 +34,11 @@ public class Pig : MonoBehaviour
 		}
 	}
 	
-	IEnumerator Walk()
+	IEnumerator Carry()
 	{
 		while (true)
 		{
-			if (transform.DistanceTo(Player.transform) > minPlayerDistance)
-			{
-				controller.Move(transform.DirectionTo(Player.transform) * speed * Time.deltaTime);
-			}
-			
+			transform.position = Player.transform.position + new Vector3(0, 1);
 			yield return 0;	
 		}
 	}

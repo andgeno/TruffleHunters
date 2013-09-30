@@ -20,10 +20,16 @@ MonoBehaviour:
     spriteCollectionDataGUID: 50d1a83e5ace0304f9d4865e647e409e
     spriteNames:
     - Sky
+    - Treeline1
+    - Treeline0
     spriteTextureGUIDs:
     - 4c5785b0801d88c4198019af2aba7dca
+    - 412a0fa2ad3fdb34085a14381aac535d
+    - 79b7f2726d1351e4697ebd0420a9bd94
     spriteTextureTimeStamps:
-    - 1380500197.97366
+    - 1380501274.79292
+    - 1380505776.04637
+    - 1380505776.04337
     managedSpriteCollection: 0
     loadable: 0
     assetName: 

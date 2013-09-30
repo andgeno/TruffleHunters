@@ -798,7 +798,7 @@ MonoBehaviour:
   collection: {fileID: 11400000, guid: 94ad2b7340cd36649a7b30f0079d9850, type: 2}
   _color: {r: 1, g: 1, b: 1, a: 1}
   _scale: {x: 1, y: 1, z: 1}
-  _spriteId: 3
+  _spriteId: 4
   boxCollider: {fileID: 0}
   meshCollider: {fileID: 0}
   meshColliderPositions: []
@@ -1294,6 +1294,10 @@ Prefab:
     - target: {fileID: 3300006, guid: e5b7ccf0ae8a7c94e8e9068496cd988e, type: 2}
       propertyPath: m_Mesh
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400006, guid: e5b7ccf0ae8a7c94e8e9068496cd988e, type: 2}
+      propertyPath: _spriteId
+      value: 4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e5b7ccf0ae8a7c94e8e9068496cd988e, type: 2}

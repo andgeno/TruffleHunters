@@ -39,7 +39,10 @@ public class Player : Singleton<Player>
 		moveAxis = GameCamera.transform.TransformDirection(inputAxis);
 		moveAxis.y = 0;
 		if (!moveAxis.IsZero())
+		{
 			moveAxis.Normalize();
+			moveAxis.z *= 1.5f;
+		}
 	}
 	
 	int SetState(State newState)

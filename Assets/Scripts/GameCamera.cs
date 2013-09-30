@@ -12,8 +12,9 @@ public class GameCamera : Singleton<GameCamera>
 		this.target = target;
 	}
 	
-	void Update()
+	void LateUpdate()
 	{
-		transform.position = Vector3.Lerp(transform.position, target.position, moveRate * Time.deltaTime);
+		//transform.position = Vector3.Lerp(transform.position, target.position, moveRate * Time.deltaTime);
+		transform.position = target.position;
 	}
 }

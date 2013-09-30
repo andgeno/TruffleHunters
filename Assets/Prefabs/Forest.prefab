@@ -27,8 +27,24 @@ GameObject:
   - 33: {fileID: 3300000}
   - 23: {fileID: 2300000}
   - 114: {fileID: 11400002}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: PolyMesh
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &100004
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400004}
+  - 64: {fileID: 6400000}
+  m_Layer: 11
+  m_Name: Collider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -41,7 +57,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100000}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -4.31611538, y: 2.88141251, z: -1.96729279}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 400002}
@@ -55,8 +71,20 @@ Transform:
   m_LocalRotation: {x: .707106829, y: 0, z: 0, w: .707106829}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
+  m_Children:
+  - {fileID: 400004}
   m_Father: {fileID: 400000}
+--- !u!4 &400004
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100004}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: .999999762, z: .999999762}
+  m_Children: []
+  m_Father: {fileID: 400002}
 --- !u!23 &2300000
 Renderer:
   m_ObjectHideFlags: 1
@@ -82,6 +110,19 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100002}
   m_Mesh: {fileID: 0}
+--- !u!64 &6400000
+MeshCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100004}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
+  m_Mesh: {fileID: 0}
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -93,8 +134,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e96244e90339d6747910555400dfbe36, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  size: 20
-  ground: {fileID: 0}
+  size: {x: 30, y: 30}
+  treeThreshold: .333000004
+  treePerlinScale: .115999997
+  treeInnerPercentage: .774999976
+  treeOuterPercentage: .0450000018
+  fencePadding: {x: 6, y: 6}
+  hFencePerMeter: 3.20000005
+  vFencePerMeter: 2
+  ground: {fileID: 11400002}
+  treePrefab: {fileID: 400006, guid: e5b7ccf0ae8a7c94e8e9068496cd988e, type: 2}
+  rockPrefab: {fileID: 400002, guid: 6b8314217d8f10146958ed5894981532, type: 2}
+  hFencePrefab: {fileID: 400008, guid: 652471dd17db0154ab5b882652a91ee3, type: 2}
+  vFencePrefab: {fileID: 400006, guid: 81e01d1672bb63841bcfefba1ca10160, type: 2}
 --- !u!114 &11400002
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -107,21 +159,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   keyPoints:
-  - {x: .5, y: .5, z: 0}
-  - {x: .5, y: -.5, z: 0}
-  - {x: -.5, y: -.5, z: 0}
-  - {x: -.5, y: .5, z: 0}
+  - {x: 2.28723454, y: 2.20332384, z: 0}
+  - {x: 2.28723454, y: -2.20332384, z: 0}
+  - {x: -2.28723454, y: -2.20332384, z: 0}
+  - {x: -2.28723454, y: 2.20332384, z: 0}
   curvePoints:
-  - {x: 0, y: 0, z: 0}
-  - {x: 0, y: 0, z: 0}
-  - {x: 0, y: 0, z: 0}
-  - {x: 0, y: 0, z: 0}
+  - {x: 2.28723454, y: 0, z: 0}
+  - {x: 0, y: -2.20332384, z: 0}
+  - {x: -2.28723454, y: 0, z: 0}
+  - {x: 0, y: 2.20332384, z: 0}
   isCurve: 00000000
-  meshCollider: {fileID: 0}
+  meshCollider: {fileID: 6400000}
   curveDetail: .100000001
   colliderDepth: 1
-  buildColliderEdges: 1
-  buildColliderFront: 0
+  buildColliderEdges: 0
+  buildColliderFront: 1
   uvPosition: {x: 0, y: 0}
   uvScale: 3.5
   uvRotation: 0

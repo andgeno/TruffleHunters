@@ -31,9 +31,9 @@ MonoBehaviour:
     - 412a0fa2ad3fdb34085a14381aac535d
     - 79b7f2726d1351e4697ebd0420a9bd94
     spriteTextureTimeStamps:
-    - 1380501274.79292
-    - 1380505776.04637
-    - 1380505776.04337
+    - 1380500197.97366
+    - 1380506378.55017
+    - 1380506378.54917
     managedSpriteCollection: 0
     loadable: 0
     assetName: 
@@ -170,44 +170,68 @@ MonoBehaviour:
     spriteCollectionGUID: 85ebd16289de982498473683219d67f6
     spriteCollectionDataGUID: ca13771f86c5bc14fa9a29f3e6c36194
     spriteNames:
-    - playerFrontWalk0000
-    - playerFrontWalk0003
-    - playerFrontWalk0001
-    - playerFrontWalk0002
-    - PlayerBackWalk0002
-    - PlayerBackWalk0001
-    - PlayerBackWalk0000
-    - PlayerBackWalk0003
-    - PlayerFrontWalkBlink0001
-    - PlayerFrontWalkBlink0002
-    - PlayerFrontWalkBlink0000
     - PlayerFrontWalkBlink0003
+    - PlayerFrontWalk0000
+    - PlayerFrontWalkBlink0002
+    - PlayerBackWalk0002
+    - PlayerFrontWalk0003
+    - PlayerFrontWalkBlink0001
+    - PlayerBackWalk0001
+    - PlayerFrontWalk0001
+    - PlayerFrontWalkBlink0000
+    - PlayerBackWalk0003
+    - PlayerFrontWalk0002
+    - PlayerBackWalk0000
+    - PlayerSideWalk0000
+    - PlayerSideWalkBlink0003
+    - PlayerSideWalk0002
+    - PlayerSideWalkBlink0001
+    - PlayerSideWalk0001
+    - PlayerSideWalk0003
+    - PlayerSideWalkBlink0002
+    - PlayerSideWalkBlink0000
     spriteTextureGUIDs:
-    - 36329d8d986903345b45f4da14c8a0b1
-    - 7c2a5360ff4bb4b4c915e1032f4def1d
-    - b357e13ceedb32d47993eb65b05d018d
-    - e90a22e00526ff74d93bafc61b4fae03
-    - 773c33c07231a4f4199deafa5b747a60
-    - 9e75e28990dd29f4d9ac6ecdd983cfff
-    - f5d965f9b7cd4884da9fda579f463a1d
-    - e03de52bff919574080e2084d95db4c0
-    - 9e1ab2c0cc02bfe45b8193fa58e250ef
-    - 74488b513c57e9c4d85770a20eabb2e3
-    - df999907bdbce544187edf8f076d1feb
     - 2bde35eb4833ac84f8f17e13481ef9be
+    - 36329d8d986903345b45f4da14c8a0b1
+    - 74488b513c57e9c4d85770a20eabb2e3
+    - 773c33c07231a4f4199deafa5b747a60
+    - 7c2a5360ff4bb4b4c915e1032f4def1d
+    - 9e1ab2c0cc02bfe45b8193fa58e250ef
+    - 9e75e28990dd29f4d9ac6ecdd983cfff
+    - b357e13ceedb32d47993eb65b05d018d
+    - df999907bdbce544187edf8f076d1feb
+    - e03de52bff919574080e2084d95db4c0
+    - e90a22e00526ff74d93bafc61b4fae03
+    - f5d965f9b7cd4884da9fda579f463a1d
+    - 095a022968292cd43abb46e746802da1
+    - 44225911621e986469f9bf28d3613b0c
+    - 54ef5ee48c2b8d04d898d63cdc72c061
+    - 62023f73c0c7bb442bd40de9b22fd301
+    - 65bd6a5797950dc4ba15c0a5e0856bcf
+    - 7d1155c1d10eefb41a8f60945d974665
+    - 92f87c4b2e24dc045ae5f6407d09677c
+    - ca99303883aa5ba4082f4f865c490eb9
     spriteTextureTimeStamps:
-    - 1380506727.22478
-    - 1380506727.23078
-    - 1380506727.22678
-    - 1380506727.22878
-    - 1380509004.26137
-    - 1380509004.25937
-    - 1380509004.25737
-    - 1380509004.26337
-    - 1380509004.26737
-    - 1380509004.26837
-    - 1380509004.26537
-    - 1380509004.27037
+    - 1380508699.35692
+    - 1380507267.279
+    - 1380508699.35591
+    - 1380508699.35391
+    - 1380507267.28201
+    - 1380508699.35591
+    - 1380508699.35391
+    - 1380507267.28
+    - 1380508699.35491
+    - 1380508699.35491
+    - 1380507267.281
+    - 1380508699.35291
+    - 1380515883.45382
+    - 1380515883.46082
+    - 1380515883.45582
+    - 1380515883.45882
+    - 1380515883.45482
+    - 1380515883.45682
+    - 1380515883.45882
+    - 1380515883.45782
     managedSpriteCollection: 0
     loadable: 0
     assetName: 

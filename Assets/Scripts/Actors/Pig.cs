@@ -10,7 +10,7 @@ public class Pig : MonoBehaviour
 	public Transform body;
 	public float speed;
 	public float minPlayerDistance;
-	public LayerMask obstacleMask;
+	public LayerMask preventThrowMask;
 	
 	CharacterController controller;
 	
@@ -95,7 +95,7 @@ public class Pig : MonoBehaviour
 			var target = transform.position + direction * throwDist;
 			target.y = 0;
 			ray.origin = target + new Vector3(0, 10);
-			if (!Physics.SphereCast(ray, controller.radius, 10, obstacleMask))
+			if (!Physics.SphereCast(ray, controller.radius, 10, preventThrowMask))
 			{
 				SetState(State.Throw, target);
 				return;

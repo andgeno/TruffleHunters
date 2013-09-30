@@ -303,6 +303,10 @@ Prefab:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 8636825}
+    - target: {fileID: 11400000, guid: bad71921777f8d64babb6b62c3ca1e91, type: 2}
+      propertyPath: sky
+      value: 
+      objectReference: {fileID: 1509855472}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: bad71921777f8d64babb6b62c3ca1e91, type: 2}
   m_RootGameObject: {fileID: 1683392229}
@@ -699,6 +703,228 @@ CharacterController:
   m_SkinWidth: .0799999982
   m_MinMoveDistance: 0
   m_Center: {x: 0, y: 1, z: 0}
+--- !u!43 &1478824685
+Mesh:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: PolySprite_Mesh
+  serializedVersion: 8
+  m_SubMeshes:
+  - serializedVersion: 2
+    firstByte: 0
+    indexCount: 6
+    topology: 0
+    firstVertex: 0
+    vertexCount: 4
+    localAABB:
+      m_Center: {x: 1.98951149, y: 2.2004652, z: 0}
+      m_Extent: {x: 2.34887505, y: 2.22188663, z: 0}
+  m_Shapes: []
+  m_ShapeVertices: []
+  m_MeshCompression: 0
+  m_StreamCompression: 0
+  m_IsReadable: 1
+  m_KeepVertices: 1
+  m_KeepIndices: 1
+  m_IndexBuffer: 000001000200020003000000
+  m_Skin: []
+  m_BindPose: []
+  m_VertexData:
+    m_CurrentChannels: 11
+    m_VertexCount: 4
+    m_Channels:
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 3
+    - stream: 0
+      offset: 12
+      format: 0
+      dimension: 3
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 24
+      format: 0
+      dimension: 2
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    m_Streams:
+    - channelMask: 11
+      offset: 0
+      stride: 32
+      dividerOp: 0
+      frequency: 0
+    - channelMask: 0
+      offset: 0
+      stride: 0
+      dividerOp: 0
+      frequency: 0
+    - channelMask: 0
+      offset: 0
+      stride: 0
+      dividerOp: 0
+      frequency: 0
+    - channelMask: 0
+      offset: 0
+      stride: 0
+      dividerOp: 0
+      frequency: 0
+    m_DataSize: 128
+    _typelessdata: 10d48a40e8838d40000000000000000000000000000080bf10d48a3fe8838d3f12ad8940006c99bc000000000000000000000000000080bf12ad893f006c99bb80feb7be007cafbc000000000000000000000000000080bf80feb7bd007cafbb908ea5bed86d8d40000000000000000000000000ffff7fbf908ea5bdd86d8d3f
+  m_CompressedMesh:
+    m_Vertices:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_UV:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_BindPoses:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Normals:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Tangents:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Weights:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_NormalSigns:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_TangentSigns:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_BoneIndices:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Triangles:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Colors:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+  m_LocalAABB:
+    m_Center: {x: 1.98951149, y: 2.2004652, z: 0}
+    m_Extent: {x: 2.34887505, y: 2.22188663, z: 0}
+  m_MeshUsageFlags: 0
+  m_MeshOptimized: 0
+--- !u!1 &1509855470
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1509855471}
+  - 33: {fileID: 1509855474}
+  - 23: {fileID: 1509855473}
+  - 114: {fileID: 1509855472}
+  m_Layer: 0
+  m_Name: Sky
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1509855471
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1509855470}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -2, y: 0, z: 2}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1683392230}
+--- !u!114 &1509855472
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1509855470}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a40545a4de9917c4d9adf7783381bcaf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  keyPoints:
+  - {x: 4.33838654, y: 4.42235184, z: 0}
+  - {x: 4.30237675, y: -.0187282562, z: 0}
+  - {x: -.359363556, y: -.0214214325, z: 0}
+  - {x: -.323353291, y: 4.41965866, z: 0}
+  curvePoints:
+  - {x: 4.32038164, y: 2.20181179, z: 0}
+  - {x: 1.9715066, y: -.0200748444, z: 0}
+  - {x: -.341358423, y: 2.19911861, z: 0}
+  - {x: 2.00751662, y: 4.42100525, z: 0}
+  isCurve: 00000000
+  meshCollider: {fileID: 0}
+  curveDetail: .100000001
+  colliderDepth: 1
+  buildColliderEdges: 1
+  buildColliderFront: 0
+  uvPosition: {x: 0, y: 0}
+  uvScale: 4
+  uvRotation: 0
+--- !u!23 &1509855473
+Renderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1509855470}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 2100000, guid: fce8c08d6b3184c499b1a547781daeb4, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+--- !u!33 &1509855474
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1509855470}
+  m_Mesh: {fileID: 1478824685}
 --- !u!1001 &1556754446
 Prefab:
   m_ObjectHideFlags: 0
@@ -947,6 +1173,7 @@ Transform:
   - {fileID: 1725818933}
   - {fileID: 827446539}
   - {fileID: 1700130707}
+  - {fileID: 1509855471}
   m_Father: {fileID: 0}
 --- !u!114 &1683392231
 MonoBehaviour:
@@ -970,6 +1197,7 @@ MonoBehaviour:
   vFencePerMeter: 2
   grassTurfPerMeter: .100000001
   ground: {fileID: 1725818934}
+  sky: {fileID: 1509855472}
   treePrefab: {fileID: 400006, guid: e5b7ccf0ae8a7c94e8e9068496cd988e, type: 2}
   rockPrefab: {fileID: 400002, guid: 6b8314217d8f10146958ed5894981532, type: 2}
   hFencePrefab: {fileID: 400008, guid: 652471dd17db0154ab5b882652a91ee3, type: 2}

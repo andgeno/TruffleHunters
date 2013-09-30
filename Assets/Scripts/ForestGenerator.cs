@@ -17,6 +17,7 @@ public class ForestGenerator : MonoBehaviour
 	public float grassTurfPerMeter;
 	
 	public PolyMesh ground;
+	public PolyMesh sky;
 	public Transform treePrefab;
 	public Transform rockPrefab;
 	public Transform hFencePrefab;
@@ -45,6 +46,14 @@ public class ForestGenerator : MonoBehaviour
 		ground.keyPoints[2] = new Vector3(-size.x, -size.y);
 		ground.keyPoints[3] = new Vector3(-size.x, size.y);
 		ground.BuildMesh();
+		
+		// add the sky
+		sky.keyPoints[0] = new Vector3(size.x, 10);
+		sky.keyPoints[1] = new Vector3(size.x, 0);
+		sky.keyPoints[2] = new Vector3(-size.x, 0);
+		sky.keyPoints[3] = new Vector3(-size.x, 10);
+		sky.BuildMesh();
+		sky.transform.position = new Vector3(0, 0, size.y);
 		
 		// generate trees
 		Vector2 treePerlinOffset = new Vector2(Rand.Float(10000), Rand.Float(10000));

@@ -70,3 +70,16 @@ MonoBehaviour:
     loadable: 0
     assetName: 
     version: 3
+  - name: Backgrounds
+    spriteCollectionGUID: 51d64c924f2cb444d91977ea9a195b36
+    spriteCollectionDataGUID: 50d1a83e5ace0304f9d4865e647e409e
+    spriteNames:
+    - Sky
+    spriteTextureGUIDs:
+    - 4c5785b0801d88c4198019af2aba7dca
+    spriteTextureTimeStamps:
+    - 1380501274.79292
+    managedSpriteCollection: 0
+    loadable: 0
+    assetName: 
+    version: 3

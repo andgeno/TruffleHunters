@@ -10,7 +10,7 @@ GameObject:
   - 4: {fileID: 400000}
   - 114: {fileID: 11400000}
   m_Layer: 0
-  m_Name: Props
+  m_Name: Props 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -63,7 +63,7 @@ MonoBehaviour:
     - {x: .417967767, y: .00195410149}
     - {x: .417967767, y: .286131829}
     indices: 000000000300000001000000020000000300000000000000
-    material: {fileID: 2100000, guid: e6ea2710fc3716b4685275cfdc689206, type: 2}
+    material: {fileID: 2100000, guid: ae581518d90d7f1419feb85e026bec29, type: 2}
     materialId: 0
     sourceTextureGUID: e24a7853e536dae4d970b251d26223d1
     extractRegion: 0
@@ -101,7 +101,7 @@ MonoBehaviour:
     - {x: .00195410149, y: .915038109}
     - {x: .336913079, y: .915038109}
     indices: 000000000300000001000000020000000300000000000000
-    material: {fileID: 2100000, guid: e6ea2710fc3716b4685275cfdc689206, type: 2}
+    material: {fileID: 2100000, guid: ae581518d90d7f1419feb85e026bec29, type: 2}
     materialId: 0
     sourceTextureGUID: 324001d6406a2ba48b9993bb398ed8f0
     extractRegion: 0
@@ -139,7 +139,7 @@ MonoBehaviour:
     - {x: .00195410149, y: .702147484}
     - {x: .270506829, y: .702147484}
     indices: 000000000300000001000000020000000300000000000000
-    material: {fileID: 2100000, guid: e6ea2710fc3716b4685275cfdc689206, type: 2}
+    material: {fileID: 2100000, guid: ae581518d90d7f1419feb85e026bec29, type: 2}
     materialId: 0
     sourceTextureGUID: 731c7ada308d2f44da114c5431093cb6
     extractRegion: 0
@@ -177,7 +177,7 @@ MonoBehaviour:
     - {x: .00195410149, y: .428709954}
     - {x: .241209954, y: .428709954}
     indices: 000000000300000001000000020000000300000000000000
-    material: {fileID: 2100000, guid: e6ea2710fc3716b4685275cfdc689206, type: 2}
+    material: {fileID: 2100000, guid: ae581518d90d7f1419feb85e026bec29, type: 2}
     materialId: 0
     sourceTextureGUID: e4fc9f9b5f5c75046aee9d73ebcf3cf3
     extractRegion: 0
@@ -215,7 +215,7 @@ MonoBehaviour:
     - {x: .610352516, y: .195311517}
     - {x: .802733421, y: .195311517}
     indices: 000000000300000001000000020000000300000000000000
-    material: {fileID: 2100000, guid: e6ea2710fc3716b4685275cfdc689206, type: 2}
+    material: {fileID: 2100000, guid: ae581518d90d7f1419feb85e026bec29, type: 2}
     materialId: 0
     sourceTextureGUID: e7b1ea4c2f795b44bb6b38afc085e608
     extractRegion: 0
@@ -253,7 +253,7 @@ MonoBehaviour:
     - {x: .806641579, y: .339842767}
     - {x: .871092796, y: .339842767}
     indices: 000000000300000001000000020000000300000000000000
-    material: {fileID: 2100000, guid: e6ea2710fc3716b4685275cfdc689206, type: 2}
+    material: {fileID: 2100000, guid: ae581518d90d7f1419feb85e026bec29, type: 2}
     materialId: 0
     sourceTextureGUID: 2c6360d708fd9c04e957f5f5fc429f78
     extractRegion: 0
@@ -291,7 +291,7 @@ MonoBehaviour:
     - {x: .470702142, y: .918946266}
     - {x: .470702142, y: .988280296}
     indices: 000000000300000001000000020000000300000000000000
-    material: {fileID: 2100000, guid: e6ea2710fc3716b4685275cfdc689206, type: 2}
+    material: {fileID: 2100000, guid: ae581518d90d7f1419feb85e026bec29, type: 2}
     materialId: 0
     sourceTextureGUID: 46f4644ecbb46e148965138b68c9a475
     extractRegion: 0
@@ -329,7 +329,7 @@ MonoBehaviour:
     - {x: .606444359, y: .00195410149}
     - {x: .606444359, y: .226561517}
     indices: 000000000300000001000000020000000300000000000000
-    material: {fileID: 2100000, guid: e6ea2710fc3716b4685275cfdc689206, type: 2}
+    material: {fileID: 2100000, guid: ae581518d90d7f1419feb85e026bec29, type: 2}
     materialId: 0
     sourceTextureGUID: 52209a10ff9b30a43bf619b86b46d9b3
     extractRegion: 0
@@ -367,7 +367,7 @@ MonoBehaviour:
     - {x: .987303734, y: .00195410149}
     - {x: .987303734, y: .101561524}
     indices: 000000000300000001000000020000000300000000000000
-    material: {fileID: 2100000, guid: e6ea2710fc3716b4685275cfdc689206, type: 2}
+    material: {fileID: 2100000, guid: ae581518d90d7f1419feb85e026bec29, type: 2}
     materialId: 0
     sourceTextureGUID: 7a5793cc5713c3d4c8d89de846c102cd
     extractRegion: 0
@@ -405,7 +405,7 @@ MonoBehaviour:
     - {x: .875000954, y: .336913079}
     - {x: .929686546, y: .336913079}
     indices: 000000000300000001000000020000000300000000000000
-    material: {fileID: 2100000, guid: e6ea2710fc3716b4685275cfdc689206, type: 2}
+    material: {fileID: 2100000, guid: ae581518d90d7f1419feb85e026bec29, type: 2}
     materialId: 0
     sourceTextureGUID: 89516e96d88166b409ae8f296bbac2cb
     extractRegion: 0
@@ -443,7 +443,7 @@ MonoBehaviour:
     - {x: .653319359, y: .230469733}
     - {x: .653319359, y: .286131829}
     indices: 000000000300000001000000020000000300000000000000
-    material: {fileID: 2100000, guid: e6ea2710fc3716b4685275cfdc689206, type: 2}
+    material: {fileID: 2100000, guid: ae581518d90d7f1419feb85e026bec29, type: 2}
     materialId: 0
     sourceTextureGUID: a01477a26fa0e154db6ecf86ae7b6022
     extractRegion: 0
@@ -481,7 +481,7 @@ MonoBehaviour:
     - {x: .996092796, y: .336915046}
     - {x: .996092796, y: .468749017}
     indices: 000000000300000001000000020000000300000000000000
-    material: {fileID: 2100000, guid: e6ea2710fc3716b4685275cfdc689206, type: 2}
+    material: {fileID: 2100000, guid: ae581518d90d7f1419feb85e026bec29, type: 2}
     materialId: 0
     sourceTextureGUID: f53bd71ed83c72448ad0867699c37171
     extractRegion: 0
@@ -519,7 +519,7 @@ MonoBehaviour:
     - {x: .471678704, y: .290040046}
     - {x: .471678704, y: .386717767}
     indices: 000000000300000001000000020000000300000000000000
-    material: {fileID: 2100000, guid: e6ea2710fc3716b4685275cfdc689206, type: 2}
+    material: {fileID: 2100000, guid: ae581518d90d7f1419feb85e026bec29, type: 2}
     materialId: 0
     sourceTextureGUID: 2b5bd6fec21f9b84b937244f3ce7d913
     extractRegion: 0
@@ -557,7 +557,7 @@ MonoBehaviour:
     - {x: .933594704, y: .333006829}
     - {x: .974608421, y: .333006829}
     indices: 000000000300000001000000020000000300000000000000
-    material: {fileID: 2100000, guid: e6ea2710fc3716b4685275cfdc689206, type: 2}
+    material: {fileID: 2100000, guid: ae581518d90d7f1419feb85e026bec29, type: 2}
     materialId: 0
     sourceTextureGUID: 3855f136be8aca84482e24d67eed3ec4
     extractRegion: 0
@@ -595,7 +595,7 @@ MonoBehaviour:
     - {x: .227538079, y: .918946266}
     - {x: .227538079, y: .993163109}
     indices: 000000000300000001000000020000000300000000000000
-    material: {fileID: 2100000, guid: e6ea2710fc3716b4685275cfdc689206, type: 2}
+    material: {fileID: 2100000, guid: ae581518d90d7f1419feb85e026bec29, type: 2}
     materialId: 0
     sourceTextureGUID: 4ce5fe8ee186b044e90033959adb9901
     extractRegion: 0
@@ -615,18 +615,18 @@ MonoBehaviour:
   premultipliedAlpha: 1
   material: {fileID: 0}
   materials:
-  - {fileID: 2100000, guid: e6ea2710fc3716b4685275cfdc689206, type: 2}
+  - {fileID: 2100000, guid: ae581518d90d7f1419feb85e026bec29, type: 2}
   textures:
-  - {fileID: 2800000, guid: 847ae8cec617a694c8a0ba84dc5e66aa, type: 3}
+  - {fileID: 2800000, guid: 7db3226465c63664f9640f86a30784d9, type: 3}
   allowMultipleAtlases: 1
-  spriteCollectionGUID: a63869f0d03e285428c46985e7789e60
+  spriteCollectionGUID: 0180efe61c0911e4c8268cc3b6ddc27d
   spriteCollectionName: Props
   assetName: 
   loadable: 0
   invOrthoSize: 2
   halfTargetHeight: 64
-  buildKey: 1848298502
-  dataGuid: bd6d2e09d3247f145ae0a6dd3b2933bb
+  buildKey: 344751313
+  dataGuid: a5c1c5042f2afdb41b2f3822ec92cea7
   managedSpriteCollection: 0
   hasPlatformData: 0
   spriteCollectionPlatforms: []

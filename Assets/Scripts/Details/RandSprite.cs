@@ -5,6 +5,8 @@ public class RandSprite : MonoBehaviour {
 	
 	public string prefix;
 	public int count;
+	public bool randFlipX = false;
+	public bool randFlipY = false;
 	
 	tk2dSprite sprite;
 	
@@ -12,7 +14,12 @@ public class RandSprite : MonoBehaviour {
 	void Start ()
 	{
 		sprite = GetComponent<tk2dSprite>();
-		sprite.SetSprite(prefix + Rand.Int(count));
+		sprite.SetSprite(prefix + (count > 0 ? "" + Rand.Int(count) : ""));
+		
+		if (randFlipX)
+			sprite.FlipX = Rand.Int(1) == 0;
+		if (randFlipY)
+			sprite.FlipY = Rand.Int(1) == 0;
 	}
 
 }

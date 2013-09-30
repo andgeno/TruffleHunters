@@ -14,11 +14,14 @@ public class ForestGenerator : MonoBehaviour
 	public float hFencePerMeter;
 	public float vFencePerMeter;
 	
+	public float grassTurfPerMeter;
+	
 	public PolyMesh ground;
 	public Transform treePrefab;
 	public Transform rockPrefab;
 	public Transform hFencePrefab;
 	public Transform vFencePrefab;
+	public Transform grassTurfPrefab;
 	
 	void Awake()
 	{
@@ -52,11 +55,21 @@ public class ForestGenerator : MonoBehaviour
 					if (Rand.Chance(treeInnerPercentage))
 						treePrefab.Spawn(new Vector3(i, 0, j) + stagger);
 				}
-				else if (Rand.Chance(treeOuterPercentage))
-					treePrefab.Spawn(new Vector3(i, 0, j) + stagger);
+				else
+				{
+					if (sample - treeThreshold < 0.01f)
+						rockPrefab.Spawn(new Vector3(i, 0, j) + stagger);
 					
+					if (Rand.Chance(treeOuterPercentage))
+						treePrefab.Spawn(new Vector3(i, 0, j) + stagger);
+				}
 			}
 		}
+		
+		// place random grass turf
+		float grassTurfCount = size.x * 2 * size.y * 2 * grassTurfPerMeter;
+		for (int i = 0; i < grassTurfCount; i ++)
+			grassTurfPrefab.Spawn(new Vector3(Rand.Float(-size.x, size.x), 0, Rand.Float(-size.y, size.y)));
 		
 		// spawn the perimeter
 		for (float i = - size.x + fencePadding.x; i < size.x - fencePadding.x; i += hFencePerMeter)

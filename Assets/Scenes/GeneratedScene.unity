@@ -472,6 +472,14 @@ Prefab:
       propertyPath: treeOuterPercentage
       value: .0450000018
       objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: bad71921777f8d64babb6b62c3ca1e91, type: 2}
+      propertyPath: grassTurfPerMeter
+      value: .0399999991
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: bad71921777f8d64babb6b62c3ca1e91, type: 2}
+      propertyPath: grassTurfPrefab
+      value: 
+      objectReference: {fileID: 400002, guid: 65c99d6cbc8ea2f49b7d2d8f63ab2eed, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: bad71921777f8d64babb6b62c3ca1e91, type: 2}
   m_RootGameObject: {fileID: 1683392229}
@@ -613,11 +621,13 @@ MonoBehaviour:
   fencePadding: {x: 6, y: 6}
   hFencePerMeter: 3.20000005
   vFencePerMeter: 2
+  grassTurfPerMeter: .0399999991
   ground: {fileID: 1725818934}
   treePrefab: {fileID: 400006, guid: e5b7ccf0ae8a7c94e8e9068496cd988e, type: 2}
   rockPrefab: {fileID: 400002, guid: 6b8314217d8f10146958ed5894981532, type: 2}
   hFencePrefab: {fileID: 400008, guid: 652471dd17db0154ab5b882652a91ee3, type: 2}
   vFencePrefab: {fileID: 400006, guid: 81e01d1672bb63841bcfefba1ca10160, type: 2}
+  grassTurfPrefab: {fileID: 400002, guid: 65c99d6cbc8ea2f49b7d2d8f63ab2eed, type: 2}
 --- !u!1 &1725818932
 GameObject:
   m_ObjectHideFlags: 0

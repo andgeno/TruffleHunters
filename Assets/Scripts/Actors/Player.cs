@@ -9,7 +9,6 @@ public class Player : MonoBehaviour
 	
 	public float maxSpeed;
 	public float acceleration;
-	public float turnSpeed;
 	
 	State state = State.Idle;
 	Vector3 inputAxis;
@@ -49,7 +48,6 @@ public class Player : MonoBehaviour
 	{
 		while (true)
 		{
-			UpdateTurning();
 			TryApplyVelocity();
 			if (TryAccelerate())
 				yield return SetState(State.Walk);
@@ -61,7 +59,6 @@ public class Player : MonoBehaviour
 	{
 		while (true)
 		{
-			UpdateTurning();
 			TryApplyVelocity();
 			if (!TryAccelerate())
 				yield return SetState(State.Idle);
@@ -94,14 +91,5 @@ public class Player : MonoBehaviour
 		}
 		else
 			return false;
-	}
-	
-	void UpdateTurning()
-	{
-		if (!moveAxis.IsZero())
-		{
-			var targetRotation = Quaternion.LookRotation(moveAxis);
-			body.RotateTowards(targetRotation, turnSpeed * Time.deltaTime);
-		}
 	}
 }

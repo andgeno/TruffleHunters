@@ -152,8 +152,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gameCameraPrefab: {fileID: 11400000, guid: 2e667a66dd21e294e88765e0491d5fe9, type: 2}
   body: {fileID: 400000}
-  maxSpeed: 2.4000001
-  acceleration: 8
+  maxSpeed: 5
+  acceleration: 50
   zSpeedMult: 1.79999995
 --- !u!114 &11400002
 MonoBehaviour:
@@ -198,7 +198,7 @@ Projector:
   m_Enabled: 1
   serializedVersion: 2
   m_NearClipPlane: .100000001
-  m_FarClipPlane: 50
+  m_FarClipPlane: 5
   m_FieldOfView: 30
   m_AspectRatio: 1
   m_Orthographic: 1

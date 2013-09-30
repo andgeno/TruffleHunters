@@ -18,14 +18,14 @@ public class Player : Singleton<Player>
 	Vector3 velocity;
 	
 	CharacterController controller;
-	tk2dSpriteAnimator spriteAnimator;
+	tk2dSpriteAnimator animator;
 	
 	protected override void Awake ()
 	{
 		base.Awake();
 		
 		controller = GetComponent<CharacterController>();
-		spriteAnimator = GetComponentInChildren<tk2dSpriteAnimator>();
+		animator = GetComponentInChildren<tk2dSpriteAnimator>();
 		
 		SetState(state);
 	}
@@ -66,14 +66,6 @@ public class Player : Singleton<Player>
 	{
 		while (true)
 		{
-			if (!moveAxis.IsZero())
-			{
-				if (moveAxis.z > 0)
-					spriteAnimator.Play("PlayerBackWalk");
-				else
-					spriteAnimator.Play("PlayerFrontWalk");
-			}
-			
 			TryApplyVelocity();
 			if (!TryAccelerate())
 				yield return SetState(State.Idle);
@@ -85,6 +77,17 @@ public class Player : Singleton<Player>
 	{
 		if (!moveAxis.IsZero())
 		{
+			//Update animation
+			if (!Mathf.Approximately(moveAxis.x, 0))
+			{
+				animator.Play("PlayerWalkSide");
+				animator.Sprite.FlipX = moveAxis.x > 0;
+			}
+			else if (moveAxis.z > 0)
+				animator.Play("PlayerWalkBack");
+			else
+				animator.Play("PlayerWalkFront");
+			
 			//Accelerate
 			velocity = Vector3.MoveTowards(velocity, moveAxis * maxSpeed, acceleration * Time.deltaTime);
 			return true;

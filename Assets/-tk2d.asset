@@ -12,7 +12,11 @@ MonoBehaviour:
   m_Name: -tk2d
   m_EditorClassIdentifier: 
   version: 4
-  spriteAnimationIndex: []
+  spriteAnimationIndex:
+  - assetGUID: b59d9ca721867534bb942b354120f087
+    dataGUID: 
+    managed: 0
+    loadable: 0
   fontIndex: []
   spriteCollectionIndex:
   - name: Backgrounds
@@ -20,10 +24,16 @@ MonoBehaviour:
     spriteCollectionDataGUID: 50d1a83e5ace0304f9d4865e647e409e
     spriteNames:
     - Sky
+    - Treeline1
+    - Treeline0
     spriteTextureGUIDs:
     - 4c5785b0801d88c4198019af2aba7dca
+    - 412a0fa2ad3fdb34085a14381aac535d
+    - 79b7f2726d1351e4697ebd0420a9bd94
     spriteTextureTimeStamps:
-    - 1380500197.97366
+    - 1380501274.79292
+    - 1380505776.04637
+    - 1380505776.04337
     managedSpriteCollection: 0
     loadable: 0
     assetName: 
@@ -134,6 +144,28 @@ MonoBehaviour:
     - 1380500197.96366
     - 1380500197.96366
     - 1380500197.96366
+    managedSpriteCollection: 0
+    loadable: 0
+    assetName: 
+    version: 3
+  - name: Player
+    spriteCollectionGUID: 85ebd16289de982498473683219d67f6
+    spriteCollectionDataGUID: ca13771f86c5bc14fa9a29f3e6c36194
+    spriteNames:
+    - playerFrontWalk0000
+    - playerFrontWalk0003
+    - playerFrontWalk0001
+    - playerFrontWalk0002
+    spriteTextureGUIDs:
+    - 36329d8d986903345b45f4da14c8a0b1
+    - 7c2a5360ff4bb4b4c915e1032f4def1d
+    - b357e13ceedb32d47993eb65b05d018d
+    - e90a22e00526ff74d93bafc61b4fae03
+    spriteTextureTimeStamps:
+    - 1380506727.22478
+    - 1380506727.23078
+    - 1380506727.22678
+    - 1380506727.22878
     managedSpriteCollection: 0
     loadable: 0
     assetName: 

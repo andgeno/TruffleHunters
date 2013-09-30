@@ -10,7 +10,7 @@ GameObject:
   - 4: {fileID: 400000}
   - 114: {fileID: 11400000}
   m_Layer: 0
-  m_Name: Backgrounds
+  m_Name: Player
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -58,20 +58,20 @@ MonoBehaviour:
   forcedTextureWidth: 2048
   forcedTextureHeight: 2048
   textureCompression: 0
-  atlasWidth: 1024
-  atlasHeight: 1024
+  atlasWidth: 512
+  atlasHeight: 512
   forceSquareAtlas: 0
-  atlasWastage: 35.0925446
+  atlasWastage: 41.7865753
   allowMultipleAtlases: 0
   removeDuplicates: 1
   textureParams:
-  - name: Sky
+  - name: playerFrontWalk0000
     disableTrimming: 0
     additive: 0
     scale: {x: 1, y: 1, z: 1}
-    texture: {fileID: 2800000, guid: 4c5785b0801d88c4198019af2aba7dca, type: 3}
+    texture: {fileID: 2800000, guid: 36329d8d986903345b45f4da14c8a0b1, type: 3}
     materialId: 0
-    anchor: 7
+    anchor: 4
     anchorX: 0
     anchorY: 0
     overrideMesh: {fileID: 0}
@@ -105,13 +105,13 @@ MonoBehaviour:
     colliderSmoothSphereCollisions: 0
     colliderColor: 0
     attachPoints: []
-  - name: Treeline1
+  - name: playerFrontWalk0003
     disableTrimming: 0
     additive: 0
     scale: {x: 1, y: 1, z: 1}
-    texture: {fileID: 2800000, guid: 412a0fa2ad3fdb34085a14381aac535d, type: 3}
+    texture: {fileID: 2800000, guid: 7c2a5360ff4bb4b4c915e1032f4def1d, type: 3}
     materialId: 0
-    anchor: 7
+    anchor: 4
     anchorX: 0
     anchorY: 0
     overrideMesh: {fileID: 0}
@@ -145,13 +145,13 @@ MonoBehaviour:
     colliderSmoothSphereCollisions: 0
     colliderColor: 0
     attachPoints: []
-  - name: Treeline0
+  - name: playerFrontWalk0001
     disableTrimming: 0
     additive: 0
     scale: {x: 1, y: 1, z: 1}
-    texture: {fileID: 2800000, guid: 79b7f2726d1351e4697ebd0420a9bd94, type: 3}
+    texture: {fileID: 2800000, guid: b357e13ceedb32d47993eb65b05d018d, type: 3}
     materialId: 0
-    anchor: 7
+    anchor: 4
     anchorX: 0
     anchorY: 0
     overrideMesh: {fileID: 0}
@@ -185,14 +185,54 @@ MonoBehaviour:
     colliderSmoothSphereCollisions: 0
     colliderColor: 0
     attachPoints: []
-  spriteCollection: {fileID: 11400000, guid: 50d1a83e5ace0304f9d4865e647e409e, type: 2}
+  - name: playerFrontWalk0002
+    disableTrimming: 0
+    additive: 0
+    scale: {x: 1, y: 1, z: 1}
+    texture: {fileID: 2800000, guid: e90a22e00526ff74d93bafc61b4fae03, type: 3}
+    materialId: 0
+    anchor: 4
+    anchorX: 0
+    anchorY: 0
+    overrideMesh: {fileID: 0}
+    doubleSidedSprite: 0
+    customSpriteGeometry: 0
+    geometryIslands: []
+    dice: 0
+    diceUnitX: 64
+    diceUnitY: 64
+    diceFilter: 0
+    pad: 0
+    extraPadding: 0
+    source: 0
+    fromSpriteSheet: 0
+    hasSpriteSheetId: 0
+    spriteSheetId: 0
+    spriteSheetX: 0
+    spriteSheetY: 0
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    regionId: 0
+    colliderType: 0
+    boxColliderMin: {x: 0, y: 0}
+    boxColliderMax: {x: 0, y: 0}
+    polyColliderIslands: []
+    polyColliderCap: 1
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    colliderColor: 0
+    attachPoints: []
+  spriteCollection: {fileID: 11400000, guid: ca13771f86c5bc14fa9a29f3e6c36194, type: 2}
   premultipliedAlpha: 1
   altMaterials:
-  - {fileID: 2100000, guid: 6d457c5a64f3e1c49aeb5aecf43888fd, type: 2}
+  - {fileID: 2100000, guid: a95cec142bbacab4ea24d2565daa611e, type: 2}
   atlasMaterials:
-  - {fileID: 2100000, guid: 6d457c5a64f3e1c49aeb5aecf43888fd, type: 2}
+  - {fileID: 2100000, guid: a95cec142bbacab4ea24d2565daa611e, type: 2}
   atlasTextures:
-  - {fileID: 2800000, guid: 16653afbaf74a314c9f14c1346c2d4d3, type: 3}
+  - {fileID: 2800000, guid: 8260c5b82a4991d4788719b2c2053452, type: 3}
   useTk2dCamera: 0
   targetHeight: 640
   targetOrthoSize: 10

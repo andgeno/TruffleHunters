@@ -11,8 +11,11 @@ public class Pig : MonoBehaviour
 	public float speed;
 	public float minPlayerDistance;
 	
+	CharacterController controller;
+	
 	void Awake()
 	{
+		controller = GetComponent<CharacterController>();
 		SetState(state);
 	}
 	
@@ -37,7 +40,10 @@ public class Pig : MonoBehaviour
 		while (true)
 		{
 			if (transform.DistanceTo(Player.transform) > minPlayerDistance)
-				transform.MoveTowards(Player.transform, speed * Time.deltaTime);
+			{
+				controller.Move(transform.DirectionTo(Player.transform) * speed * Time.deltaTime);
+			}
+			
 			yield return 0;	
 		}
 	}

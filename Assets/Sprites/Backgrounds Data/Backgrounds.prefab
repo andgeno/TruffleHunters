@@ -80,6 +80,82 @@ MonoBehaviour:
     colliderConvex: 0
     colliderSmoothSphereCollisions: 0
     attachPoints: []
+  - name: Treeline1
+    boundsData:
+    - {x: 0, y: 1.5390625, z: 0}
+    - {x: 4, y: 3.078125, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 2, z: 0}
+    - {x: 4, y: 4, z: 0}
+    texelSize: {x: .0078125, y: .0078125}
+    positions:
+    - {x: -2, y: 0, z: 0}
+    - {x: 2, y: 0, z: 0}
+    - {x: -2, y: 3.078125, z: 0}
+    - {x: 2, y: 3.078125, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .505860329, y: .00195410149}
+    - {x: .505860329, y: .501952171}
+    - {x: .890624046, y: .00195410149}
+    - {x: .890624046, y: .501952171}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 6d457c5a64f3e1c49aeb5aecf43888fd, type: 2}
+    materialId: 0
+    sourceTextureGUID: 412a0fa2ad3fdb34085a14381aac535d
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    attachPoints: []
+  - name: Treeline0
+    boundsData:
+    - {x: 0, y: 1.56640625, z: 0}
+    - {x: 4, y: 3.1328125, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 2, z: 0}
+    - {x: 4, y: 4, z: 0}
+    texelSize: {x: .0078125, y: .0078125}
+    positions:
+    - {x: -2, y: 0, z: 0}
+    - {x: 2, y: 0, z: 0}
+    - {x: -2, y: 3.1328125, z: 0}
+    - {x: 2, y: 3.1328125, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .00195410149, y: .505860329}
+    - {x: .501952171, y: .505860329}
+    - {x: .00195410149, y: .897459984}
+    - {x: .501952171, y: .897459984}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 6d457c5a64f3e1c49aeb5aecf43888fd, type: 2}
+    materialId: 0
+    sourceTextureGUID: 79b7f2726d1351e4697ebd0420a9bd94
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    attachPoints: []
   premultipliedAlpha: 1
   material: {fileID: 0}
   materials:
@@ -93,7 +169,7 @@ MonoBehaviour:
   loadable: 0
   invOrthoSize: 2
   halfTargetHeight: 64
-  buildKey: 1656281430
+  buildKey: 1361238386
   dataGuid: 50d1a83e5ace0304f9d4865e647e409e
   managedSpriteCollection: 0
   hasPlatformData: 0

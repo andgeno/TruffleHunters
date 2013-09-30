@@ -28,9 +28,6 @@ public class Player : Singleton<Player>
 		spriteAnimator = GetComponentInChildren<tk2dSpriteAnimator>();
 		
 		SetState(state);
-		
-		var gameCamera = gameCameraPrefab.Spawn();
-		gameCamera.SetTarget(transform);
 	}
 	
 	void Update()
@@ -40,7 +37,7 @@ public class Player : Singleton<Player>
 		inputAxis.z = Input.GetAxis("MoveY");
 		
 		//Get the move axis
-		moveAxis = GameCamera.transform.TransformDirection(inputAxis);
+		moveAxis = Camera.main.transform.TransformDirection(inputAxis);
 		moveAxis.y = 0;
 		if (!moveAxis.IsZero())
 			moveAxis.Normalize();

@@ -3,22 +3,22 @@ using System.Collections;
 
 public class Player : Singleton<Player>
 {
-	enum State { Idle, Walk }
-	
-	public GameCamera gameCameraPrefab;
 	public Transform body;
-	
 	public float maxSpeed;
 	public float acceleration;
 	public float zSpeedMult;
-	
-	State state = State.Idle;
-	Vector3 inputAxis;
-	Vector3 moveAxis;
-	Vector3 velocity;
+	public float grabRadius;
 	
 	CharacterController controller;
 	tk2dSpriteAnimator animator;
+	
+	enum State { None, Idle, Walk }
+	State state = State.None;
+	Vector3 inputAxis;
+	Vector3 moveAxis;
+	Vector3 velocity;
+	Carryable carrying;
+	Vector3 throwDirection;
 	
 	protected override void Awake ()
 	{
@@ -27,7 +27,7 @@ public class Player : Singleton<Player>
 		controller = GetComponent<CharacterController>();
 		animator = GetComponentInChildren<tk2dSpriteAnimator>();
 		
-		SetState(state);
+		SetState(State.Idle);
 	}
 	
 	void Update()
@@ -40,14 +40,20 @@ public class Player : Singleton<Player>
 		moveAxis = Camera.main.transform.TransformDirection(inputAxis);
 		moveAxis.y = 0;
 		if (!moveAxis.IsZero())
+		{
 			moveAxis.Normalize();
+			throwDirection = moveAxis;
+		}
 	}
 	
 	int SetState(State newState)
 	{
-		StopAllCoroutines();
-		state = newState;
-		StartCoroutine(state.ToString());
+		if (state != newState)
+		{
+			StopAllCoroutines();
+			state = newState;
+			StartCoroutine(state.ToString());
+		}
 		return 0;
 	}
 	
@@ -61,6 +67,10 @@ public class Player : Singleton<Player>
 			TryApplyVelocity();
 			if (TryAccelerate())
 				yield return SetState(State.Walk);
+			if (TryCarry())
+				yield return 0;
+			if (TryThrow())
+				yield return 0;
 			yield return 0;	
 		}
 	}
@@ -83,6 +93,10 @@ public class Player : Singleton<Player>
 			TryApplyVelocity();
 			if (!TryAccelerate())
 				yield return SetState(State.Idle);
+			if (TryCarry())
+				yield return 0;
+			if (TryThrow())
+				yield return 0;
 			yield return 0;
 		}
 	}
@@ -115,5 +129,35 @@ public class Player : Singleton<Player>
 		}
 		else
 			return false;
+	}
+	
+	bool TryCarry()
+	{
+		if (carrying == null && Input.GetButtonDown("A"))
+		{
+			var hits = Physics.OverlapSphere(transform.position, grabRadius);
+			foreach (var hit in hits)
+			{
+				var carryable = hit.GetComponent<Carryable>();
+				if (carryable != null)
+				{
+					carrying = carryable;
+					carrying.StartCarry(transform);
+					return true;
+				}
+			}
+		}
+		return false;
+	}
+	
+	bool TryThrow()
+	{
+		if (carrying != null && Input.GetButtonDown("A"))
+		{
+			carrying.StopCarry(throwDirection);
+			carrying = null;
+			return true;
+		}
+		return false;
 	}
 }

@@ -150,11 +150,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 619e0470ca62c254cb5a66cc57bf2efe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gameCameraPrefab: {fileID: 11400000, guid: 2e667a66dd21e294e88765e0491d5fe9, type: 2}
   body: {fileID: 400000}
   maxSpeed: 5
   acceleration: 50
   zSpeedMult: 1.79999995
+  grabRadius: 1
 --- !u!114 &11400002
 MonoBehaviour:
   m_ObjectHideFlags: 1

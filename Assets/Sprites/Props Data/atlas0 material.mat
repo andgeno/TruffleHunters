@@ -7,7 +7,7 @@ Material:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: atlas0 material
-  m_Shader: {fileID: 4800000, guid: fdce6d1482e60614691a20cb5ecac84d, type: 3}
+  m_Shader: {fileID: 4800000, guid: 5ac68e4bcd7368a488386ede575f82b3, type: 3}
   m_ShaderKeywords: []
   m_SavedProperties:
     serializedVersion: 2

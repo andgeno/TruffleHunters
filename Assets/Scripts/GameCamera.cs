@@ -3,18 +3,23 @@ using System.Collections;
 
 public class GameCamera : Singleton<GameCamera>
 {
-	public float moveRate;
-	
-	Transform target;
-	
-	public void SetTarget(Transform target)
+	void Start()
 	{
-		this.target = target;
+		if (Player.exists)
+			FollowTarget(Player.transform);
 	}
 	
-	void LateUpdate()
+	public void FollowTarget(Transform target)
 	{
-		//transform.position = Vector3.Lerp(transform.position, target.position, moveRate * Time.deltaTime);
-		transform.position = target.position;
+		StartCoroutine(DoFollowTarget(target));
+	}
+	
+	IEnumerator DoFollowTarget(Transform target)
+	{
+		while (true)
+		{
+			transform.position = target.position;
+			yield return 0;
+		}
 	}
 }

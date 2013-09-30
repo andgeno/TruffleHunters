@@ -18,19 +18,16 @@ public class Player : Singleton<Player>
 	Vector3 velocity;
 	
 	CharacterController controller;
-	tk2dSpriteAnimator spriteAnimator;
+	tk2dSpriteAnimator animator;
 	
 	protected override void Awake ()
 	{
 		base.Awake();
 		
 		controller = GetComponent<CharacterController>();
-		spriteAnimator = GetComponentInChildren<tk2dSpriteAnimator>();
+		animator = GetComponentInChildren<tk2dSpriteAnimator>();
 		
 		SetState(state);
-		
-		var gameCamera = gameCameraPrefab.Spawn();
-		gameCamera.SetTarget(transform);
 	}
 	
 	void Update()
@@ -40,7 +37,7 @@ public class Player : Singleton<Player>
 		inputAxis.z = Input.GetAxis("MoveY");
 		
 		//Get the move axis
-		moveAxis = GameCamera.transform.TransformDirection(inputAxis);
+		moveAxis = Camera.main.transform.TransformDirection(inputAxis);
 		moveAxis.y = 0;
 		if (!moveAxis.IsZero())
 			moveAxis.Normalize();
@@ -48,7 +45,7 @@ public class Player : Singleton<Player>
 	
 	int SetState(State newState)
 	{
-		StopCoroutine(state.ToString());
+		StopAllCoroutines();
 		state = newState;
 		StartCoroutine(state.ToString());
 		return 0;
@@ -58,6 +55,9 @@ public class Player : Singleton<Player>
 	{
 		while (true)
 		{
+			//Update animation
+			animator.Play("PlayerIdle");
+			
 			TryApplyVelocity();
 			if (TryAccelerate())
 				yield return SetState(State.Walk);
@@ -69,18 +69,21 @@ public class Player : Singleton<Player>
 	{
 		while (true)
 		{
-			if (!moveAxis.IsZero())
+			//Update animation
+			if (!Mathf.Approximately(moveAxis.x, 0))
 			{
-				if (moveAxis.z > 0)
-					spriteAnimator.Play("PlayerBackWalk");
-				else
-					spriteAnimator.Play("PlayerFrontWalk");
+				animator.Play("PlayerWalkSide");
+				animator.Sprite.FlipX = moveAxis.x > 0;
 			}
+			else if (moveAxis.z > 0)
+				animator.Play("PlayerWalkBack");
+			else
+				animator.Play("PlayerWalkFront");
 			
 			TryApplyVelocity();
 			if (!TryAccelerate())
 				yield return SetState(State.Idle);
-			yield return 0;	
+			yield return 0;
 		}
 	}
 	

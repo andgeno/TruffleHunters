@@ -5,8 +5,11 @@ public class ForestGenerator : MonoBehaviour
 {
 	
 	public Vector2 size;
-	[Range(0f, 0.1f)] public float treesPerMeter;
-	[Range(0f, 0.1f)] public float rocksPerMeter;
+	[Range(0f, 1f)] public float treeThreshold;
+	[Range(0f, 1f)] public float treePerlinScale;
+	[Range(0f, 1f)] public float treeInnerPercentage;
+	[Range(0f, 1f)] public float treeOuterPercentage;
+	
 	public Vector2 fencePadding;
 	public float hFencePerMeter;
 	public float vFencePerMeter;
@@ -35,17 +38,24 @@ public class ForestGenerator : MonoBehaviour
 		ground.keyPoints[3] = new Vector3(-size.x, size.y);
 		ground.BuildMesh();
 		
-		// get the total amount of trees
-		float trees = size.x * 2 * size.y * 2 * treesPerMeter;
-		for (int i = 0; i < trees; i ++)
+		// generate trees
+		Vector2 treePerlinOffset = new Vector2(Rand.Float(10000), Rand.Float(10000));
+		for (float i = -size.x; i < size.x; i ++)
 		{
-			treePrefab.Spawn(new Vector3(Rand.Float(-size.x, size.x), 0, Rand.Float(-size.y, size.y)));	
-		}
-		
-		float rocks = size.x * 2 * size.y * 2 * rocksPerMeter;
-		for (int i = 0; i < rocks; i ++)
-		{
-			rockPrefab.Spawn(new Vector3(Rand.Float(-size.x, size.x), 0, Rand.Float(-size.y, size.y)));	
+			for (float j = - size.y; j < size.y; j += 2)
+			{
+				float sample = Mathf.PerlinNoise(treePerlinOffset.x + i * treePerlinScale, treePerlinOffset.y + j * treePerlinScale);
+				Vector3 stagger = new Vector3(Rand.Float(-0.50f, 0.50f), 0, Rand.Float(-0.50f, 0.50f));
+				
+				if (treeThreshold > sample)
+				{
+					if (Rand.Chance(treeInnerPercentage))
+						treePrefab.Spawn(new Vector3(i, 0, j) + stagger);
+				}
+				else if (Rand.Chance(treeOuterPercentage))
+					treePrefab.Spawn(new Vector3(i, 0, j) + stagger);
+					
+			}
 		}
 		
 		// spawn the perimeter

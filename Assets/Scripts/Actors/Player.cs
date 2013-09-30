@@ -10,6 +10,7 @@ public class Player : Singleton<Player>
 	
 	public float maxSpeed;
 	public float acceleration;
+	public float zSpeedMult;
 	
 	State state = State.Idle;
 	Vector3 inputAxis;
@@ -92,7 +93,9 @@ public class Player : Singleton<Player>
 	{
 		if (!velocity.IsZero())
 		{
-			controller.Move(velocity * Time.deltaTime);
+			var move = velocity;
+			move.z *= zSpeedMult;
+			controller.Move(move * Time.deltaTime);
 			transform.SetY(0);
 			return true;
 		}

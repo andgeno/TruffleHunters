@@ -71,6 +71,11 @@ public static class Rand
 	{
 		return Random.Range(min, max);
 	}
+	
+	public static bool Chance(float percent)
+	{
+		return Random.value < percent;
+	}
 
 	public static float value
 	{

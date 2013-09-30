@@ -118,6 +118,8 @@ MonoBehaviour:
   count: 1
   randFlipX: 1
   randFlipY: 0
+  staggerX: 0
+  staggerZ: 0
 --- !u!135 &13500000
 SphereCollider:
   m_ObjectHideFlags: 1

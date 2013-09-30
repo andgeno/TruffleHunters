@@ -568,7 +568,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   library: {fileID: 11400000, guid: b59d9ca721867534bb942b354120f087, type: 2}
-  defaultClipId: 0
+  defaultClipId: 3
   playAutomatically: 1
 --- !u!114 &876694052
 MonoBehaviour:
@@ -585,7 +585,7 @@ MonoBehaviour:
   collection: {fileID: 11400000, guid: ca13771f86c5bc14fa9a29f3e6c36194, type: 2}
   _color: {r: 1, g: 1, b: 1, a: 1}
   _scale: {x: 1, y: 1, z: 1}
-  _spriteId: 0
+  _spriteId: 26
   boxCollider: {fileID: 0}
   meshCollider: {fileID: 0}
   meshColliderPositions: []
@@ -743,11 +743,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 619e0470ca62c254cb5a66cc57bf2efe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gameCameraPrefab: {fileID: 11400000, guid: 2e667a66dd21e294e88765e0491d5fe9, type: 2}
   body: {fileID: 1606950395}
   maxSpeed: 5
   acceleration: 50
   zSpeedMult: 1.79999995
+  grabRadius: 1
 --- !u!143 &1218721813
 CharacterController:
   m_ObjectHideFlags: 0

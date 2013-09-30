@@ -10,7 +10,7 @@ GameObject:
   - 4: {fileID: 400000}
   - 65: {fileID: 6500004}
   m_Layer: 0
-  m_Name: EnclosureGate
+  m_Name: Gate
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

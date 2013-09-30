@@ -28,7 +28,7 @@ GameObject:
   - 23: {fileID: 2300000}
   - 114: {fileID: 11400002}
   m_Layer: 11
-  m_Name: PolyMesh
+  m_Name: Ground
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -95,6 +95,21 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!1 &100012
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400012}
+  m_Layer: 0
+  m_Name: Fences
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
 --- !u!4 &400000
 Transform:
   m_ObjectHideFlags: 1
@@ -105,6 +120,7 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
+  - {fileID: 400012}
   - {fileID: 400006}
   - {fileID: 400002}
   - {fileID: 400008}
@@ -166,6 +182,17 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 400000}
+--- !u!4 &400012
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100012}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -2.1122961, y: 15.5600586, z: -12.4885254}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 400000}
 --- !u!23 &2300000
 Renderer:
   m_ObjectHideFlags: 1
@@ -223,7 +250,7 @@ MonoBehaviour:
   fencePadding: {x: 6, y: 6}
   hFencePerMeter: 3.20000005
   vFencePerMeter: 2
-  grassTurfPerMeter: 0
+  grassTurfPerMeter: .100000001
   ground: {fileID: 11400002}
   treePrefab: {fileID: 400006, guid: e5b7ccf0ae8a7c94e8e9068496cd988e, type: 2}
   rockPrefab: {fileID: 400002, guid: 6b8314217d8f10146958ed5894981532, type: 2}
@@ -233,6 +260,7 @@ MonoBehaviour:
   treeRoot: {fileID: 400010}
   rockRoot: {fileID: 400008}
   grassRoot: {fileID: 400006}
+  fenceRoot: {fileID: 400012}
 --- !u!114 &11400002
 MonoBehaviour:
   m_ObjectHideFlags: 1

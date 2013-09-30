@@ -167,7 +167,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   library: {fileID: 11400000, guid: b59d9ca721867534bb942b354120f087, type: 2}
-  defaultClipId: 0
+  defaultClipId: 3
   playAutomatically: 1
 --- !u!114 &11400004
 MonoBehaviour:
@@ -183,7 +183,7 @@ MonoBehaviour:
   collection: {fileID: 11400000, guid: ca13771f86c5bc14fa9a29f3e6c36194, type: 2}
   _color: {r: 1, g: 1, b: 1, a: 1}
   _scale: {x: 1, y: 1, z: 1}
-  _spriteId: 0
+  _spriteId: 26
   boxCollider: {fileID: 0}
   meshCollider: {fileID: 0}
   meshColliderPositions: []

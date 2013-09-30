@@ -10,6 +10,7 @@ public class Pig : MonoBehaviour
 	public Transform body;
 	public float speed;
 	public float minPlayerDistance;
+	public LayerMask obstacleMask;
 	
 	CharacterController controller;
 	
@@ -44,16 +45,22 @@ public class Pig : MonoBehaviour
 	
 	IEnumerator Carry()
 	{
-		StartCoroutine(transform.MoveTo(Vector3.zero, 0.2f));
-		yield return StartCoroutine(body.MoveTo(new Vector3(0, 1.2f, -0.1f), 0.2f, Ease.BackOut));
+		//StartCoroutine(transform.MoveTo(Vector3.zero, 0.2f));
+		yield return StartCoroutine(transform.MoveTo(new Vector3(0, 1.2f, -0.1f), 0.2f, Ease.BackOut));
 		
 		while (true)
 			yield return 0;
 	}
 	
-	IEnumerator Throw(Vector3 direction)
+	IEnumerator Throw(Vector3 target)
 	{
-		var duration = 0.5f;
+		var distance = Vector3.Distance(transform.position, target);
+		var control = Calc.BezierControl(transform.position, target, distance);
+		yield return StartCoroutine(transform.CurveTo(control, target, 0.5f));
+		transform.position = target;
+		SetState(State.Idle);
+		
+		/*var duration = 0.5f;
 		var distance = 4f;
 		var heightMult = 2.5f;
 		
@@ -70,7 +77,7 @@ public class Pig : MonoBehaviour
 		}
 		
 		body.localPosition = Vector3.zero;
-		SetState(State.Idle);
+		SetState(State.Idle);*/
 	}
 	
 	void OnStartCarry()
@@ -80,6 +87,21 @@ public class Pig : MonoBehaviour
 	
 	void OnStopCarry(Vector3 direction)
 	{
-		SetState(State.Throw, direction);
+		//Find the throw target
+		var throwDist = 4f;
+		var ray = new Ray(Vector3.zero, Vector3.down);
+		while (!Mathf.Approximately(throwDist, 0))
+		{
+			var target = transform.position + direction * throwDist;
+			target.y = 0;
+			ray.origin = target + new Vector3(0, 10);
+			if (!Physics.SphereCast(ray, controller.radius, 10, obstacleMask))
+			{
+				SetState(State.Throw, target);
+				return;
+			}
+			throwDist = Mathf.MoveTowards(throwDist, 0, controller.radius);
+		}
+		SetState(State.Throw, new Vector3(transform.position.x, 0, transform.position.z));
 	}
 }

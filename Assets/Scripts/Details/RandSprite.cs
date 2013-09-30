@@ -17,9 +17,9 @@ public class RandSprite : MonoBehaviour {
 		sprite.SetSprite(prefix + (count > 0 ? "" + Rand.Int(count) : ""));
 		
 		if (randFlipX)
-			sprite.FlipX = Rand.Int(1) == 0;
+			sprite.FlipX = Rand.Int(2) == 0;
 		if (randFlipY)
-			sprite.FlipY = Rand.Int(1) == 0;
+			sprite.FlipY = Rand.Int(2) == 0;
 	}
 
 }

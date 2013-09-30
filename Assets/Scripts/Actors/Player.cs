@@ -5,7 +5,6 @@ public class Player : Singleton<Player>
 {
 	enum State { Idle, Walk }
 	
-	public GameCamera gameCameraPrefab;
 	public Transform body;
 	
 	public float maxSpeed;
@@ -24,9 +23,6 @@ public class Player : Singleton<Player>
 		
 		controller = GetComponent<CharacterController>();
 		SetState(state);
-		
-		var gameCamera = gameCameraPrefab.Spawn();
-		gameCamera.SetTarget(transform);
 	}
 	
 	void Update()
@@ -36,7 +32,7 @@ public class Player : Singleton<Player>
 		inputAxis.z = Input.GetAxis("MoveY");
 		
 		//Get the move axis
-		moveAxis = GameCamera.transform.TransformDirection(inputAxis);
+		moveAxis = Camera.main.transform.TransformDirection(inputAxis);
 		moveAxis.y = 0;
 		if (!moveAxis.IsZero())
 			moveAxis.Normalize();

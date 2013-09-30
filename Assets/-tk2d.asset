@@ -16,8 +16,8 @@ MonoBehaviour:
   fontIndex: []
   spriteCollectionIndex:
   - name: Props
-    spriteCollectionGUID: a63869f0d03e285428c46985e7789e60
-    spriteCollectionDataGUID: bd6d2e09d3247f145ae0a6dd3b2933bb
+    spriteCollectionGUID: 0180efe61c0911e4c8268cc3b6ddc27d
+    spriteCollectionDataGUID: a5c1c5042f2afdb41b2f3822ec92cea7
     spriteNames:
     - TreeLeaves1
     - TreeLeaves0
@@ -51,20 +51,6 @@ MonoBehaviour:
     - 3855f136be8aca84482e24d67eed3ec4
     - 4ce5fe8ee186b044e90033959adb9901
     spriteTextureTimeStamps:
-<<<<<<< HEAD
-    - 1380500197.96966
-    - 1380500197.96966
-    - 1380500197.97066
-    - 1380500197.96866
-    - 1380500197.97266
-    - 1380500197.96266
-    - 1380500197.96066
-    - 1380500197.96566
-    - 1380500197.96066
-    - 1380500197.96266
-    - 1380500197.96166
-    - 1380500197.96766
-=======
     - 1380501274.78592
     - 1380501274.78392
     - 1380501274.78792
@@ -80,7 +66,6 @@ MonoBehaviour:
     - 1380501274.77491
     - 1380501274.77391
     - 1380501274.77191
->>>>>>> origin/master
     managedSpriteCollection: 0
     loadable: 0
     assetName: 

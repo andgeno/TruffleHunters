@@ -227,6 +227,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   prefix: FenceV
   count: 3
+  randFlipX: 1
+  randFlipY: 0
 --- !u!114 &11400004
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -260,6 +262,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   prefix: FenceV
   count: 3
+  randFlipX: 1
+  randFlipY: 0
 --- !u!114 &11400008
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -273,6 +277,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   prefix: FenceV
   count: 3
+  randFlipX: 1
+  randFlipY: 0
 --- !u!114 &11400010
 MonoBehaviour:
   m_ObjectHideFlags: 1

@@ -308,19 +308,19 @@ MonoBehaviour:
     colliderConvex: 0
     colliderSmoothSphereCollisions: 0
     attachPoints: []
-  - name: Stone1
+  - name: Stone0
     boundsData:
-    - {x: .03125, y: -.03515625, z: 0}
+    - {x: .03125, y: .96484375, z: 0}
     - {x: 1.796875, y: 1.4765625, z: 0}
     untrimmedBoundsData:
-    - {x: 0, y: 0, z: 0}
+    - {x: 0, y: 1, z: 0}
     - {x: 2, y: 2, z: 0}
     texelSize: {x: .0078125, y: .0078125}
     positions:
-    - {x: -.8671875, y: -.7734375, z: 0}
-    - {x: .9296875, y: -.7734375, z: 0}
-    - {x: -.8671875, y: .703125, z: 0}
-    - {x: .9296875, y: .703125, z: 0}
+    - {x: -.8671875, y: .2265625, z: 0}
+    - {x: .9296875, y: .2265625, z: 0}
+    - {x: -.8671875, y: 1.703125, z: 0}
+    - {x: .9296875, y: 1.703125, z: 0}
     normals: []
     tangents: []
     uvs:
@@ -460,19 +460,19 @@ MonoBehaviour:
     colliderConvex: 0
     colliderSmoothSphereCollisions: 0
     attachPoints: []
-  - name: Stone2
+  - name: Stone1
     boundsData:
-    - {x: -.01953125, y: -.109375, z: 0}
+    - {x: -.01953125, y: .890625, z: 0}
     - {x: 1.0546875, y: .5, z: 0}
     untrimmedBoundsData:
-    - {x: 0, y: 0, z: 0}
+    - {x: 0, y: 1, z: 0}
     - {x: 2, y: 2, z: 0}
     texelSize: {x: .0078125, y: .0078125}
     positions:
-    - {x: -.546875, y: -.359375, z: 0}
-    - {x: .5078125, y: -.359375, z: 0}
-    - {x: -.546875, y: .140625, z: 0}
-    - {x: .5078125, y: .140625, z: 0}
+    - {x: -.546875, y: .640625, z: 0}
+    - {x: .5078125, y: .640625, z: 0}
+    - {x: -.546875, y: 1.140625, z: 0}
+    - {x: .5078125, y: 1.140625, z: 0}
     normals: []
     tangents: []
     uvs:
@@ -625,7 +625,7 @@ MonoBehaviour:
   loadable: 0
   invOrthoSize: 2
   halfTargetHeight: 64
-  buildKey: 713200041
+  buildKey: 1848298502
   dataGuid: bd6d2e09d3247f145ae0a6dd3b2933bb
   managedSpriteCollection: 0
   hasPlatformData: 0

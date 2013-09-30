@@ -345,13 +345,13 @@ MonoBehaviour:
     colliderSmoothSphereCollisions: 0
     colliderColor: 0
     attachPoints: []
-  - name: Stone1
+  - name: Stone0
     disableTrimming: 0
     additive: 0
     scale: {x: 1, y: 1, z: 1}
     texture: {fileID: 2800000, guid: 52209a10ff9b30a43bf619b86b46d9b3, type: 3}
     materialId: 0
-    anchor: 4
+    anchor: 7
     anchorX: 0
     anchorY: 0
     overrideMesh: {fileID: 0}
@@ -505,13 +505,13 @@ MonoBehaviour:
     colliderSmoothSphereCollisions: 0
     colliderColor: 0
     attachPoints: []
-  - name: Stone2
+  - name: Stone1
     disableTrimming: 0
     additive: 0
     scale: {x: 1, y: 1, z: 1}
     texture: {fileID: 2800000, guid: f53bd71ed83c72448ad0867699c37171, type: 3}
     materialId: 0
-    anchor: 4
+    anchor: 7
     anchorX: 0
     anchorY: 0
     overrideMesh: {fileID: 0}

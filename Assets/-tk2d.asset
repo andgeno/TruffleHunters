@@ -26,11 +26,11 @@ MonoBehaviour:
     - TreeStump
     - FenceH4
     - FenceH0
-    - Stone1
+    - Stone0
     - FenceH1
     - FenceH3
     - FenceH2
-    - Stone2
+    - Stone1
     - FenceV2
     - FenceV1
     - FenceV0

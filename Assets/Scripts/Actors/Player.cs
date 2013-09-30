@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class Player : MonoBehaviour
+public class Player : Singleton<Player>
 {
 	enum State { Idle, Walk }
 	
@@ -17,8 +17,10 @@ public class Player : MonoBehaviour
 	
 	CharacterController controller;
 	
-	void Awake()
+	protected override void Awake ()
 	{
+		base.Awake();
+		
 		controller = GetComponent<CharacterController>();
 		SetState(state);
 	}

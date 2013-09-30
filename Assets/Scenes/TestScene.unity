@@ -524,7 +524,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   prefix: FenceH
-  maxIndex: 5
+  count: 0
 --- !u!1 &483316524
 GameObject:
   m_ObjectHideFlags: 0
@@ -1878,7 +1878,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   prefix: Fence
-  maxIndex: 5
+  count: 0
 --- !u!1 &1185599943
 GameObject:
   m_ObjectHideFlags: 0
@@ -3177,7 +3177,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   prefix: FenceH
-  maxIndex: 5
+  count: 0
 --- !u!1 &1688296399
 GameObject:
   m_ObjectHideFlags: 0
@@ -3602,7 +3602,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   prefix: FenceH
-  maxIndex: 5
+  count: 0
 --- !u!1 &1806251341
 GameObject:
   m_ObjectHideFlags: 0
@@ -3770,7 +3770,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   prefix: FenceH
-  maxIndex: 5
+  count: 0
 --- !u!1 &1959481790
 GameObject:
   m_ObjectHideFlags: 0

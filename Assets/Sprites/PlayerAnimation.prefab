@@ -138,6 +138,46 @@ MonoBehaviour:
     fps: 8
     loopStart: 0
     wrapMode: 0
+  - name: PlayerIdle
+    frames:
+    - spriteCollection: {fileID: 11400000, guid: ca13771f86c5bc14fa9a29f3e6c36194,
+        type: 2}
+      spriteId: 26
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+    - spriteCollection: {fileID: 11400000, guid: ca13771f86c5bc14fa9a29f3e6c36194,
+        type: 2}
+      spriteId: 29
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+    - spriteCollection: {fileID: 11400000, guid: ca13771f86c5bc14fa9a29f3e6c36194,
+        type: 2}
+      spriteId: 25
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+    - spriteCollection: {fileID: 11400000, guid: ca13771f86c5bc14fa9a29f3e6c36194,
+        type: 2}
+      spriteId: 22
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+    - spriteCollection: {fileID: 11400000, guid: ca13771f86c5bc14fa9a29f3e6c36194,
+        type: 2}
+      spriteId: 23
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+    fps: 8
+    loopStart: 0
+    wrapMode: 0
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1

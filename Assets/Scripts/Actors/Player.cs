@@ -45,7 +45,7 @@ public class Player : Singleton<Player>
 	
 	int SetState(State newState)
 	{
-		StopCoroutine(state.ToString());
+		StopAllCoroutines();
 		state = newState;
 		StartCoroutine(state.ToString());
 		return 0;
@@ -55,6 +55,9 @@ public class Player : Singleton<Player>
 	{
 		while (true)
 		{
+			//Update animation
+			animator.Play("PlayerIdle");
+			
 			TryApplyVelocity();
 			if (TryAccelerate())
 				yield return SetState(State.Walk);
@@ -65,17 +68,6 @@ public class Player : Singleton<Player>
 	IEnumerator Walk()
 	{
 		while (true)
-		{
-			TryApplyVelocity();
-			if (!TryAccelerate())
-				yield return SetState(State.Idle);
-			yield return 0;	
-		}
-	}
-	
-	bool TryAccelerate()
-	{
-		if (!moveAxis.IsZero())
 		{
 			//Update animation
 			if (!Mathf.Approximately(moveAxis.x, 0))
@@ -88,6 +80,17 @@ public class Player : Singleton<Player>
 			else
 				animator.Play("PlayerWalkFront");
 			
+			TryApplyVelocity();
+			if (!TryAccelerate())
+				yield return SetState(State.Idle);
+			yield return 0;
+		}
+	}
+	
+	bool TryAccelerate()
+	{
+		if (!moveAxis.IsZero())
+		{
 			//Accelerate
 			velocity = Vector3.MoveTowards(velocity, moveAxis * maxSpeed, acceleration * Time.deltaTime);
 			return true;

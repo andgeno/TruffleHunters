@@ -1039,21 +1039,25 @@ public class PolyMeshEditor : Editor
 		{
 			var center = Vector3.zero;
 			var area = 0f;
-			var b = polyMesh.keyPoints[polyMesh.keyPoints.Count - 1];
-			foreach (var i in selectedIndices)
+			if (selectedIndices.Count > 2)
 			{
-				var a = polyMesh.keyPoints[i];
-				var k = a.y * b.x - a.x * b.y;
-				area += k;
-				center.x += (a.x + b.x) * k;
-				center.y += (a.y + b.y) * k;
-				b = a;
+				var b = polyMesh.keyPoints[polyMesh.keyPoints.Count - 1];
+				foreach (var i in selectedIndices)
+				{
+					var a = polyMesh.keyPoints[i];
+					var k = a.y * b.x - a.x * b.y;
+					area += k;
+					center.x += (a.x + b.x) * k;
+					center.y += (a.y + b.y) * k;
+					b = a;
+				}
 			}
-			area *= 3;
+			else if (selectedIndices.Count == 2)
+				return Vector3.Lerp(polyMesh.keyPoints[selectedIndices[0]], polyMesh.keyPoints[selectedIndices[1]], 0.5f);
 			if (Mathf.Approximately(area, 0))
-				return Vector3.zero;
+				return polyMesh.keyPoints[selectedIndices[0]];
 			else
-				return center / area;
+				return center / (area * 3);
 		}
 		else
 			return polyMesh.keyPoints[0];

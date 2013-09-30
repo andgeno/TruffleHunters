@@ -242,7 +242,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e96244e90339d6747910555400dfbe36, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  size: {x: 30, y: 30}
+  size: {x: 30, y: 50}
   treeThreshold: .333000004
   treePerlinScale: .115999997
   treeInnerPercentage: .774999976

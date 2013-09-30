@@ -27,4 +27,9 @@ public class Singleton<T> : MonoBehaviour where T : MonoBehaviour
 		get { return instance.transform; }
 	}
 	#pragma warning restore 0108
+	
+	public static bool exists
+	{
+		get { return _instance != null; }
+	}
 }

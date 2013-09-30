@@ -339,6 +339,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ea0b1dd2d8901a448442a773c0bb798, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  scaleOffsetMin: .699999988
+  scaleOffsetMax: 1
 --- !u!135 &13500000
 SphereCollider:
   m_ObjectHideFlags: 1

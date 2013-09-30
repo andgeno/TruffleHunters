@@ -23,6 +23,11 @@ public class ForestGenerator : MonoBehaviour
 	public Transform vFencePrefab;
 	public Transform grassTurfPrefab;
 	
+	public Transform treeRoot;
+	public Transform rockRoot;
+	public Transform grassRoot;
+	public Transform fenceRoot;
+	
 	void Awake()
 	{
 	}
@@ -52,16 +57,17 @@ public class ForestGenerator : MonoBehaviour
 				
 				if (treeThreshold > sample)
 				{
+					
 					if (Rand.Chance(treeInnerPercentage))
-						treePrefab.Spawn(new Vector3(i, 0, j) + stagger);
+						treePrefab.Spawn(new Vector3(i, 0, j) + stagger).parent = treeRoot;
 				}
 				else
 				{
 					if (sample - treeThreshold < 0.01f)
-						rockPrefab.Spawn(new Vector3(i, 0, j) + stagger);
+						rockPrefab.Spawn(new Vector3(i, 0, j) + stagger).parent = rockRoot;
 					
 					if (Rand.Chance(treeOuterPercentage))
-						treePrefab.Spawn(new Vector3(i, 0, j) + stagger);
+						treePrefab.Spawn(new Vector3(i, 0, j) + stagger).parent = treeRoot;
 				}
 			}
 		}
@@ -69,18 +75,18 @@ public class ForestGenerator : MonoBehaviour
 		// place random grass turf
 		float grassTurfCount = size.x * 2 * size.y * 2 * grassTurfPerMeter;
 		for (int i = 0; i < grassTurfCount; i ++)
-			grassTurfPrefab.Spawn(new Vector3(Rand.Float(-size.x, size.x), 0, Rand.Float(-size.y, size.y)));
+			grassTurfPrefab.Spawn(new Vector3(Rand.Float(-size.x, size.x), 0, Rand.Float(-size.y, size.y))).parent = grassRoot;
 		
 		// spawn the perimeter
 		for (float i = - size.x + fencePadding.x; i < size.x - fencePadding.x; i += hFencePerMeter)
 		{
-			hFencePrefab.Spawn(new Vector3(i, 0, -size.y + fencePadding.y));
-			hFencePrefab.Spawn(new Vector3(i, 0, size.y - fencePadding.y));
+			hFencePrefab.Spawn(new Vector3(i, 0, -size.y + fencePadding.y)).parent = fenceRoot;
+			hFencePrefab.Spawn(new Vector3(i, 0, size.y - fencePadding.y)).parent = fenceRoot;
 		}
 		for (float i = - size.y + fencePadding.y; i < size.y - fencePadding.y; i += vFencePerMeter)
 		{
-			vFencePrefab.Spawn(new Vector3(-size.x + fencePadding.x, 0, i));
-			vFencePrefab.Spawn(new Vector3(size.x - fencePadding.x, 0, i));
+			vFencePrefab.Spawn(new Vector3(-size.x + fencePadding.x, 0, i)).parent = fenceRoot;
+			vFencePrefab.Spawn(new Vector3(size.x - fencePadding.x, 0, i)).parent = fenceRoot;
 		}
 		
 		yield return 0;

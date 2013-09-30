@@ -445,6 +445,7 @@ GameObject:
   - 33: {fileID: 373465858}
   - 23: {fileID: 373465857}
   - 114: {fileID: 373465856}
+  - 114: {fileID: 373465859}
   m_Layer: 0
   m_Name: Fence2
   m_TagString: Untagged
@@ -511,6 +512,19 @@ MeshFilter:
   m_PrefabInternal: {fileID: 1987555183}
   m_GameObject: {fileID: 373465854}
   m_Mesh: {fileID: 0}
+--- !u!114 &373465859
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 373465854}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c020ce1e120615c41a0ab6371e5384ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  prefix: FenceH
+  maxIndex: 5
 --- !u!1 &483316524
 GameObject:
   m_ObjectHideFlags: 0
@@ -1785,6 +1799,7 @@ GameObject:
   - 33: {fileID: 1162449687}
   - 23: {fileID: 1162449686}
   - 114: {fileID: 1162449685}
+  - 114: {fileID: 1162449688}
   m_Layer: 0
   m_Name: Fence0
   m_TagString: Untagged
@@ -1851,6 +1866,19 @@ MeshFilter:
   m_PrefabInternal: {fileID: 1987555183}
   m_GameObject: {fileID: 1162449683}
   m_Mesh: {fileID: 0}
+--- !u!114 &1162449688
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1162449683}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c020ce1e120615c41a0ab6371e5384ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  prefix: Fence
+  maxIndex: 5
 --- !u!1 &1185599943
 GameObject:
   m_ObjectHideFlags: 0
@@ -3070,6 +3098,7 @@ GameObject:
   - 33: {fileID: 1669729249}
   - 23: {fileID: 1669729248}
   - 114: {fileID: 1669729247}
+  - 114: {fileID: 1669729251}
   m_Layer: 0
   m_Name: Fence3
   m_TagString: Untagged
@@ -3136,6 +3165,19 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1147980449}
+--- !u!114 &1669729251
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1669729246}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c020ce1e120615c41a0ab6371e5384ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  prefix: FenceH
+  maxIndex: 5
 --- !u!1 &1688296399
 GameObject:
   m_ObjectHideFlags: 0
@@ -3481,6 +3523,7 @@ GameObject:
   - 33: {fileID: 1733454036}
   - 23: {fileID: 1733454035}
   - 114: {fileID: 1733454034}
+  - 114: {fileID: 1733454037}
   m_Layer: 0
   m_Name: Fence1
   m_TagString: Untagged
@@ -3547,6 +3590,19 @@ MeshFilter:
   m_PrefabInternal: {fileID: 1987555183}
   m_GameObject: {fileID: 1733454032}
   m_Mesh: {fileID: 0}
+--- !u!114 &1733454037
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1733454032}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c020ce1e120615c41a0ab6371e5384ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  prefix: FenceH
+  maxIndex: 5
 --- !u!1 &1806251341
 GameObject:
   m_ObjectHideFlags: 0
@@ -3635,6 +3691,7 @@ GameObject:
   - 33: {fileID: 1865901320}
   - 23: {fileID: 1865901319}
   - 114: {fileID: 1865901318}
+  - 114: {fileID: 1865901321}
   m_Layer: 0
   m_Name: Fence4
   m_TagString: Untagged
@@ -3701,6 +3758,19 @@ MeshFilter:
   m_PrefabInternal: {fileID: 1987555183}
   m_GameObject: {fileID: 1865901316}
   m_Mesh: {fileID: 0}
+--- !u!114 &1865901321
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1865901316}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c020ce1e120615c41a0ab6371e5384ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  prefix: FenceH
+  maxIndex: 5
 --- !u!1 &1959481790
 GameObject:
   m_ObjectHideFlags: 0

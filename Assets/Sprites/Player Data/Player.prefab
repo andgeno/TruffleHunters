@@ -44,24 +44,24 @@ MonoBehaviour:
   spriteDefinitions:
   - name: PlayerFrontWalkBlink0003
     boundsData:
-    - {x: .02734375, y: -.171875, z: 0}
+    - {x: .01171875, y: -.171875, z: 0}
     - {x: 1.3515625, y: 1.609375, z: 0}
     untrimmedBoundsData:
     - {x: 0, y: 0, z: 0}
     - {x: 2, y: 2, z: 0}
     texelSize: {x: .0078125, y: .0078125}
     positions:
-    - {x: -.6484375, y: -.9765625, z: 0}
-    - {x: .703125, y: -.9765625, z: 0}
-    - {x: -.6484375, y: .6328125, z: 0}
-    - {x: .703125, y: .6328125, z: 0}
+    - {x: -.6640625, y: -.9765625, z: 0}
+    - {x: .6875, y: -.9765625, z: 0}
+    - {x: -.6640625, y: .6328125, z: 0}
+    - {x: .6875, y: .6328125, z: 0}
     normals: []
     tangents: []
     uvs:
-    - {x: .339844733, y: .216797858}
-    - {x: .508788109, y: .216797858}
-    - {x: .339844733, y: .417967767}
-    - {x: .508788109, y: .417967767}
+    - {x: .566407204, y: .808594704}
+    - {x: .566407204, y: .977538109}
+    - {x: .767577171, y: .808594704}
+    - {x: .767577171, y: .977538109}
     indices: 000000000300000001000000020000000300000000000000
     material: {fileID: 2100000, guid: a95cec142bbacab4ea24d2565daa611e, type: 2}
     materialId: 0
@@ -71,7 +71,7 @@ MonoBehaviour:
     regionY: 0
     regionW: 0
     regionH: 0
-    flipped: 0
+    flipped: 1
     complexGeometry: 0
     colliderType: 0
     colliderVertices: []
@@ -82,24 +82,24 @@ MonoBehaviour:
     attachPoints: []
   - name: PlayerFrontWalk0000
     boundsData:
-    - {x: .01953125, y: -.16015625, z: 0}
+    - {x: .00390625, y: -.16015625, z: 0}
     - {x: 1.3203125, y: 1.6796875, z: 0}
     untrimmedBoundsData:
     - {x: 0, y: 0, z: 0}
     - {x: 2, y: 2, z: 0}
     texelSize: {x: .0078125, y: .0078125}
     positions:
-    - {x: -.640625, y: -1, z: 0}
-    - {x: .6796875, y: -1, z: 0}
-    - {x: -.640625, y: .6796875, z: 0}
-    - {x: .6796875, y: .6796875, z: 0}
+    - {x: -.65625, y: -1, z: 0}
+    - {x: .6640625, y: -1, z: 0}
+    - {x: -.65625, y: .6796875, z: 0}
+    - {x: .6640625, y: .6796875, z: 0}
     normals: []
     tangents: []
     uvs:
-    - {x: .170899421, y: .216797858}
-    - {x: .335936517, y: .216797858}
-    - {x: .170899421, y: .426756829}
-    - {x: .335936517, y: .426756829}
+    - {x: .344727546, y: .426758796}
+    - {x: .509764671, y: .426758796}
+    - {x: .344727546, y: .636717796}
+    - {x: .509764671, y: .636717796}
     indices: 000000000300000001000000020000000300000000000000
     material: {fileID: 2100000, guid: a95cec142bbacab4ea24d2565daa611e, type: 2}
     materialId: 0
@@ -120,24 +120,24 @@ MonoBehaviour:
     attachPoints: []
   - name: PlayerFrontWalkBlink0002
     boundsData:
-    - {x: .01953125, y: -.1328125, z: 0}
+    - {x: .00390625, y: -.1328125, z: 0}
     - {x: 1.3203125, y: 1.734375, z: 0}
     untrimmedBoundsData:
     - {x: 0, y: 0, z: 0}
     - {x: 2, y: 2, z: 0}
     texelSize: {x: .0078125, y: .0078125}
     positions:
-    - {x: -.640625, y: -1, z: 0}
-    - {x: .6796875, y: -1, z: 0}
-    - {x: -.640625, y: .734375, z: 0}
-    - {x: .6796875, y: .734375, z: 0}
+    - {x: -.65625, y: -1, z: 0}
+    - {x: .6640625, y: -1, z: 0}
+    - {x: -.65625, y: .734375, z: 0}
+    - {x: .6640625, y: .734375, z: 0}
     normals: []
     tangents: []
     uvs:
-    - {x: .00195410149, y: .00195410149}
-    - {x: .166991204, y: .00195410149}
-    - {x: .00195410149, y: .218749017}
-    - {x: .166991204, y: .218749017}
+    - {x: .00195410149, y: .218750983}
+    - {x: .166991204, y: .218750983}
+    - {x: .00195410149, y: .435545892}
+    - {x: .166991204, y: .435545892}
     indices: 000000000300000001000000020000000300000000000000
     material: {fileID: 2100000, guid: a95cec142bbacab4ea24d2565daa611e, type: 2}
     materialId: 0
@@ -158,24 +158,24 @@ MonoBehaviour:
     attachPoints: []
   - name: PlayerBackWalk0002
     boundsData:
-    - {x: .015625, y: -.140625, z: 0}
+    - {x: 0, y: -.140625, z: 0}
     - {x: 1.328125, y: 1.6875, z: 0}
     untrimmedBoundsData:
     - {x: 0, y: 0, z: 0}
     - {x: 2, y: 2, z: 0}
     texelSize: {x: .0078125, y: .0078125}
     positions:
-    - {x: -.6484375, y: -.984375, z: 0}
-    - {x: .6796875, y: -.984375, z: 0}
-    - {x: -.6484375, y: .703125, z: 0}
-    - {x: .6796875, y: .703125, z: 0}
+    - {x: -.6640625, y: -.984375, z: 0}
+    - {x: .6640625, y: -.984375, z: 0}
+    - {x: -.6640625, y: .703125, z: 0}
+    - {x: .6640625, y: .703125, z: 0}
     normals: []
     tangents: []
     uvs:
-    - {x: .170899421, y: .00195410149}
-    - {x: .336913079, y: .00195410149}
-    - {x: .170899421, y: .212889642}
-    - {x: .336913079, y: .212889642}
+    - {x: .181641608, y: .643555641}
+    - {x: .347655267, y: .643555641}
+    - {x: .181641608, y: .854491234}
+    - {x: .347655267, y: .854491234}
     indices: 000000000300000001000000020000000300000000000000
     material: {fileID: 2100000, guid: a95cec142bbacab4ea24d2565daa611e, type: 2}
     materialId: 0
@@ -196,24 +196,24 @@ MonoBehaviour:
     attachPoints: []
   - name: PlayerFrontWalk0003
     boundsData:
-    - {x: .02734375, y: -.171875, z: 0}
+    - {x: .01171875, y: -.171875, z: 0}
     - {x: 1.3515625, y: 1.609375, z: 0}
     untrimmedBoundsData:
     - {x: 0, y: 0, z: 0}
     - {x: 2, y: 2, z: 0}
     texelSize: {x: .0078125, y: .0078125}
     positions:
-    - {x: -.6484375, y: -.9765625, z: 0}
-    - {x: .703125, y: -.9765625, z: 0}
-    - {x: -.6484375, y: .6328125, z: 0}
-    - {x: .703125, y: .6328125, z: 0}
+    - {x: -.6640625, y: -.9765625, z: 0}
+    - {x: .6875, y: -.9765625, z: 0}
+    - {x: -.6640625, y: .6328125, z: 0}
+    - {x: .6875, y: .6328125, z: 0}
     normals: []
     tangents: []
     uvs:
-    - {x: .339844733, y: .216797858}
-    - {x: .508788109, y: .216797858}
-    - {x: .339844733, y: .417967767}
-    - {x: .508788109, y: .417967767}
+    - {x: .566407204, y: .808594704}
+    - {x: .566407204, y: .977538109}
+    - {x: .767577171, y: .808594704}
+    - {x: .767577171, y: .977538109}
     indices: 000000000300000001000000020000000300000000000000
     material: {fileID: 2100000, guid: a95cec142bbacab4ea24d2565daa611e, type: 2}
     materialId: 0
@@ -223,7 +223,7 @@ MonoBehaviour:
     regionY: 0
     regionW: 0
     regionH: 0
-    flipped: 0
+    flipped: 1
     complexGeometry: 0
     colliderType: 0
     colliderVertices: []
@@ -234,24 +234,24 @@ MonoBehaviour:
     attachPoints: []
   - name: PlayerFrontWalkBlink0001
     boundsData:
-    - {x: .0546875, y: -.1484375, z: 0}
+    - {x: .0390625, y: -.1484375, z: 0}
     - {x: 1.359375, y: 1.65625, z: 0}
     untrimmedBoundsData:
     - {x: 0, y: 0, z: 0}
     - {x: 2, y: 2, z: 0}
     texelSize: {x: .0078125, y: .0078125}
     positions:
-    - {x: -.625, y: -.9765625, z: 0}
-    - {x: .734375, y: -.9765625, z: 0}
-    - {x: -.625, y: .6796875, z: 0}
-    - {x: .734375, y: .6796875, z: 0}
+    - {x: -.640625, y: -.9765625, z: 0}
+    - {x: .71875, y: -.9765625, z: 0}
+    - {x: -.640625, y: .6796875, z: 0}
+    - {x: .71875, y: .6796875, z: 0}
     normals: []
     tangents: []
     uvs:
-    - {x: .00195410149, y: .649415016}
-    - {x: .171874017, y: .649415016}
-    - {x: .00195410149, y: .856444359}
-    - {x: .171874017, y: .856444359}
+    - {x: .170899421, y: .432618171}
+    - {x: .340819329, y: .432618171}
+    - {x: .170899421, y: .639647484}
+    - {x: .340819329, y: .639647484}
     indices: 000000000300000001000000020000000300000000000000
     material: {fileID: 2100000, guid: a95cec142bbacab4ea24d2565daa611e, type: 2}
     materialId: 0
@@ -272,24 +272,24 @@ MonoBehaviour:
     attachPoints: []
   - name: PlayerBackWalk0001
     boundsData:
-    - {x: -.015625, y: -.18359375, z: 0}
+    - {x: -.03125, y: -.18359375, z: 0}
     - {x: 1.40625, y: 1.6171875, z: 0}
     untrimmedBoundsData:
     - {x: 0, y: 0, z: 0}
     - {x: 2, y: 2, z: 0}
     texelSize: {x: .0078125, y: .0078125}
     positions:
-    - {x: -.71875, y: -.9921875, z: 0}
-    - {x: .6875, y: -.9921875, z: 0}
-    - {x: -.71875, y: .625, z: 0}
-    - {x: .6875, y: .625, z: 0}
+    - {x: -.734375, y: -.9921875, z: 0}
+    - {x: .671875, y: -.9921875, z: 0}
+    - {x: -.734375, y: .625, z: 0}
+    - {x: .671875, y: .625, z: 0}
     normals: []
     tangents: []
     uvs:
-    - {x: .00195410149, y: .443360358}
-    - {x: .177733392, y: .443360358}
-    - {x: .00195410149, y: .645506859}
-    - {x: .177733392, y: .645506859}
+    - {x: .00195410149, y: .660157204}
+    - {x: .177733392, y: .660157204}
+    - {x: .00195410149, y: .862303734}
+    - {x: .177733392, y: .862303734}
     indices: 000000000300000001000000020000000300000000000000
     material: {fileID: 2100000, guid: a95cec142bbacab4ea24d2565daa611e, type: 2}
     materialId: 0
@@ -310,24 +310,24 @@ MonoBehaviour:
     attachPoints: []
   - name: PlayerFrontWalk0001
     boundsData:
-    - {x: .0546875, y: -.1484375, z: 0}
+    - {x: .0390625, y: -.1484375, z: 0}
     - {x: 1.359375, y: 1.65625, z: 0}
     untrimmedBoundsData:
     - {x: 0, y: 0, z: 0}
     - {x: 2, y: 2, z: 0}
     texelSize: {x: .0078125, y: .0078125}
     positions:
-    - {x: -.625, y: -.9765625, z: 0}
-    - {x: .734375, y: -.9765625, z: 0}
-    - {x: -.625, y: .6796875, z: 0}
-    - {x: .734375, y: .6796875, z: 0}
+    - {x: -.640625, y: -.9765625, z: 0}
+    - {x: .71875, y: -.9765625, z: 0}
+    - {x: -.640625, y: .6796875, z: 0}
+    - {x: .71875, y: .6796875, z: 0}
     normals: []
     tangents: []
     uvs:
-    - {x: .175782233, y: .649415016}
-    - {x: .345702142, y: .649415016}
-    - {x: .175782233, y: .856444359}
-    - {x: .345702142, y: .856444359}
+    - {x: .342774421, y: .215821296}
+    - {x: .512694359, y: .215821296}
+    - {x: .342774421, y: .422850579}
+    - {x: .512694359, y: .422850579}
     indices: 000000000300000001000000020000000300000000000000
     material: {fileID: 2100000, guid: a95cec142bbacab4ea24d2565daa611e, type: 2}
     materialId: 0
@@ -348,24 +348,24 @@ MonoBehaviour:
     attachPoints: []
   - name: PlayerFrontWalkBlink0000
     boundsData:
-    - {x: .01953125, y: -.16015625, z: 0}
+    - {x: .00390625, y: -.16015625, z: 0}
     - {x: 1.3203125, y: 1.6796875, z: 0}
     untrimmedBoundsData:
     - {x: 0, y: 0, z: 0}
     - {x: 2, y: 2, z: 0}
     texelSize: {x: .0078125, y: .0078125}
     positions:
-    - {x: -.640625, y: -1, z: 0}
-    - {x: .6796875, y: -1, z: 0}
-    - {x: -.640625, y: .6796875, z: 0}
-    - {x: .6796875, y: .6796875, z: 0}
+    - {x: -.65625, y: -1, z: 0}
+    - {x: .6640625, y: -1, z: 0}
+    - {x: -.65625, y: .6796875, z: 0}
+    - {x: .6640625, y: .6796875, z: 0}
     normals: []
     tangents: []
     uvs:
-    - {x: .170899421, y: .216797858}
-    - {x: .335936517, y: .216797858}
-    - {x: .170899421, y: .426756829}
-    - {x: .335936517, y: .426756829}
+    - {x: .344727546, y: .426758796}
+    - {x: .509764671, y: .426758796}
+    - {x: .344727546, y: .636717796}
+    - {x: .509764671, y: .636717796}
     indices: 000000000300000001000000020000000300000000000000
     material: {fileID: 2100000, guid: a95cec142bbacab4ea24d2565daa611e, type: 2}
     materialId: 0
@@ -386,24 +386,24 @@ MonoBehaviour:
     attachPoints: []
   - name: PlayerBackWalk0003
     boundsData:
-    - {x: .00390625, y: -.19921875, z: 0}
+    - {x: -.01171875, y: -.19921875, z: 0}
     - {x: 1.3984375, y: 1.5859375, z: 0}
     untrimmedBoundsData:
     - {x: 0, y: 0, z: 0}
     - {x: 2, y: 2, z: 0}
     texelSize: {x: .0078125, y: .0078125}
     positions:
-    - {x: -.6953125, y: -.9921875, z: 0}
-    - {x: .703125, y: -.9921875, z: 0}
-    - {x: -.6953125, y: .59375, z: 0}
-    - {x: .703125, y: .59375, z: 0}
+    - {x: -.7109375, y: -.9921875, z: 0}
+    - {x: .6875, y: -.9921875, z: 0}
+    - {x: -.7109375, y: .59375, z: 0}
+    - {x: .6875, y: .59375, z: 0}
     normals: []
     tangents: []
     uvs:
-    - {x: .181641608, y: .430665046}
-    - {x: .356444329, y: .430665046}
-    - {x: .181641608, y: .628905296}
-    - {x: .356444329, y: .628905296}
+    - {x: .351563483, y: .640625954}
+    - {x: .526366234, y: .640625954}
+    - {x: .351563483, y: .838866234}
+    - {x: .526366234, y: .838866234}
     indices: 000000000300000001000000020000000300000000000000
     material: {fileID: 2100000, guid: a95cec142bbacab4ea24d2565daa611e, type: 2}
     materialId: 0
@@ -424,24 +424,24 @@ MonoBehaviour:
     attachPoints: []
   - name: PlayerFrontWalk0002
     boundsData:
-    - {x: .01953125, y: -.1328125, z: 0}
+    - {x: .00390625, y: -.1328125, z: 0}
     - {x: 1.3203125, y: 1.734375, z: 0}
     untrimmedBoundsData:
     - {x: 0, y: 0, z: 0}
     - {x: 2, y: 2, z: 0}
     texelSize: {x: .0078125, y: .0078125}
     positions:
-    - {x: -.640625, y: -1, z: 0}
-    - {x: .6796875, y: -1, z: 0}
-    - {x: -.640625, y: .734375, z: 0}
-    - {x: .6796875, y: .734375, z: 0}
+    - {x: -.65625, y: -1, z: 0}
+    - {x: .6640625, y: -1, z: 0}
+    - {x: -.65625, y: .734375, z: 0}
+    - {x: .6640625, y: .734375, z: 0}
     normals: []
     tangents: []
     uvs:
-    - {x: .00195410149, y: .222657233}
-    - {x: .166991204, y: .222657233}
-    - {x: .00195410149, y: .439452142}
-    - {x: .166991204, y: .439452142}
+    - {x: .00195410149, y: .439454108}
+    - {x: .166991204, y: .439454108}
+    - {x: .00195410149, y: .656249046}
+    - {x: .166991204, y: .656249046}
     indices: 000000000300000001000000020000000300000000000000
     material: {fileID: 2100000, guid: a95cec142bbacab4ea24d2565daa611e, type: 2}
     materialId: 0
@@ -462,24 +462,24 @@ MonoBehaviour:
     attachPoints: []
   - name: PlayerBackWalk0000
     boundsData:
-    - {x: .015625, y: -.171875, z: 0}
+    - {x: 0, y: -.171875, z: 0}
     - {x: 1.328125, y: 1.625, z: 0}
     untrimmedBoundsData:
     - {x: 0, y: 0, z: 0}
     - {x: 2, y: 2, z: 0}
     texelSize: {x: .0078125, y: .0078125}
     positions:
-    - {x: -.6484375, y: -.984375, z: 0}
-    - {x: .6796875, y: -.984375, z: 0}
-    - {x: -.6484375, y: .640625, z: 0}
-    - {x: .6796875, y: .640625, z: 0}
+    - {x: -.6640625, y: -.984375, z: 0}
+    - {x: .6640625, y: -.984375, z: 0}
+    - {x: -.6640625, y: .640625, z: 0}
+    - {x: .6640625, y: .640625, z: 0}
     normals: []
     tangents: []
     uvs:
-    - {x: .340821296, y: .00195410149}
-    - {x: .506834984, y: .00195410149}
-    - {x: .340821296, y: .205077142}
-    - {x: .506834984, y: .205077142}
+    - {x: .682618141, y: .168946296}
+    - {x: .682618141, y: .334959954}
+    - {x: .885741234, y: .168946296}
+    - {x: .885741234, y: .334959954}
     indices: 000000000300000001000000020000000300000000000000
     material: {fileID: 2100000, guid: a95cec142bbacab4ea24d2565daa611e, type: 2}
     materialId: 0
@@ -489,7 +489,7 @@ MonoBehaviour:
     regionY: 0
     regionW: 0
     regionH: 0
-    flipped: 0
+    flipped: 1
     complexGeometry: 0
     colliderType: 0
     colliderVertices: []
@@ -500,24 +500,24 @@ MonoBehaviour:
     attachPoints: []
   - name: PlayerSideWalk0000
     boundsData:
-    - {x: -.00390625, y: -.16796875, z: 0}
+    - {x: -.01953125, y: -.16796875, z: 0}
     - {x: 1.2265625, y: 1.6328125, z: 0}
     untrimmedBoundsData:
     - {x: 0, y: 0, z: 0}
     - {x: 2, y: 2, z: 0}
     texelSize: {x: .0078125, y: .0078125}
     positions:
-    - {x: -.6171875, y: -.984375, z: 0}
-    - {x: .609375, y: -.984375, z: 0}
-    - {x: -.6171875, y: .6484375, z: 0}
-    - {x: .609375, y: .6484375, z: 0}
+    - {x: -.6328125, y: -.984375, z: 0}
+    - {x: .59375, y: -.984375, z: 0}
+    - {x: -.6328125, y: .6484375, z: 0}
+    - {x: .59375, y: .6484375, z: 0}
     normals: []
     tangents: []
     uvs:
-    - {x: .516602516, y: .581055641}
-    - {x: .669920921, y: .581055641}
-    - {x: .516602516, y: .785155296}
-    - {x: .669920921, y: .785155296}
+    - {x: .841797829, y: .338868171}
+    - {x: .995116234, y: .338868171}
+    - {x: .841797829, y: .542967796}
+    - {x: .995116234, y: .542967796}
     indices: 000000000300000001000000020000000300000000000000
     material: {fileID: 2100000, guid: a95cec142bbacab4ea24d2565daa611e, type: 2}
     materialId: 0
@@ -538,24 +538,24 @@ MonoBehaviour:
     attachPoints: []
   - name: PlayerSideWalkBlink0003
     boundsData:
-    - {x: .0234375, y: -.17578125, z: 0}
+    - {x: .0078125, y: -.17578125, z: 0}
     - {x: 1.234375, y: 1.6484375, z: 0}
     untrimmedBoundsData:
     - {x: 0, y: 0, z: 0}
     - {x: 2, y: 2, z: 0}
     texelSize: {x: .0078125, y: .0078125}
     positions:
-    - {x: -.59375, y: -1, z: 0}
-    - {x: .640625, y: -1, z: 0}
-    - {x: -.59375, y: .6484375, z: 0}
-    - {x: .640625, y: .6484375, z: 0}
+    - {x: -.609375, y: -1, z: 0}
+    - {x: .625, y: -1, z: 0}
+    - {x: -.609375, y: .6484375, z: 0}
+    - {x: .625, y: .6484375, z: 0}
     normals: []
     tangents: []
     uvs:
-    - {x: .512696266, y: .211915046}
-    - {x: .666991234, y: .211915046}
-    - {x: .512696266, y: .417967767}
-    - {x: .666991234, y: .417967767}
+    - {x: .743165016, y: .553711891}
+    - {x: .897459984, y: .553711891}
+    - {x: .743165016, y: .759764671}
+    - {x: .897459984, y: .759764671}
     indices: 000000000300000001000000020000000300000000000000
     material: {fileID: 2100000, guid: a95cec142bbacab4ea24d2565daa611e, type: 2}
     materialId: 0
@@ -576,24 +576,24 @@ MonoBehaviour:
     attachPoints: []
   - name: PlayerSideWalk0002
     boundsData:
-    - {x: -.00390625, y: -.1484375, z: 0}
+    - {x: -.01953125, y: -.1484375, z: 0}
     - {x: 1.2421875, y: 1.6875, z: 0}
     untrimmedBoundsData:
     - {x: 0, y: 0, z: 0}
     - {x: 2, y: 2, z: 0}
     texelSize: {x: .0078125, y: .0078125}
     positions:
-    - {x: -.625, y: -.9921875, z: 0}
-    - {x: .6171875, y: -.9921875, z: 0}
-    - {x: -.625, y: .6953125, z: 0}
-    - {x: .6171875, y: .6953125, z: 0}
+    - {x: -.640625, y: -.9921875, z: 0}
+    - {x: .6015625, y: -.9921875, z: 0}
+    - {x: -.640625, y: .6953125, z: 0}
+    - {x: .6015625, y: .6953125, z: 0}
     normals: []
     tangents: []
     uvs:
-    - {x: .349610358, y: .842774391}
-    - {x: .349610358, y: .998045921}
-    - {x: .560545921, y: .842774391}
-    - {x: .560545921, y: .998045921}
+    - {x: .351563483, y: .842774391}
+    - {x: .351563483, y: .998045921}
+    - {x: .562499046, y: .842774391}
+    - {x: .562499046, y: .998045921}
     indices: 000000000300000001000000020000000300000000000000
     material: {fileID: 2100000, guid: a95cec142bbacab4ea24d2565daa611e, type: 2}
     materialId: 0
@@ -614,24 +614,24 @@ MonoBehaviour:
     attachPoints: []
   - name: PlayerSideWalkBlink0001
     boundsData:
-    - {x: .01953125, y: -.17578125, z: 0}
+    - {x: .00390625, y: -.17578125, z: 0}
     - {x: 1.3046875, y: 1.6484375, z: 0}
     untrimmedBoundsData:
     - {x: 0, y: 0, z: 0}
     - {x: 2, y: 2, z: 0}
     texelSize: {x: .0078125, y: .0078125}
     positions:
-    - {x: -.6328125, y: -1, z: 0}
-    - {x: .671875, y: -1, z: 0}
-    - {x: -.6328125, y: .6484375, z: 0}
-    - {x: .671875, y: .6484375, z: 0}
+    - {x: -.6484375, y: -1, z: 0}
+    - {x: .65625, y: -1, z: 0}
+    - {x: -.6484375, y: .6484375, z: 0}
+    - {x: .65625, y: .6484375, z: 0}
     normals: []
     tangents: []
     uvs:
-    - {x: .510743141, y: .00195410149}
-    - {x: .673827171, y: .00195410149}
-    - {x: .510743141, y: .208006829}
-    - {x: .673827171, y: .208006829}
+    - {x: .566407204, y: .00195410149}
+    - {x: .566407204, y: .165038079}
+    - {x: .772459984, y: .00195410149}
+    - {x: .772459984, y: .165038079}
     indices: 000000000300000001000000020000000300000000000000
     material: {fileID: 2100000, guid: a95cec142bbacab4ea24d2565daa611e, type: 2}
     materialId: 0
@@ -641,7 +641,7 @@ MonoBehaviour:
     regionY: 0
     regionW: 0
     regionH: 0
-    flipped: 0
+    flipped: 1
     complexGeometry: 0
     colliderType: 0
     colliderVertices: []
@@ -652,24 +652,24 @@ MonoBehaviour:
     attachPoints: []
   - name: PlayerSideWalk0001
     boundsData:
-    - {x: .01953125, y: -.17578125, z: 0}
+    - {x: .00390625, y: -.17578125, z: 0}
     - {x: 1.3046875, y: 1.6484375, z: 0}
     untrimmedBoundsData:
     - {x: 0, y: 0, z: 0}
     - {x: 2, y: 2, z: 0}
     texelSize: {x: .0078125, y: .0078125}
     positions:
-    - {x: -.6328125, y: -1, z: 0}
-    - {x: .671875, y: -1, z: 0}
-    - {x: -.6328125, y: .6484375, z: 0}
-    - {x: .671875, y: .6484375, z: 0}
+    - {x: -.6484375, y: -1, z: 0}
+    - {x: .65625, y: -1, z: 0}
+    - {x: -.6484375, y: .6484375, z: 0}
+    - {x: .65625, y: .6484375, z: 0}
     normals: []
     tangents: []
     uvs:
-    - {x: .349610358, y: .632813454}
-    - {x: .512694359, y: .632813454}
-    - {x: .349610358, y: .838866234}
-    - {x: .512694359, y: .838866234}
+    - {x: .776368141, y: .00195410149}
+    - {x: .776368141, y: .165038079}
+    - {x: .982420921, y: .00195410149}
+    - {x: .982420921, y: .165038079}
     indices: 000000000300000001000000020000000300000000000000
     material: {fileID: 2100000, guid: a95cec142bbacab4ea24d2565daa611e, type: 2}
     materialId: 0
@@ -679,7 +679,7 @@ MonoBehaviour:
     regionY: 0
     regionW: 0
     regionH: 0
-    flipped: 0
+    flipped: 1
     complexGeometry: 0
     colliderType: 0
     colliderVertices: []
@@ -690,24 +690,24 @@ MonoBehaviour:
     attachPoints: []
   - name: PlayerSideWalk0003
     boundsData:
-    - {x: .0234375, y: -.17578125, z: 0}
+    - {x: .0078125, y: -.17578125, z: 0}
     - {x: 1.234375, y: 1.6484375, z: 0}
     untrimmedBoundsData:
     - {x: 0, y: 0, z: 0}
     - {x: 2, y: 2, z: 0}
     texelSize: {x: .0078125, y: .0078125}
     positions:
-    - {x: -.59375, y: -1, z: 0}
-    - {x: .640625, y: -1, z: 0}
-    - {x: -.59375, y: .6484375, z: 0}
-    - {x: .640625, y: .6484375, z: 0}
+    - {x: -.609375, y: -1, z: 0}
+    - {x: .625, y: -1, z: 0}
+    - {x: -.609375, y: .6484375, z: 0}
+    - {x: .625, y: .6484375, z: 0}
     normals: []
     tangents: []
     uvs:
-    - {x: .512696266, y: .211915046}
-    - {x: .666991234, y: .211915046}
-    - {x: .512696266, y: .417967767}
-    - {x: .666991234, y: .417967767}
+    - {x: .743165016, y: .553711891}
+    - {x: .897459984, y: .553711891}
+    - {x: .743165016, y: .759764671}
+    - {x: .897459984, y: .759764671}
     indices: 000000000300000001000000020000000300000000000000
     material: {fileID: 2100000, guid: a95cec142bbacab4ea24d2565daa611e, type: 2}
     materialId: 0
@@ -728,28 +728,256 @@ MonoBehaviour:
     attachPoints: []
   - name: PlayerSideWalkBlink0002
     boundsData:
-    - {x: -.00390625, y: -.1484375, z: 0}
+    - {x: -.01953125, y: -.1484375, z: 0}
     - {x: 1.2421875, y: 1.6875, z: 0}
     untrimmedBoundsData:
     - {x: 0, y: 0, z: 0}
     - {x: 2, y: 2, z: 0}
     texelSize: {x: .0078125, y: .0078125}
     positions:
-    - {x: -.625, y: -.9921875, z: 0}
-    - {x: .6171875, y: -.9921875, z: 0}
-    - {x: -.625, y: .6953125, z: 0}
-    - {x: .6171875, y: .6953125, z: 0}
+    - {x: -.640625, y: -.9921875, z: 0}
+    - {x: .6015625, y: -.9921875, z: 0}
+    - {x: -.640625, y: .6953125, z: 0}
+    - {x: .6015625, y: .6953125, z: 0}
     normals: []
     tangents: []
     uvs:
-    - {x: .360352546, y: .421875983}
-    - {x: .360352546, y: .577147484}
-    - {x: .571288109, y: .421875983}
-    - {x: .571288109, y: .577147484}
+    - {x: .682618141, y: .338868171}
+    - {x: .837889671, y: .338868171}
+    - {x: .682618141, y: .549803734}
+    - {x: .837889671, y: .549803734}
     indices: 000000000300000001000000020000000300000000000000
     material: {fileID: 2100000, guid: a95cec142bbacab4ea24d2565daa611e, type: 2}
     materialId: 0
     sourceTextureGUID: 92f87c4b2e24dc045ae5f6407d09677c
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    attachPoints: []
+  - name: PlayerSideWalkBlink0000
+    boundsData:
+    - {x: -.01953125, y: -.16796875, z: 0}
+    - {x: 1.2265625, y: 1.6328125, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 2, y: 2, z: 0}
+    texelSize: {x: .0078125, y: .0078125}
+    positions:
+    - {x: -.6328125, y: -.984375, z: 0}
+    - {x: .59375, y: -.984375, z: 0}
+    - {x: -.6328125, y: .6484375, z: 0}
+    - {x: .59375, y: .6484375, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .841797829, y: .338868171}
+    - {x: .995116234, y: .338868171}
+    - {x: .841797829, y: .542967796}
+    - {x: .995116234, y: .542967796}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: a95cec142bbacab4ea24d2565daa611e, type: 2}
+    materialId: 0
+    sourceTextureGUID: ca99303883aa5ba4082f4f865c490eb9
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    attachPoints: []
+  - name: PlayerFrontIdleBlink0001
+    boundsData:
+    - {x: .015625, y: -.1484375, z: 0}
+    - {x: 1.375, y: 1.703125, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 2, y: 2, z: 0}
+    texelSize: {x: .0078125, y: .0078125}
+    positions:
+    - {x: -.671875, y: -1, z: 0}
+    - {x: .703125, y: -1, z: 0}
+    - {x: -.671875, y: .703125, z: 0}
+    - {x: .703125, y: .703125, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .00195410149, y: .00195410149}
+    - {x: .173827142, y: .00195410149}
+    - {x: .00195410149, y: .214842767}
+    - {x: .173827142, y: .214842767}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: a95cec142bbacab4ea24d2565daa611e, type: 2}
+    materialId: 0
+    sourceTextureGUID: 08d98dec5a3e7514e8789eab0e5fa370
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    attachPoints: []
+  - name: PlayerFrontIdleBlink0002
+    boundsData:
+    - {x: .0078125, y: -.16015625, z: 0}
+    - {x: 1.34375, y: 1.6796875, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 2, y: 2, z: 0}
+    texelSize: {x: .0078125, y: .0078125}
+    positions:
+    - {x: -.6640625, y: -1, z: 0}
+    - {x: .6796875, y: -1, z: 0}
+    - {x: -.6640625, y: .6796875, z: 0}
+    - {x: .6796875, y: .6796875, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .170899421, y: .218750983}
+    - {x: .338866204, y: .218750983}
+    - {x: .170899421, y: .428709954}
+    - {x: .338866204, y: .428709954}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: a95cec142bbacab4ea24d2565daa611e, type: 2}
+    materialId: 0
+    sourceTextureGUID: 385e6bb248e240b4988e0f89a145c0b6
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    attachPoints: []
+  - name: PlayerFrontIdle0003
+    boundsData:
+    - {x: .00390625, y: -.1640625, z: 0}
+    - {x: 1.3203125, y: 1.671875, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 2, y: 2, z: 0}
+    texelSize: {x: .0078125, y: .0078125}
+    positions:
+    - {x: -.65625, y: -1, z: 0}
+    - {x: .6640625, y: -1, z: 0}
+    - {x: -.65625, y: .671875, z: 0}
+    - {x: .6640625, y: .671875, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .513672829, y: .426758796}
+    - {x: .678709984, y: .426758796}
+    - {x: .513672829, y: .635741234}
+    - {x: .678709984, y: .635741234}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: a95cec142bbacab4ea24d2565daa611e, type: 2}
+    materialId: 0
+    sourceTextureGUID: 43a50e4202801e34e804ac5475f600a3
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    attachPoints: []
+  - name: PlayerFrontIdle0004
+    boundsData:
+    - {x: .0078125, y: -.16796875, z: 0}
+    - {x: 1.296875, y: 1.6640625, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 2, y: 2, z: 0}
+    texelSize: {x: .0078125, y: .0078125}
+    positions:
+    - {x: -.640625, y: -1, z: 0}
+    - {x: .65625, y: -1, z: 0}
+    - {x: -.640625, y: .6640625, z: 0}
+    - {x: .65625, y: .6640625, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .516602516, y: .170899421}
+    - {x: .678709984, y: .170899421}
+    - {x: .516602516, y: .378905267}
+    - {x: .678709984, y: .378905267}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: a95cec142bbacab4ea24d2565daa611e, type: 2}
+    materialId: 0
+    sourceTextureGUID: 4ab1fe9717179e14dacac0cacb6f8b21
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    attachPoints: []
+  - name: PlayerFrontIdleBlink0003
+    boundsData:
+    - {x: .00390625, y: -.1640625, z: 0}
+    - {x: 1.3203125, y: 1.671875, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 2, y: 2, z: 0}
+    texelSize: {x: .0078125, y: .0078125}
+    positions:
+    - {x: -.65625, y: -1, z: 0}
+    - {x: .6640625, y: -1, z: 0}
+    - {x: -.65625, y: .671875, z: 0}
+    - {x: .6640625, y: .671875, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .530274391, y: .639649391}
+    - {x: .530274391, y: .804686546}
+    - {x: .739256859, y: .639649391}
+    - {x: .739256859, y: .804686546}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: a95cec142bbacab4ea24d2565daa611e, type: 2}
+    materialId: 0
+    sourceTextureGUID: 542aedcb6ff942444a799c716a2d9788
     extractRegion: 0
     regionX: 0
     regionY: 0
@@ -764,30 +992,182 @@ MonoBehaviour:
     colliderConvex: 0
     colliderSmoothSphereCollisions: 0
     attachPoints: []
-  - name: PlayerSideWalkBlink0000
+  - name: PlayerFrontIdle0002
     boundsData:
-    - {x: -.00390625, y: -.16796875, z: 0}
-    - {x: 1.2265625, y: 1.6328125, z: 0}
+    - {x: .0078125, y: -.16015625, z: 0}
+    - {x: 1.34375, y: 1.6796875, z: 0}
     untrimmedBoundsData:
     - {x: 0, y: 0, z: 0}
     - {x: 2, y: 2, z: 0}
     texelSize: {x: .0078125, y: .0078125}
     positions:
-    - {x: -.6171875, y: -.984375, z: 0}
-    - {x: .609375, y: -.984375, z: 0}
-    - {x: -.6171875, y: .6484375, z: 0}
-    - {x: .609375, y: .6484375, z: 0}
+    - {x: -.6640625, y: -1, z: 0}
+    - {x: .6796875, y: -1, z: 0}
+    - {x: -.6640625, y: .6796875, z: 0}
+    - {x: .6796875, y: .6796875, z: 0}
     normals: []
     tangents: []
     uvs:
-    - {x: .516602516, y: .581055641}
-    - {x: .669920921, y: .581055641}
-    - {x: .516602516, y: .785155296}
-    - {x: .669920921, y: .785155296}
+    - {x: .177735358, y: .00195410149}
+    - {x: .345702142, y: .00195410149}
+    - {x: .177735358, y: .211913079}
+    - {x: .345702142, y: .211913079}
     indices: 000000000300000001000000020000000300000000000000
     material: {fileID: 2100000, guid: a95cec142bbacab4ea24d2565daa611e, type: 2}
     materialId: 0
-    sourceTextureGUID: ca99303883aa5ba4082f4f865c490eb9
+    sourceTextureGUID: 5f9c85214a103ea42b7089d88c4c002e
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    attachPoints: []
+  - name: PlayerFrontIdle0000
+    boundsData:
+    - {x: .00390625, y: -.1484375, z: 0}
+    - {x: 1.3203125, y: 1.703125, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 2, y: 2, z: 0}
+    texelSize: {x: .0078125, y: .0078125}
+    positions:
+    - {x: -.65625, y: -1, z: 0}
+    - {x: .6640625, y: -1, z: 0}
+    - {x: -.65625, y: .703125, z: 0}
+    - {x: .6640625, y: .703125, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .349610358, y: .00195410149}
+    - {x: .349610358, y: .166991204}
+    - {x: .562499046, y: .00195410149}
+    - {x: .562499046, y: .166991204}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: a95cec142bbacab4ea24d2565daa611e, type: 2}
+    materialId: 0
+    sourceTextureGUID: 605490bcbe81390418eb5b5840f4ffe1
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    attachPoints: []
+  - name: PlayerFrontIdleBlink0000
+    boundsData:
+    - {x: .00390625, y: -.1484375, z: 0}
+    - {x: 1.3203125, y: 1.703125, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 2, y: 2, z: 0}
+    texelSize: {x: .0078125, y: .0078125}
+    positions:
+    - {x: -.65625, y: -1, z: 0}
+    - {x: .6640625, y: -1, z: 0}
+    - {x: -.65625, y: .703125, z: 0}
+    - {x: .6640625, y: .703125, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .349610358, y: .00195410149}
+    - {x: .349610358, y: .166991204}
+    - {x: .562499046, y: .00195410149}
+    - {x: .562499046, y: .166991204}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: a95cec142bbacab4ea24d2565daa611e, type: 2}
+    materialId: 0
+    sourceTextureGUID: bb453277100927d4c927e6901c303caf
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    attachPoints: []
+  - name: PlayerFrontIdleBlink0004
+    boundsData:
+    - {x: .0078125, y: -.16796875, z: 0}
+    - {x: 1.296875, y: 1.6640625, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 2, y: 2, z: 0}
+    texelSize: {x: .0078125, y: .0078125}
+    positions:
+    - {x: -.640625, y: -1, z: 0}
+    - {x: .65625, y: -1, z: 0}
+    - {x: -.640625, y: .6640625, z: 0}
+    - {x: .65625, y: .6640625, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .516602516, y: .170899421}
+    - {x: .678709984, y: .170899421}
+    - {x: .516602516, y: .378905267}
+    - {x: .678709984, y: .378905267}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: a95cec142bbacab4ea24d2565daa611e, type: 2}
+    materialId: 0
+    sourceTextureGUID: c529506995a5fe3448489a2d15efe140
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    attachPoints: []
+  - name: PlayerFrontIdle0001
+    boundsData:
+    - {x: .015625, y: -.1484375, z: 0}
+    - {x: 1.375, y: 1.703125, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 2, y: 2, z: 0}
+    texelSize: {x: .0078125, y: .0078125}
+    positions:
+    - {x: -.671875, y: -1, z: 0}
+    - {x: .703125, y: -1, z: 0}
+    - {x: -.671875, y: .703125, z: 0}
+    - {x: .703125, y: .703125, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .00195410149, y: .00195410149}
+    - {x: .173827142, y: .00195410149}
+    - {x: .00195410149, y: .214842767}
+    - {x: .173827142, y: .214842767}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: a95cec142bbacab4ea24d2565daa611e, type: 2}
+    materialId: 0
+    sourceTextureGUID: fe6cb3df88fec8f42a0d59265e2c1d4e
     extractRegion: 0
     regionX: 0
     regionY: 0
@@ -815,7 +1195,7 @@ MonoBehaviour:
   loadable: 0
   invOrthoSize: 2
   halfTargetHeight: 64
-  buildKey: 281231242
+  buildKey: 987742624
   dataGuid: ca13771f86c5bc14fa9a29f3e6c36194
   managedSpriteCollection: 0
   hasPlatformData: 0

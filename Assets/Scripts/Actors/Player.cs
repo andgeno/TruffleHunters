@@ -13,14 +13,13 @@ public class Player : Singleton<Player>
 	CharacterController controller;
 	tk2dSpriteAnimator animator;
 	
-	enum State { None, Idle, Walk }
+	enum State { None, Idle, Walk, Lift }
 	State state = State.None;
 	Vector3 inputAxis;
 	Vector3 moveAxis;
 	Vector3 velocity;
 	Carryable carrying;
 	Vector3 aimDirection;
-	
 	
 	protected override void Awake ()
 	{
@@ -70,7 +69,7 @@ public class Player : Singleton<Player>
 			if (TryAccelerate())
 				yield return SetState(State.Walk);
 			if (TryCarry())
-				yield return 0;
+				yield return SetState(State.Lift);
 			if (TryThrow())
 				yield return 0;
 			yield return 0;	
@@ -88,11 +87,27 @@ public class Player : Singleton<Player>
 			if (!TryAccelerate())
 				yield return SetState(State.Idle);
 			if (TryCarry())
-				yield return 0;
+				yield return SetState(State.Lift);
 			if (TryThrow())
 				yield return 0;
 			yield return 0;
 		}
+	}
+	
+	IEnumerator Lift()
+	{
+		animator.AnimationCompleted = LiftEnd;
+		animator.Play("PlayerLiftFront");
+		while (true)
+			yield return 0;
+	}
+	
+	void LiftEnd(tk2dSpriteAnimator animator, tk2dSpriteAnimationClip clip)
+	{
+		Debug.Log("Lift end");
+		animator.AnimationCompleted = null;
+		carrying.StartCarry(transform);
+		SetState(State.Idle);
 	}
 	
 	void PlayAnim(string prefix)
@@ -149,7 +164,7 @@ public class Player : Singleton<Player>
 				if (carryable != null)
 				{
 					carrying = carryable;
-					carrying.StartCarry(transform);
+					//carrying.StartCarry(transform);
 					return true;
 				}
 			}

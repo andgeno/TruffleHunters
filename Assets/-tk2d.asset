@@ -215,6 +215,10 @@ MonoBehaviour:
     - PlayerSideIdle0002
     - PlayerSideIdle0001
     - PlayerSideIdleBlink0003
+    - PlayerFrontPickup0003
+    - PlayerFrontPickup0000
+    - PlayerFrontPickup0002
+    - PlayerFrontPickup0001
     spriteTextureGUIDs:
     - 2bde35eb4833ac84f8f17e13481ef9be
     - 36329d8d986903345b45f4da14c8a0b1
@@ -261,6 +265,10 @@ MonoBehaviour:
     - c6aeeb8c22a31b34fa89926719c7064f
     - d9e6e07f224c3044da96ccd5179d912b
     - f579a4eb24a236c408cfe4f734150e1b
+    - 1b1a23ce4cbcfd744ac55abfb449c791
+    - 25234b0f342adf046bcd085ebb253c3a
+    - ae4867b529b5e3140a95d4cb57e04d0b
+    - d3af51a3404a3804088a4188b7514630
     spriteTextureTimeStamps:
     - 1380521809.9978
     - 1380521810.0038
@@ -307,6 +315,10 @@ MonoBehaviour:
     - 1380529056.00825
     - 1380529056.00825
     - 1380529056.01225
+    - 1380569154.26574
+    - 1380569154.26374
+    - 1380569154.26474
+    - 1380569154.26474
     managedSpriteCollection: 0
     loadable: 0
     assetName: 

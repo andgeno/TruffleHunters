@@ -55,7 +55,8 @@ public class Pig : MonoBehaviour
 	IEnumerator Throw(Vector3 target)
 	{
 		var distance = Vector3.Distance(transform.position, target);
-		var control = Calc.BezierControl(transform.position, target, distance);
+		var heightMult = 0.5f;
+		var control = Calc.BezierControl(transform.position, target, distance * heightMult);
 		yield return StartCoroutine(transform.CurveTo(control, target, 0.5f));
 		SetState(State.Idle);
 	}

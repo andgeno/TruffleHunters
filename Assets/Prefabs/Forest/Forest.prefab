@@ -242,15 +242,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e96244e90339d6747910555400dfbe36, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  size: {x: 20, y: 30}
+  size: {x: 30, y: 40}
+  perlinScale: .119000003
   treeThreshold: .333000004
-  treePerlinScale: .115999997
   treeInnerPercentage: .774999976
   treeOuterPercentage: .0450000018
-  fencePadding: {x: 6, y: 6}
+  fencePadding: {x: 8, y: 8}
   hFencePerMeter: 3.20000005
   vFencePerMeter: 2
   grassTurfPerMeter: .100000001
+  totalMushrooms: 20
   playerPrefab: {fileID: 400004, guid: 599ae8f61e075f44cbf30307ef12bb1b, type: 2}
   ground: {fileID: 11400002}
   treePrefab: {fileID: 400006, guid: e5b7ccf0ae8a7c94e8e9068496cd988e, type: 2}
@@ -261,6 +262,8 @@ MonoBehaviour:
   vFencePrefab: {fileID: 400006, guid: 81e01d1672bb63841bcfefba1ca10160, type: 2}
   grassTurfPrefab: {fileID: 400002, guid: 65c99d6cbc8ea2f49b7d2d8f63ab2eed, type: 2}
   gatePrefab: {fileID: 400000, guid: d80c4f7ccd883af4aa5ecacfabede219, type: 2}
+  mushroomPrefab: {fileID: 400002, guid: 4ce53c819e820704da1e40f32dfb533a, type: 2}
+  exitFarmPrefab: {fileID: 0}
   treeRoot: {fileID: 400010}
   rockRoot: {fileID: 400008}
   grassRoot: {fileID: 400006}

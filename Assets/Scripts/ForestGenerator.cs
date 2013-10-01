@@ -1,23 +1,28 @@
 ﻿using UnityEngine;
 using System.Collections;
+using System.Collections.Generic;
 
 public class ForestGenerator : MonoBehaviour 
 {
 	
+	// generation details
 	public Vector2 size;
+	[Range(0f, 1f)] public float perlinScale;
 	[Range(0f, 1f)] public float treeThreshold;
-	[Range(0f, 1f)] public float treePerlinScale;
 	[Range(0f, 1f)] public float treeInnerPercentage;
 	[Range(0f, 1f)] public float treeOuterPercentage;
 	
+	// amount of stuff
 	public Vector2 fencePadding;
 	public float hFencePerMeter;
 	public float vFencePerMeter;
-	
 	public float grassTurfPerMeter;
 	
-	public Transform playerPrefab;
+	// mushrooms
+	public int totalMushrooms;
 	
+	// prefabs
+	public Transform playerPrefab;
 	public PolyMesh ground;
 	public Transform treePrefab;
 	public Transform deadTreePrefab;
@@ -27,14 +32,22 @@ public class ForestGenerator : MonoBehaviour
 	public Transform vFencePrefab;
 	public Transform grassTurfPrefab;
 	public Transform gatePrefab;
+	public Transform mushroomPrefab;
+	public Transform exitFarmPrefab;
 	
+	// roots
 	public Transform treeRoot;
 	public Transform rockRoot;
 	public Transform grassRoot;
 	public Transform fenceRoot;
 	
+	// internal
+	Vector2 perlinOffset;
+	
 	void Awake()
 	{
+		perlinOffset = new Vector2(Rand.Float(10000), Rand.Float(10000));
+		
 		// spawn the player
 		playerPrefab.Spawn(new Vector3(0, 0, size.y - fencePadding.y));
 	}
@@ -47,10 +60,10 @@ public class ForestGenerator : MonoBehaviour
 	IEnumerator Generate()
 	{
 		// generate the ground
-		ground.keyPoints[0] = new Vector3(size.x, size.y);
-		ground.keyPoints[1] = new Vector3(size.x , -size.y);
-		ground.keyPoints[2] = new Vector3(-size.x, -size.y);
-		ground.keyPoints[3] = new Vector3(-size.x, size.y);
+		ground.keyPoints[0] = new Vector3(size.x + 20, size.y + 20);
+		ground.keyPoints[1] = new Vector3(size.x + 20 , -size.y - 20);
+		ground.keyPoints[2] = new Vector3(-size.x - 20, -size.y - 20);
+		ground.keyPoints[3] = new Vector3(-size.x - 20, size.y + 20);
 		ground.BuildMesh();
 		
 		// top perimeter
@@ -77,13 +90,15 @@ public class ForestGenerator : MonoBehaviour
 			vFencePrefab.Spawn(new Vector3(2, 0, size.y - i)).parent = fenceRoot;	
 		}
 		
+		// exit
+		exitFarmPrefab.Spawn(new Vector3(0, 0, size.y));
+		
 		gatePrefab.Spawn (new Vector3(-1.5f, 0, size.y));
 		
-		// generate trees
-		Vector2 treePerlinOffset = new Vector2(Rand.Float(10000), Rand.Float(10000));
+		// generate trees and rocks
 		for (float i = -size.x; i < size.x; i ++)
 		{
-			for (float j = - size.y; j < size.y; j += 2)
+			for (float j = - size.y; j < size.y + 20; j += 2)
 			{
 				// don't spawn near entrance
 				if (!(j > size.y - 20 && i > -4 && i < 4))
@@ -98,7 +113,7 @@ public class ForestGenerator : MonoBehaviour
 						&& (j < -size.y + fencePadding.y - fenceDistY || j > -size.y + fencePadding.y + fenceDistY)
 						&& (j < size.y - fencePadding.y - fenceDistY || j > size.y - fencePadding.y + fenceDistY))
 					{
-						float sample = Mathf.PerlinNoise(treePerlinOffset.x + i * treePerlinScale, treePerlinOffset.y + j * treePerlinScale);
+						float sample = GetPerlinSample(i, j);
 						Vector3 stagger = new Vector3(Rand.Float(-0.50f, 0.50f), 0, Rand.Float(-0.50f, 0.50f));
 						
 						if (treeThreshold > sample)
@@ -122,9 +137,43 @@ public class ForestGenerator : MonoBehaviour
 		// place random grass turf
 		float grassTurfCount = size.x * 2 * size.y * 2 * grassTurfPerMeter;
 		for (int i = 0; i < grassTurfCount; i ++)
-			grassTurfPrefab.Spawn(new Vector3(Rand.Float(-size.x, size.x), 0, Rand.Float(-size.y, size.y))).parent = grassRoot;
+			grassTurfPrefab.Spawn(new Vector3(Rand.Float(-size.x, size.x), -.25f, Rand.Float(-size.y, size.y))).parent = grassRoot;
+		
+		// generate mushroom areas
+		List<Vector3> mushroomSpawns = new List<Vector3>();
+		
+		for (float i = -size.x + fencePadding.x; i < size.x - fencePadding.x; i += 1)
+		{
+			for (float j = -size.y + fencePadding.y; j < size.y - fencePadding.y; j += 2)
+			{
+				// don't spawn in entrance
+				if (!(j > size.y - 20 && i > -6 && i < 6))
+				{
+					// only spawn mushrooms in non-tree areas
+					float sample = GetPerlinSample(i, j);
+					float difference = Mathf.Abs(sample - treeThreshold);
+					if (treeThreshold < sample && (difference > 0.05f && difference < 0.2f))
+					{
+						mushroomSpawns.Add (new Vector3(i, 0, j));
+					}
+				}
+			}
+		}
+		
+		// place the mushrooms
+		for (int i = 0; i < totalMushrooms && mushroomSpawns.Count > 0; i ++)
+		{
+			Vector3 spawn = mushroomSpawns.Choose();
+			mushroomSpawns.Remove(spawn);
+			mushroomPrefab.Spawn(spawn);
+		}
 		
 		yield return 0;
+	}
+	
+	float GetPerlinSample(float x, float y)
+	{
+		return Mathf.PerlinNoise(perlinOffset.x + x * perlinScale, perlinOffset.y + y * perlinScale);	
 	}
 	
 	void SetTree(Vector3 position)
@@ -132,8 +181,8 @@ public class ForestGenerator : MonoBehaviour
 		if (Rand.Chance(0.90f))
 			treePrefab.Spawn(position).parent = treeRoot;
 		else if (Rand.Chance(0.50f))
-			deadTreePrefab.Spawn(position).parent = treeRoot;
+			deadTreePrefab.Spawn(position + new Vector3(0, -0.15f)).parent = treeRoot;
 		else
-			stumpPrefab.Spawn(position).parent = treeRoot;
+			stumpPrefab.Spawn(position + new Vector3(0, -0.22f)).parent = treeRoot;
 	}
 }

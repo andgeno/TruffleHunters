@@ -39,53 +39,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   clips:
-  - name: PigSideIdle
+  - name: PigIdleSide
     frames:
     - spriteCollection: {fileID: 11400000, guid: 26062ddd8c3ee1042ab9157a5bfd20db,
         type: 2}
-      spriteId: 5
+      spriteId: 34
       triggerEvent: 0
       eventInfo: 
       eventInt: 0
       eventFloat: 0
     - spriteCollection: {fileID: 11400000, guid: 26062ddd8c3ee1042ab9157a5bfd20db,
         type: 2}
-      spriteId: 23
-      triggerEvent: 0
-      eventInfo: 
-      eventInt: 0
-      eventFloat: 0
-    - spriteCollection: {fileID: 11400000, guid: 26062ddd8c3ee1042ab9157a5bfd20db,
-        type: 2}
-      spriteId: 24
-      triggerEvent: 0
-      eventInfo: 
-      eventInt: 0
-      eventFloat: 0
-    - spriteCollection: {fileID: 11400000, guid: 26062ddd8c3ee1042ab9157a5bfd20db,
-        type: 2}
-      spriteId: 0
-      triggerEvent: 0
-      eventInfo: 
-      eventInt: 0
-      eventFloat: 0
-    - spriteCollection: {fileID: 11400000, guid: 26062ddd8c3ee1042ab9157a5bfd20db,
-        type: 2}
-      spriteId: 11
-      triggerEvent: 0
-      eventInfo: 
-      eventInt: 0
-      eventFloat: 0
-    - spriteCollection: {fileID: 11400000, guid: 26062ddd8c3ee1042ab9157a5bfd20db,
-        type: 2}
-      spriteId: 5
-      triggerEvent: 0
-      eventInfo: 
-      eventInt: 0
-      eventFloat: 0
-    - spriteCollection: {fileID: 11400000, guid: 26062ddd8c3ee1042ab9157a5bfd20db,
-        type: 2}
-      spriteId: 23
+      spriteId: 2
       triggerEvent: 0
       eventInfo: 
       eventInt: 0
@@ -99,6 +64,13 @@ MonoBehaviour:
       eventFloat: 0
     - spriteCollection: {fileID: 11400000, guid: 26062ddd8c3ee1042ab9157a5bfd20db,
         type: 2}
+      spriteId: 3
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+    - spriteCollection: {fileID: 11400000, guid: 26062ddd8c3ee1042ab9157a5bfd20db,
+        type: 2}
       spriteId: 0
       triggerEvent: 0
       eventInfo: 
@@ -106,35 +78,42 @@ MonoBehaviour:
       eventFloat: 0
     - spriteCollection: {fileID: 11400000, guid: 26062ddd8c3ee1042ab9157a5bfd20db,
         type: 2}
-      spriteId: 11
+      spriteId: 34
       triggerEvent: 0
       eventInfo: 
       eventInt: 0
       eventFloat: 0
     - spriteCollection: {fileID: 11400000, guid: 26062ddd8c3ee1042ab9157a5bfd20db,
         type: 2}
-      spriteId: 1
+      spriteId: 2
       triggerEvent: 0
       eventInfo: 
       eventInt: 0
       eventFloat: 0
     - spriteCollection: {fileID: 11400000, guid: 26062ddd8c3ee1042ab9157a5bfd20db,
         type: 2}
-      spriteId: 25
+      spriteId: 24
       triggerEvent: 0
       eventInfo: 
       eventInt: 0
       eventFloat: 0
     - spriteCollection: {fileID: 11400000, guid: 26062ddd8c3ee1042ab9157a5bfd20db,
         type: 2}
-      spriteId: 26
+      spriteId: 3
       triggerEvent: 0
       eventInfo: 
       eventInt: 0
       eventFloat: 0
     - spriteCollection: {fileID: 11400000, guid: 26062ddd8c3ee1042ab9157a5bfd20db,
         type: 2}
-      spriteId: 21
+      spriteId: 0
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+    - spriteCollection: {fileID: 11400000, guid: 26062ddd8c3ee1042ab9157a5bfd20db,
+        type: 2}
+      spriteId: 36
       triggerEvent: 0
       eventInfo: 
       eventInt: 0
@@ -142,88 +121,6 @@ MonoBehaviour:
     - spriteCollection: {fileID: 11400000, guid: 26062ddd8c3ee1042ab9157a5bfd20db,
         type: 2}
       spriteId: 6
-      triggerEvent: 0
-      eventInfo: 
-      eventInt: 0
-      eventFloat: 0
-    fps: 8
-    loopStart: 0
-    wrapMode: 0
-  - name: PigSideWalk
-    frames:
-    - spriteCollection: {fileID: 11400000, guid: 26062ddd8c3ee1042ab9157a5bfd20db,
-        type: 2}
-      spriteId: 18
-      triggerEvent: 0
-      eventInfo: 
-      eventInt: 0
-      eventFloat: 0
-    - spriteCollection: {fileID: 11400000, guid: 26062ddd8c3ee1042ab9157a5bfd20db,
-        type: 2}
-      spriteId: 20
-      triggerEvent: 0
-      eventInfo: 
-      eventInt: 0
-      eventFloat: 0
-    - spriteCollection: {fileID: 11400000, guid: 26062ddd8c3ee1042ab9157a5bfd20db,
-        type: 2}
-      spriteId: 13
-      triggerEvent: 0
-      eventInfo: 
-      eventInt: 0
-      eventFloat: 0
-    - spriteCollection: {fileID: 11400000, guid: 26062ddd8c3ee1042ab9157a5bfd20db,
-        type: 2}
-      spriteId: 16
-      triggerEvent: 0
-      eventInfo: 
-      eventInt: 0
-      eventFloat: 0
-    - spriteCollection: {fileID: 11400000, guid: 26062ddd8c3ee1042ab9157a5bfd20db,
-        type: 2}
-      spriteId: 9
-      triggerEvent: 0
-      eventInfo: 
-      eventInt: 0
-      eventFloat: 0
-    - spriteCollection: {fileID: 11400000, guid: 26062ddd8c3ee1042ab9157a5bfd20db,
-        type: 2}
-      spriteId: 19
-      triggerEvent: 0
-      eventInfo: 
-      eventInt: 0
-      eventFloat: 0
-    - spriteCollection: {fileID: 11400000, guid: 26062ddd8c3ee1042ab9157a5bfd20db,
-        type: 2}
-      spriteId: 18
-      triggerEvent: 0
-      eventInfo: 
-      eventInt: 0
-      eventFloat: 0
-    - spriteCollection: {fileID: 11400000, guid: 26062ddd8c3ee1042ab9157a5bfd20db,
-        type: 2}
-      spriteId: 20
-      triggerEvent: 0
-      eventInfo: 
-      eventInt: 0
-      eventFloat: 0
-    - spriteCollection: {fileID: 11400000, guid: 26062ddd8c3ee1042ab9157a5bfd20db,
-        type: 2}
-      spriteId: 13
-      triggerEvent: 0
-      eventInfo: 
-      eventInt: 0
-      eventFloat: 0
-    - spriteCollection: {fileID: 11400000, guid: 26062ddd8c3ee1042ab9157a5bfd20db,
-        type: 2}
-      spriteId: 16
-      triggerEvent: 0
-      eventInfo: 
-      eventInt: 0
-      eventFloat: 0
-    - spriteCollection: {fileID: 11400000, guid: 26062ddd8c3ee1042ab9157a5bfd20db,
-        type: 2}
-      spriteId: 9
       triggerEvent: 0
       eventInfo: 
       eventInt: 0
@@ -244,21 +141,33 @@ MonoBehaviour:
       eventFloat: 0
     - spriteCollection: {fileID: 11400000, guid: 26062ddd8c3ee1042ab9157a5bfd20db,
         type: 2}
-      spriteId: 10
+      spriteId: 25
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+    fps: 8
+    loopStart: 0
+    wrapMode: 0
+  - name: PigWalkSide
+    frames:
+    - spriteCollection: {fileID: 11400000, guid: 26062ddd8c3ee1042ab9157a5bfd20db,
+        type: 2}
+      spriteId: 11
       triggerEvent: 0
       eventInfo: 
       eventInt: 0
       eventFloat: 0
     - spriteCollection: {fileID: 11400000, guid: 26062ddd8c3ee1042ab9157a5bfd20db,
         type: 2}
-      spriteId: 2
+      spriteId: 31
       triggerEvent: 0
       eventInfo: 
       eventInt: 0
       eventFloat: 0
     - spriteCollection: {fileID: 11400000, guid: 26062ddd8c3ee1042ab9157a5bfd20db,
         type: 2}
-      spriteId: 3
+      spriteId: 16
       triggerEvent: 0
       eventInfo: 
       eventInt: 0
@@ -266,6 +175,163 @@ MonoBehaviour:
     - spriteCollection: {fileID: 11400000, guid: 26062ddd8c3ee1042ab9157a5bfd20db,
         type: 2}
       spriteId: 7
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+    - spriteCollection: {fileID: 11400000, guid: 26062ddd8c3ee1042ab9157a5bfd20db,
+        type: 2}
+      spriteId: 10
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+    - spriteCollection: {fileID: 11400000, guid: 26062ddd8c3ee1042ab9157a5bfd20db,
+        type: 2}
+      spriteId: 9
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+    - spriteCollection: {fileID: 11400000, guid: 26062ddd8c3ee1042ab9157a5bfd20db,
+        type: 2}
+      spriteId: 11
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+    - spriteCollection: {fileID: 11400000, guid: 26062ddd8c3ee1042ab9157a5bfd20db,
+        type: 2}
+      spriteId: 31
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+    - spriteCollection: {fileID: 11400000, guid: 26062ddd8c3ee1042ab9157a5bfd20db,
+        type: 2}
+      spriteId: 16
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+    - spriteCollection: {fileID: 11400000, guid: 26062ddd8c3ee1042ab9157a5bfd20db,
+        type: 2}
+      spriteId: 7
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+    - spriteCollection: {fileID: 11400000, guid: 26062ddd8c3ee1042ab9157a5bfd20db,
+        type: 2}
+      spriteId: 10
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+    - spriteCollection: {fileID: 11400000, guid: 26062ddd8c3ee1042ab9157a5bfd20db,
+        type: 2}
+      spriteId: 9
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+    - spriteCollection: {fileID: 11400000, guid: 26062ddd8c3ee1042ab9157a5bfd20db,
+        type: 2}
+      spriteId: 30
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+    - spriteCollection: {fileID: 11400000, guid: 26062ddd8c3ee1042ab9157a5bfd20db,
+        type: 2}
+      spriteId: 12
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+    - spriteCollection: {fileID: 11400000, guid: 26062ddd8c3ee1042ab9157a5bfd20db,
+        type: 2}
+      spriteId: 26
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+    - spriteCollection: {fileID: 11400000, guid: 26062ddd8c3ee1042ab9157a5bfd20db,
+        type: 2}
+      spriteId: 17
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+    - spriteCollection: {fileID: 11400000, guid: 26062ddd8c3ee1042ab9157a5bfd20db,
+        type: 2}
+      spriteId: 23
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+    - spriteCollection: {fileID: 11400000, guid: 26062ddd8c3ee1042ab9157a5bfd20db,
+        type: 2}
+      spriteId: 21
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+    fps: 8
+    loopStart: 0
+    wrapMode: 0
+  - name: PigPickup
+    frames:
+    - spriteCollection: {fileID: 11400000, guid: 26062ddd8c3ee1042ab9157a5bfd20db,
+        type: 2}
+      spriteId: 8
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+    - spriteCollection: {fileID: 11400000, guid: 26062ddd8c3ee1042ab9157a5bfd20db,
+        type: 2}
+      spriteId: 29
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+    - spriteCollection: {fileID: 11400000, guid: 26062ddd8c3ee1042ab9157a5bfd20db,
+        type: 2}
+      spriteId: 4
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+    - spriteCollection: {fileID: 11400000, guid: 26062ddd8c3ee1042ab9157a5bfd20db,
+        type: 2}
+      spriteId: 14
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+    - spriteCollection: {fileID: 11400000, guid: 26062ddd8c3ee1042ab9157a5bfd20db,
+        type: 2}
+      spriteId: 33
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+    fps: 12
+    loopStart: 0
+    wrapMode: 2
+  - name: PigCarry
+    frames:
+    - spriteCollection: {fileID: 11400000, guid: 26062ddd8c3ee1042ab9157a5bfd20db,
+        type: 2}
+      spriteId: 14
+      triggerEvent: 0
+      eventInfo: 
+      eventInt: 0
+      eventFloat: 0
+    - spriteCollection: {fileID: 11400000, guid: 26062ddd8c3ee1042ab9157a5bfd20db,
+        type: 2}
+      spriteId: 33
       triggerEvent: 0
       eventInfo: 
       eventInt: 0

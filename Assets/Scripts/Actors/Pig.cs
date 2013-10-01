@@ -51,7 +51,7 @@ public class Pig : MonoBehaviour
 	IEnumerator Carry()
 	{
 		//StartCoroutine(transform.MoveTo(Vector3.zero, 0.2f));
-		yield return StartCoroutine(transform.MoveTo(new Vector3(0, 1.2f, -0.1f), 0.2f, Ease.BackOut));
+		yield return StartCoroutine(transform.MoveTo(new Vector3(0, 0.7f, -0.1f), 0.2f, Ease.BackOut));
 		
 		while (true)
 			yield return 0;
@@ -66,6 +66,11 @@ public class Pig : MonoBehaviour
 		DustParticle.Create(dustParticlePrefab, transform, new Vector3(0, 0, -0.1f));
 		SetState(State.Idle);
 		gameObject.SendMessage("OnThrowEnd", SendMessageOptions.DontRequireReceiver);
+	}
+	
+	void OnStartLift()
+	{
+		
 	}
 	
 	void OnStartCarry()

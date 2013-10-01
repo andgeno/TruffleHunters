@@ -3,6 +3,7 @@ using System.Collections;
 
 public class EnclosedPig : MonoBehaviour
 {
+	public tk2dSpriteAnimator animator;
 	public float minPauseTime;
 	public float maxPauseTime;
 	public float wanderRadius;
@@ -10,13 +11,11 @@ public class EnclosedPig : MonoBehaviour
 	
 	CharacterController controller;
 	Pig pig;
-	tk2dSpriteAnimator animator;
 	
 	void Start()
 	{
 		controller = GetComponent<CharacterController>();
 		pig = GetComponent<Pig>();
-		animator = GetComponentInChildren<tk2dSpriteAnimator>();
 		
 		StartCoroutine(Wander());
 	}
@@ -26,15 +25,17 @@ public class EnclosedPig : MonoBehaviour
 		Vector3 target;
 		while (true)
 		{
-			animator.Play("PigSideIdle");
+			animator.Play("PigIdleSide");
 			
 			yield return StartCoroutine(Auto.Wait(Rand.Float(minPauseTime, maxPauseTime)));
+			
 			while (!TryFindTargetPosition(out target))
 				yield return 0;
+			
+			animator.Play("PigWalkSide");
+			
 			while (!transform.IsAt(target))
 			{
-				animator.Play("PigSideWalk");
-				
 				if (transform.position.x - target.x < 0)
 					animator.Sprite.FlipX = true;
 				else
@@ -46,9 +47,15 @@ public class EnclosedPig : MonoBehaviour
 		}
 	}
 	
-	void OnStartCarry()
+	void OnStartLift()
 	{
 		StopAllCoroutines();
+		animator.Play("PigPickup");
+	}
+	
+	void OnStartCarry()
+	{
+		animator.Play("PigCarry");
 	}
 	
 	void OnThrowEnd()

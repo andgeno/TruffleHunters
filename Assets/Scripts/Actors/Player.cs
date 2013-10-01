@@ -5,6 +5,7 @@ public class Player : Singleton<Player>
 {
 	public Transform body;
 	public float maxSpeed;
+	public float carrySpeed;
 	public float acceleration;
 	public float zSpeedMult;
 	public float grabRadius;
@@ -14,7 +15,7 @@ public class Player : Singleton<Player>
 	CharacterController controller;
 	tk2dSpriteAnimator animator;
 	
-	enum State { None, Idle, Walk, Lift }
+	enum State { None, Idle, Walk, Lift, CarryIdle, CarryWalk }
 	State state = State.None;
 	Vector3 inputAxis;
 	Vector3 moveAxis;
@@ -72,16 +73,12 @@ public class Player : Singleton<Player>
 	{
 		while (true)
 		{
-			//Update animation
 			PlayAnim("PlayerIdle");
-			
 			TryApplyVelocity();
-			if (TryAccelerate())
+			if (TryAccelerate(maxSpeed))
 				yield return SetState(State.Walk);
 			if (TryCarry())
 				yield return SetState(State.Lift);
-			if (TryThrow())
-				yield return 0;
 			yield return 0;	
 		}
 	}
@@ -90,16 +87,12 @@ public class Player : Singleton<Player>
 	{
 		while (true)
 		{
-			//Update animation
 			PlayAnim("PlayerWalk");
-			
 			TryApplyVelocity();
-			if (!TryAccelerate())
+			if (!TryAccelerate(maxSpeed))
 				yield return SetState(State.Idle);
 			if (TryCarry())
 				yield return SetState(State.Lift);
-			if (TryThrow())
-				yield return 0;
 			yield return 0;
 		}
 	}
@@ -112,11 +105,39 @@ public class Player : Singleton<Player>
 			yield return 0;
 	}
 	
+	IEnumerator CarryIdle()
+	{
+		while (true)
+		{
+			PlayAnim("PlayerHoldIdle");
+			TryApplyVelocity();
+			if (TryAccelerate(carrySpeed))
+				yield return SetState(State.CarryWalk);
+			if (TryThrow())
+				yield return SetState(State.Idle);
+			yield return 0;	
+		}
+	}
+	
+	IEnumerator CarryWalk()
+	{
+		while (true)
+		{
+			PlayAnim("PlayerHoldWalk");
+			TryApplyVelocity();
+			if (!TryAccelerate(carrySpeed))
+				yield return SetState(State.CarryIdle);
+			if (TryThrow())
+				yield return SetState(State.Idle);
+			yield return 0;
+		}
+	}
+	
 	void LiftEnd(tk2dSpriteAnimator animator, tk2dSpriteAnimationClip clip)
 	{
 		animator.AnimationCompleted = null;
-		carrying.StartCarry(transform);
-		SetState(State.Idle);
+		carrying.StartCarry();
+		SetState(State.CarryIdle);
 	}
 	
 	void PlayAnim(string prefix)
@@ -132,17 +153,15 @@ public class Player : Singleton<Player>
 			animator.Play(prefix + "Front");
 	}
 	
-	bool TryAccelerate()
+	bool TryAccelerate(float maxSpeed)
 	{
 		if (!moveAxis.IsZero())
 		{
-			//Accelerate
 			velocity = Vector3.MoveTowards(velocity, moveAxis * maxSpeed, acceleration * Time.deltaTime);
 			return true;
 		}
 		else
 		{
-			//Slowdown
 			velocity = Vector3.MoveTowards(velocity, Vector3.zero, acceleration * Time.deltaTime);
 			return false;
 		}
@@ -173,6 +192,7 @@ public class Player : Singleton<Player>
 				if (carryable != null)
 				{
 					carrying = carryable;
+					carrying.StartLift(transform);
 					//carrying.StartCarry(transform);
 					return true;
 				}

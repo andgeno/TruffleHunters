@@ -152,6 +152,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   body: {fileID: 400000}
   maxSpeed: 5
+  carrySpeed: 3
   acceleration: 50
   zSpeedMult: 1.79999995
   grabRadius: .75

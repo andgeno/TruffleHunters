@@ -42,424 +42,6 @@ MonoBehaviour:
   materialIdsValid: 1
   needMaterialInstance: 0
   spriteDefinitions:
-  - name: Pig01SideIdle0003
-    boundsData:
-    - {x: .015625, y: -.58984375, z: 0}
-    - {x: 1.515625, y: .8203125, z: 0}
-    untrimmedBoundsData:
-    - {x: 0, y: 0, z: 0}
-    - {x: 2, y: 2, z: 0}
-    texelSize: {x: .0078125, y: .0078125}
-    positions:
-    - {x: -.7421875, y: -1, z: 0}
-    - {x: .7734375, y: -1, z: 0}
-    - {x: -.7421875, y: -.1796875, z: 0}
-    - {x: .7734375, y: -.1796875, z: 0}
-    normals: []
-    tangents: []
-    uvs:
-    - {x: .00390820298, y: .121094726}
-    - {x: .00390820298, y: .310545892}
-    - {x: .208982423, y: .121094726}
-    - {x: .208982423, y: .310545892}
-    indices: 000000000300000001000000020000000300000000000000
-    material: {fileID: 2100000, guid: 9c0980deba627454383beca27dd02076, type: 2}
-    materialId: 0
-    sourceTextureGUID: 09ce63fff5e647e49b413298ef410910
-    extractRegion: 0
-    regionX: 0
-    regionY: 0
-    regionW: 0
-    regionH: 0
-    flipped: 1
-    complexGeometry: 0
-    colliderType: 0
-    colliderVertices: []
-    colliderIndicesFwd: 
-    colliderIndicesBack: 
-    colliderConvex: 0
-    colliderSmoothSphereCollisions: 0
-    attachPoints: []
-  - name: Pig01SideIdleBlink0000
-    boundsData:
-    - {x: .0078125, y: -.57421875, z: 0}
-    - {x: 1.453125, y: .8515625, z: 0}
-    untrimmedBoundsData:
-    - {x: 0, y: 0, z: 0}
-    - {x: 2, y: 2, z: 0}
-    texelSize: {x: .0078125, y: .0078125}
-    positions:
-    - {x: -.71875, y: -1, z: 0}
-    - {x: .734375, y: -1, z: 0}
-    - {x: -.71875, y: -.1484375, z: 0}
-    - {x: .734375, y: -.1484375, z: 0}
-    normals: []
-    tangents: []
-    uvs:
-    - {x: .216798827, y: .305665046}
-    - {x: .580076158, y: .305665046}
-    - {x: .216798827, y: .412108392}
-    - {x: .580076158, y: .412108392}
-    indices: 000000000300000001000000020000000300000000000000
-    material: {fileID: 2100000, guid: 9c0980deba627454383beca27dd02076, type: 2}
-    materialId: 0
-    sourceTextureGUID: 0d27405ebea1a924483782c348249da5
-    extractRegion: 0
-    regionX: 0
-    regionY: 0
-    regionW: 0
-    regionH: 0
-    flipped: 0
-    complexGeometry: 0
-    colliderType: 0
-    colliderVertices: []
-    colliderIndicesFwd: 
-    colliderIndicesBack: 
-    colliderConvex: 0
-    colliderSmoothSphereCollisions: 0
-    attachPoints: []
-  - name: Pig01SideWalkBlink0002
-    boundsData:
-    - {x: .0078125, y: -.5859375, z: 0}
-    - {x: 1.453125, y: .828125, z: 0}
-    untrimmedBoundsData:
-    - {x: 0, y: 0, z: 0}
-    - {x: 2, y: 2, z: 0}
-    texelSize: {x: .0078125, y: .0078125}
-    positions:
-    - {x: -.71875, y: -1, z: 0}
-    - {x: .734375, y: -1, z: 0}
-    - {x: -.71875, y: -.171875, z: 0}
-    - {x: .734375, y: -.171875, z: 0}
-    normals: []
-    tangents: []
-    uvs:
-    - {x: .203126952, y: .634766579}
-    - {x: .566404283, y: .634766579}
-    - {x: .203126952, y: .738280296}
-    - {x: .566404283, y: .738280296}
-    indices: 000000000300000001000000020000000300000000000000
-    material: {fileID: 2100000, guid: 9c0980deba627454383beca27dd02076, type: 2}
-    materialId: 0
-    sourceTextureGUID: 11024f678e1d4f0418d1faee868ea66e
-    extractRegion: 0
-    regionX: 0
-    regionY: 0
-    regionW: 0
-    regionH: 0
-    flipped: 0
-    complexGeometry: 0
-    colliderType: 0
-    colliderVertices: []
-    colliderIndicesFwd: 
-    colliderIndicesBack: 
-    colliderConvex: 0
-    colliderSmoothSphereCollisions: 0
-    attachPoints: []
-  - name: Pig01SideWalkBlink0003
-    boundsData:
-    - {x: .0078125, y: -.57421875, z: 0}
-    - {x: 1.453125, y: .8515625, z: 0}
-    untrimmedBoundsData:
-    - {x: 0, y: 0, z: 0}
-    - {x: 2, y: 2, z: 0}
-    texelSize: {x: .0078125, y: .0078125}
-    positions:
-    - {x: -.71875, y: -1, z: 0}
-    - {x: .734375, y: -1, z: 0}
-    - {x: -.71875, y: -.1484375, z: 0}
-    - {x: .734375, y: -.1484375, z: 0}
-    normals: []
-    tangents: []
-    uvs:
-    - {x: .587892592, y: .402344733}
-    - {x: .951169908, y: .402344733}
-    - {x: .587892592, y: .508788109}
-    - {x: .951169908, y: .508788109}
-    indices: 000000000300000001000000020000000300000000000000
-    material: {fileID: 2100000, guid: 9c0980deba627454383beca27dd02076, type: 2}
-    materialId: 0
-    sourceTextureGUID: 14462d66ab0617a44bdaedeab9b1a0c1
-    extractRegion: 0
-    regionX: 0
-    regionY: 0
-    regionW: 0
-    regionH: 0
-    flipped: 0
-    complexGeometry: 0
-    colliderType: 0
-    colliderVertices: []
-    colliderIndicesFwd: 
-    colliderIndicesBack: 
-    colliderConvex: 0
-    colliderSmoothSphereCollisions: 0
-    attachPoints: []
-  - name: Pig01Pickup0003
-    boundsData:
-    - {x: .01171875, y: -.51953125, z: 0}
-    - {x: 1.4453125, y: .8984375, z: 0}
-    untrimmedBoundsData:
-    - {x: 0, y: 0, z: 0}
-    - {x: 2, y: 2, z: 0}
-    texelSize: {x: .0078125, y: .0078125}
-    positions:
-    - {x: -.7109375, y: -.96875, z: 0}
-    - {x: .734375, y: -.96875, z: 0}
-    - {x: -.7109375, y: -.0703125, z: 0}
-    - {x: .734375, y: -.0703125, z: 0}
-    normals: []
-    tangents: []
-    uvs:
-    - {x: .369142592, y: .00195410149}
-    - {x: .730466783, y: .00195410149}
-    - {x: .369142592, y: .114256836}
-    - {x: .730466783, y: .114256836}
-    indices: 000000000300000001000000020000000300000000000000
-    material: {fileID: 2100000, guid: 9c0980deba627454383beca27dd02076, type: 2}
-    materialId: 0
-    sourceTextureGUID: 3627c24b67131a84c85693d1ffa9a455
-    extractRegion: 0
-    regionX: 0
-    regionY: 0
-    regionW: 0
-    regionH: 0
-    flipped: 0
-    complexGeometry: 0
-    colliderType: 0
-    colliderVertices: []
-    colliderIndicesFwd: 
-    colliderIndicesBack: 
-    colliderConvex: 0
-    colliderSmoothSphereCollisions: 0
-    attachPoints: []
-  - name: Pig01SideIdle0000
-    boundsData:
-    - {x: .0078125, y: -.57421875, z: 0}
-    - {x: 1.453125, y: .8515625, z: 0}
-    untrimmedBoundsData:
-    - {x: 0, y: 0, z: 0}
-    - {x: 2, y: 2, z: 0}
-    texelSize: {x: .0078125, y: .0078125}
-    positions:
-    - {x: -.71875, y: -1, z: 0}
-    - {x: .734375, y: -1, z: 0}
-    - {x: -.71875, y: -.1484375, z: 0}
-    - {x: .734375, y: -.1484375, z: 0}
-    normals: []
-    tangents: []
-    uvs:
-    - {x: .216798827, y: .305665046}
-    - {x: .580076158, y: .305665046}
-    - {x: .216798827, y: .412108392}
-    - {x: .580076158, y: .412108392}
-    indices: 000000000300000001000000020000000300000000000000
-    material: {fileID: 2100000, guid: 9c0980deba627454383beca27dd02076, type: 2}
-    materialId: 0
-    sourceTextureGUID: 3788fa2edbc795844b71b40322ddbaac
-    extractRegion: 0
-    regionX: 0
-    regionY: 0
-    regionW: 0
-    regionH: 0
-    flipped: 0
-    complexGeometry: 0
-    colliderType: 0
-    colliderVertices: []
-    colliderIndicesFwd: 
-    colliderIndicesBack: 
-    colliderConvex: 0
-    colliderSmoothSphereCollisions: 0
-    attachPoints: []
-  - name: Pig01SideIdleBlink0004
-    boundsData:
-    - {x: .015625, y: -.57421875, z: 0}
-    - {x: 1.46875, y: .8515625, z: 0}
-    untrimmedBoundsData:
-    - {x: 0, y: 0, z: 0}
-    - {x: 2, y: 2, z: 0}
-    texelSize: {x: .0078125, y: .0078125}
-    positions:
-    - {x: -.71875, y: -1, z: 0}
-    - {x: .75, y: -1, z: 0}
-    - {x: -.71875, y: -.1484375, z: 0}
-    - {x: .75, y: -.1484375, z: 0}
-    normals: []
-    tangents: []
-    uvs:
-    - {x: .738283217, y: .00195410149}
-    - {x: .738283217, y: .185545892}
-    - {x: .951169908, y: .00195410149}
-    - {x: .951169908, y: .185545892}
-    indices: 000000000300000001000000020000000300000000000000
-    material: {fileID: 2100000, guid: 9c0980deba627454383beca27dd02076, type: 2}
-    materialId: 0
-    sourceTextureGUID: 438585e8f3996af40aac465ca7af6e5a
-    extractRegion: 0
-    regionX: 0
-    regionY: 0
-    regionW: 0
-    regionH: 0
-    flipped: 1
-    complexGeometry: 0
-    colliderType: 0
-    colliderVertices: []
-    colliderIndicesFwd: 
-    colliderIndicesBack: 
-    colliderConvex: 0
-    colliderSmoothSphereCollisions: 0
-    attachPoints: []
-  - name: Pig01SideWalkBlink0004
-    boundsData:
-    - {x: .0078125, y: -.58203125, z: 0}
-    - {x: 1.453125, y: .8359375, z: 0}
-    untrimmedBoundsData:
-    - {x: 0, y: 0, z: 0}
-    - {x: 2, y: 2, z: 0}
-    texelSize: {x: .0078125, y: .0078125}
-    positions:
-    - {x: -.71875, y: -1, z: 0}
-    - {x: .734375, y: -1, z: 0}
-    - {x: -.71875, y: -.1640625, z: 0}
-    - {x: .734375, y: -.1640625, z: 0}
-    normals: []
-    tangents: []
-    uvs:
-    - {x: .203126952, y: .526368141}
-    - {x: .566404283, y: .526368141}
-    - {x: .203126952, y: .630858421}
-    - {x: .566404283, y: .630858421}
-    indices: 000000000300000001000000020000000300000000000000
-    material: {fileID: 2100000, guid: 9c0980deba627454383beca27dd02076, type: 2}
-    materialId: 0
-    sourceTextureGUID: 4501e1339fd506342aa9388bdf574681
-    extractRegion: 0
-    regionX: 0
-    regionY: 0
-    regionW: 0
-    regionH: 0
-    flipped: 0
-    complexGeometry: 0
-    colliderType: 0
-    colliderVertices: []
-    colliderIndicesFwd: 
-    colliderIndicesBack: 
-    colliderConvex: 0
-    colliderSmoothSphereCollisions: 0
-    attachPoints: []
-  - name: Pig01Pickup0001
-    boundsData:
-    - {x: .0234375, y: -.59765625, z: 0}
-    - {x: 1.515625, y: .8046875, z: 0}
-    untrimmedBoundsData:
-    - {x: 0, y: 0, z: 0}
-    - {x: 2, y: 2, z: 0}
-    texelSize: {x: .0078125, y: .0078125}
-    positions:
-    - {x: -.734375, y: -1, z: 0}
-    - {x: .78125, y: -1, z: 0}
-    - {x: -.734375, y: -.1953125, z: 0}
-    - {x: .78125, y: -.1953125, z: 0}
-    normals: []
-    tangents: []
-    uvs:
-    - {x: .00390820298, y: .314454108}
-    - {x: .00390820298, y: .503905296}
-    - {x: .205076173, y: .314454108}
-    - {x: .205076173, y: .503905296}
-    indices: 000000000300000001000000020000000300000000000000
-    material: {fileID: 2100000, guid: 9c0980deba627454383beca27dd02076, type: 2}
-    materialId: 0
-    sourceTextureGUID: 5eb4d4a67565b9d46bff167c2f3e044e
-    extractRegion: 0
-    regionX: 0
-    regionY: 0
-    regionW: 0
-    regionH: 0
-    flipped: 1
-    complexGeometry: 0
-    colliderType: 0
-    colliderVertices: []
-    colliderIndicesFwd: 
-    colliderIndicesBack: 
-    colliderConvex: 0
-    colliderSmoothSphereCollisions: 0
-    attachPoints: []
-  - name: Pig01SideWalk0004
-    boundsData:
-    - {x: .0078125, y: -.58203125, z: 0}
-    - {x: 1.453125, y: .8359375, z: 0}
-    untrimmedBoundsData:
-    - {x: 0, y: 0, z: 0}
-    - {x: 2, y: 2, z: 0}
-    texelSize: {x: .0078125, y: .0078125}
-    positions:
-    - {x: -.71875, y: -1, z: 0}
-    - {x: .734375, y: -1, z: 0}
-    - {x: -.71875, y: -.1640625, z: 0}
-    - {x: .734375, y: -.1640625, z: 0}
-    normals: []
-    tangents: []
-    uvs:
-    - {x: .203126952, y: .526368141}
-    - {x: .566404283, y: .526368141}
-    - {x: .203126952, y: .630858421}
-    - {x: .566404283, y: .630858421}
-    indices: 000000000300000001000000020000000300000000000000
-    material: {fileID: 2100000, guid: 9c0980deba627454383beca27dd02076, type: 2}
-    materialId: 0
-    sourceTextureGUID: 6244287a03f4f0d4bac9e7a16b15b8db
-    extractRegion: 0
-    regionX: 0
-    regionY: 0
-    regionW: 0
-    regionH: 0
-    flipped: 0
-    complexGeometry: 0
-    colliderType: 0
-    colliderVertices: []
-    colliderIndicesFwd: 
-    colliderIndicesBack: 
-    colliderConvex: 0
-    colliderSmoothSphereCollisions: 0
-    attachPoints: []
-  - name: Pig01SideWalkBlink0001
-    boundsData:
-    - {x: .0078125, y: -.58203125, z: 0}
-    - {x: 1.453125, y: .8359375, z: 0}
-    untrimmedBoundsData:
-    - {x: 0, y: 0, z: 0}
-    - {x: 2, y: 2, z: 0}
-    texelSize: {x: .0078125, y: .0078125}
-    positions:
-    - {x: -.71875, y: -1, z: 0}
-    - {x: .734375, y: -1, z: 0}
-    - {x: -.71875, y: -.1640625, z: 0}
-    - {x: .734375, y: -.1640625, z: 0}
-    normals: []
-    tangents: []
-    uvs:
-    - {x: .574220717, y: .619141579}
-    - {x: .937498033, y: .619141579}
-    - {x: .574220717, y: .723631859}
-    - {x: .937498033, y: .723631859}
-    indices: 000000000300000001000000020000000300000000000000
-    material: {fileID: 2100000, guid: 9c0980deba627454383beca27dd02076, type: 2}
-    materialId: 0
-    sourceTextureGUID: 6fd0ecd0daf0d324bac2873c5d75bb4b
-    extractRegion: 0
-    regionX: 0
-    regionY: 0
-    regionW: 0
-    regionH: 0
-    flipped: 0
-    complexGeometry: 0
-    colliderType: 0
-    colliderVertices: []
-    colliderIndicesFwd: 
-    colliderIndicesBack: 
-    colliderConvex: 0
-    colliderSmoothSphereCollisions: 0
-    attachPoints: []
   - name: Pig01SideIdle0004
     boundsData:
     - {x: .015625, y: -.57421875, z: 0}
@@ -476,14 +58,14 @@ MonoBehaviour:
     normals: []
     tangents: []
     uvs:
-    - {x: .369142592, y: .118165039}
-    - {x: .369142592, y: .301756829}
-    - {x: .582029283, y: .118165039}
-    - {x: .582029283, y: .301756829}
+    - {x: .369141608, y: .115235351}
+    - {x: .369141608, y: .298827142}
+    - {x: .475584954, y: .115235351}
+    - {x: .475584954, y: .298827142}
     indices: 000000000300000001000000020000000300000000000000
     material: {fileID: 2100000, guid: 9c0980deba627454383beca27dd02076, type: 2}
     materialId: 0
-    sourceTextureGUID: 7bb379a00a56854448b888880563854a
+    sourceTextureGUID: 01555736081c8de4ca1193ccf889a3ea
     extractRegion: 0
     regionX: 0
     regionY: 0
@@ -498,416 +80,36 @@ MonoBehaviour:
     colliderConvex: 0
     colliderSmoothSphereCollisions: 0
     attachPoints: []
-  - name: Pig01Pickup0000
+  - name: Pig01FrontWalk0002
     boundsData:
-    - {x: .02734375, y: -.609375, z: 0}
-    - {x: 1.5546875, y: .765625, z: 0}
+    - {x: -.00390625, y: -.55078125, z: 0}
+    - {x: 1.0390625, y: .8984375, z: 0}
     untrimmedBoundsData:
     - {x: 0, y: 0, z: 0}
     - {x: 2, y: 2, z: 0}
     texelSize: {x: .0078125, y: .0078125}
     positions:
-    - {x: -.75, y: -.9921875, z: 0}
-    - {x: .8046875, y: -.9921875, z: 0}
-    - {x: -.75, y: -.2265625, z: 0}
-    - {x: .8046875, y: -.2265625, z: 0}
+    - {x: -.5234375, y: -1, z: 0}
+    - {x: .515625, y: -1, z: 0}
+    - {x: -.5234375, y: -.1015625, z: 0}
+    - {x: .515625, y: -.1015625, z: 0}
     normals: []
     tangents: []
     uvs:
-    - {x: .00390820298, y: .507813454}
-    - {x: .00390820298, y: .702147484}
-    - {x: .195310548, y: .507813454}
-    - {x: .195310548, y: .702147484}
+    - {x: .847657204, y: .615235329}
+    - {x: .977538109, y: .615235329}
+    - {x: .847657204, y: .727538109}
+    - {x: .977538109, y: .727538109}
     indices: 000000000300000001000000020000000300000000000000
     material: {fileID: 2100000, guid: 9c0980deba627454383beca27dd02076, type: 2}
     materialId: 0
-    sourceTextureGUID: 83679ce717705b14b918ac4f67576beb
-    extractRegion: 0
-    regionX: 0
-    regionY: 0
-    regionW: 0
-    regionH: 0
-    flipped: 1
-    complexGeometry: 0
-    colliderType: 0
-    colliderVertices: []
-    colliderIndicesFwd: 
-    colliderIndicesBack: 
-    colliderConvex: 0
-    colliderSmoothSphereCollisions: 0
-    attachPoints: []
-  - name: Pig01SideWalk0002
-    boundsData:
-    - {x: .0078125, y: -.5859375, z: 0}
-    - {x: 1.453125, y: .828125, z: 0}
-    untrimmedBoundsData:
-    - {x: 0, y: 0, z: 0}
-    - {x: 2, y: 2, z: 0}
-    texelSize: {x: .0078125, y: .0078125}
-    positions:
-    - {x: -.71875, y: -1, z: 0}
-    - {x: .734375, y: -1, z: 0}
-    - {x: -.71875, y: -.171875, z: 0}
-    - {x: .734375, y: -.171875, z: 0}
-    normals: []
-    tangents: []
-    uvs:
-    - {x: .00390820298, y: .884766579}
-    - {x: .367185533, y: .884766579}
-    - {x: .00390820298, y: .988280296}
-    - {x: .367185533, y: .988280296}
-    indices: 000000000300000001000000020000000300000000000000
-    material: {fileID: 2100000, guid: 9c0980deba627454383beca27dd02076, type: 2}
-    materialId: 0
-    sourceTextureGUID: 884402a02e9b70b4bb92fb25561381f1
+    sourceTextureGUID: 0611f394963cec142a7bb31c0ac5503c
     extractRegion: 0
     regionX: 0
     regionY: 0
     regionW: 0
     regionH: 0
     flipped: 0
-    complexGeometry: 0
-    colliderType: 0
-    colliderVertices: []
-    colliderIndicesFwd: 
-    colliderIndicesBack: 
-    colliderConvex: 0
-    colliderSmoothSphereCollisions: 0
-    attachPoints: []
-  - name: Pig01Pickup0004
-    boundsData:
-    - {x: .00390625, y: -.5390625, z: 0}
-    - {x: 1.4296875, y: .921875, z: 0}
-    untrimmedBoundsData:
-    - {x: 0, y: 0, z: 0}
-    - {x: 2, y: 2, z: 0}
-    texelSize: {x: .0078125, y: .0078125}
-    positions:
-    - {x: -.7109375, y: -1, z: 0}
-    - {x: .71875, y: -1, z: 0}
-    - {x: -.7109375, y: -.078125, z: 0}
-    - {x: .71875, y: -.078125, z: 0}
-    normals: []
-    tangents: []
-    uvs:
-    - {x: .00390820298, y: .00195410149}
-    - {x: .361326158, y: .00195410149}
-    - {x: .00390820298, y: .117186524}
-    - {x: .361326158, y: .117186524}
-    indices: 000000000300000001000000020000000300000000000000
-    material: {fileID: 2100000, guid: 9c0980deba627454383beca27dd02076, type: 2}
-    materialId: 0
-    sourceTextureGUID: 894017de5d5336d4d9f7e46c53bbf99c
-    extractRegion: 0
-    regionX: 0
-    regionY: 0
-    regionW: 0
-    regionH: 0
-    flipped: 0
-    complexGeometry: 0
-    colliderType: 0
-    colliderVertices: []
-    colliderIndicesFwd: 
-    colliderIndicesBack: 
-    colliderConvex: 0
-    colliderSmoothSphereCollisions: 0
-    attachPoints: []
-  - name: Pig01SideWalkBlink0000
-    boundsData:
-    - {x: .0078125, y: -.55859375, z: 0}
-    - {x: 1.453125, y: .8203125, z: 0}
-    untrimmedBoundsData:
-    - {x: 0, y: 0, z: 0}
-    - {x: 2, y: 2, z: 0}
-    texelSize: {x: .0078125, y: .0078125}
-    positions:
-    - {x: -.71875, y: -.96875, z: 0}
-    - {x: .734375, y: -.96875, z: 0}
-    - {x: -.71875, y: -.1484375, z: 0}
-    - {x: .734375, y: -.1484375, z: 0}
-    normals: []
-    tangents: []
-    uvs:
-    - {x: .375001967, y: .849610329}
-    - {x: .738279283, y: .849610329}
-    - {x: .375001967, y: .952147484}
-    - {x: .738279283, y: .952147484}
-    indices: 000000000300000001000000020000000300000000000000
-    material: {fileID: 2100000, guid: 9c0980deba627454383beca27dd02076, type: 2}
-    materialId: 0
-    sourceTextureGUID: 8964b373dcf4fca41be43f728168824a
-    extractRegion: 0
-    regionX: 0
-    regionY: 0
-    regionW: 0
-    regionH: 0
-    flipped: 0
-    complexGeometry: 0
-    colliderType: 0
-    colliderVertices: []
-    colliderIndicesFwd: 
-    colliderIndicesBack: 
-    colliderConvex: 0
-    colliderSmoothSphereCollisions: 0
-    attachPoints: []
-  - name: Pig01SideWalk0003
-    boundsData:
-    - {x: .0078125, y: -.57421875, z: 0}
-    - {x: 1.453125, y: .8515625, z: 0}
-    untrimmedBoundsData:
-    - {x: 0, y: 0, z: 0}
-    - {x: 2, y: 2, z: 0}
-    texelSize: {x: .0078125, y: .0078125}
-    positions:
-    - {x: -.71875, y: -1, z: 0}
-    - {x: .734375, y: -1, z: 0}
-    - {x: -.71875, y: -.1484375, z: 0}
-    - {x: .734375, y: -.1484375, z: 0}
-    normals: []
-    tangents: []
-    uvs:
-    - {x: .212892577, y: .416016608}
-    - {x: .576169908, y: .416016608}
-    - {x: .212892577, y: .522459984}
-    - {x: .576169908, y: .522459984}
-    indices: 000000000300000001000000020000000300000000000000
-    material: {fileID: 2100000, guid: 9c0980deba627454383beca27dd02076, type: 2}
-    materialId: 0
-    sourceTextureGUID: 8a1cd688ad3709748a9228bd9775d7a0
-    extractRegion: 0
-    regionX: 0
-    regionY: 0
-    regionW: 0
-    regionH: 0
-    flipped: 0
-    complexGeometry: 0
-    colliderType: 0
-    colliderVertices: []
-    colliderIndicesFwd: 
-    colliderIndicesBack: 
-    colliderConvex: 0
-    colliderSmoothSphereCollisions: 0
-    attachPoints: []
-  - name: Pig01SideWalkBlink0005
-    boundsData:
-    - {x: .0078125, y: .4140625, z: 0}
-    - {x: 1.453125, y: .828125, z: 0}
-    untrimmedBoundsData:
-    - {x: 0, y: 1, z: 0}
-    - {x: 2, y: 2, z: 0}
-    texelSize: {x: .0078125, y: .0078125}
-    positions:
-    - {x: -.71875, y: 0, z: 0}
-    - {x: .734375, y: 0, z: 0}
-    - {x: -.71875, y: .828125, z: 0}
-    - {x: .734375, y: .828125, z: 0}
-    normals: []
-    tangents: []
-    uvs:
-    - {x: .203126952, y: .742188454}
-    - {x: .566404283, y: .742188454}
-    - {x: .203126952, y: .845702171}
-    - {x: .566404283, y: .845702171}
-    indices: 000000000300000001000000020000000300000000000000
-    material: {fileID: 2100000, guid: 9c0980deba627454383beca27dd02076, type: 2}
-    materialId: 0
-    sourceTextureGUID: 9fb8f1ec9d9f7b04a87cfed712265417
-    extractRegion: 0
-    regionX: 0
-    regionY: 0
-    regionW: 0
-    regionH: 0
-    flipped: 0
-    complexGeometry: 0
-    colliderType: 0
-    colliderVertices: []
-    colliderIndicesFwd: 
-    colliderIndicesBack: 
-    colliderConvex: 0
-    colliderSmoothSphereCollisions: 0
-    attachPoints: []
-  - name: Pig01SideWalk0000
-    boundsData:
-    - {x: .0078125, y: -.55859375, z: 0}
-    - {x: 1.453125, y: .8203125, z: 0}
-    untrimmedBoundsData:
-    - {x: 0, y: 0, z: 0}
-    - {x: 2, y: 2, z: 0}
-    texelSize: {x: .0078125, y: .0078125}
-    positions:
-    - {x: -.71875, y: -.96875, z: 0}
-    - {x: .734375, y: -.96875, z: 0}
-    - {x: -.71875, y: -.1484375, z: 0}
-    - {x: .734375, y: -.1484375, z: 0}
-    normals: []
-    tangents: []
-    uvs:
-    - {x: .375001967, y: .849610329}
-    - {x: .738279283, y: .849610329}
-    - {x: .375001967, y: .952147484}
-    - {x: .738279283, y: .952147484}
-    indices: 000000000300000001000000020000000300000000000000
-    material: {fileID: 2100000, guid: 9c0980deba627454383beca27dd02076, type: 2}
-    materialId: 0
-    sourceTextureGUID: ad70ca1c938f2054eafd61f28c8a4ce2
-    extractRegion: 0
-    regionX: 0
-    regionY: 0
-    regionW: 0
-    regionH: 0
-    flipped: 0
-    complexGeometry: 0
-    colliderType: 0
-    colliderVertices: []
-    colliderIndicesFwd: 
-    colliderIndicesBack: 
-    colliderConvex: 0
-    colliderSmoothSphereCollisions: 0
-    attachPoints: []
-  - name: Pig01SideWalk0005
-    boundsData:
-    - {x: .0078125, y: -.5859375, z: 0}
-    - {x: 1.453125, y: .828125, z: 0}
-    untrimmedBoundsData:
-    - {x: 0, y: 0, z: 0}
-    - {x: 2, y: 2, z: 0}
-    texelSize: {x: .0078125, y: .0078125}
-    positions:
-    - {x: -.71875, y: -1, z: 0}
-    - {x: .734375, y: -1, z: 0}
-    - {x: -.71875, y: -.171875, z: 0}
-    - {x: .734375, y: -.171875, z: 0}
-    normals: []
-    tangents: []
-    uvs:
-    - {x: .203126952, y: .742188454}
-    - {x: .566404283, y: .742188454}
-    - {x: .203126952, y: .845702171}
-    - {x: .566404283, y: .845702171}
-    indices: 000000000300000001000000020000000300000000000000
-    material: {fileID: 2100000, guid: 9c0980deba627454383beca27dd02076, type: 2}
-    materialId: 0
-    sourceTextureGUID: ae87c9e606832324ab21bc1cf08c91bc
-    extractRegion: 0
-    regionX: 0
-    regionY: 0
-    regionW: 0
-    regionH: 0
-    flipped: 0
-    complexGeometry: 0
-    colliderType: 0
-    colliderVertices: []
-    colliderIndicesFwd: 
-    colliderIndicesBack: 
-    colliderConvex: 0
-    colliderSmoothSphereCollisions: 0
-    attachPoints: []
-  - name: Pig01SideWalk0001
-    boundsData:
-    - {x: .0078125, y: -.58203125, z: 0}
-    - {x: 1.453125, y: .8359375, z: 0}
-    untrimmedBoundsData:
-    - {x: 0, y: 0, z: 0}
-    - {x: 2, y: 2, z: 0}
-    texelSize: {x: .0078125, y: .0078125}
-    positions:
-    - {x: -.71875, y: -1, z: 0}
-    - {x: .734375, y: -1, z: 0}
-    - {x: -.71875, y: -.1640625, z: 0}
-    - {x: .734375, y: -.1640625, z: 0}
-    normals: []
-    tangents: []
-    uvs:
-    - {x: .574220717, y: .619141579}
-    - {x: .937498033, y: .619141579}
-    - {x: .574220717, y: .723631859}
-    - {x: .937498033, y: .723631859}
-    indices: 000000000300000001000000020000000300000000000000
-    material: {fileID: 2100000, guid: 9c0980deba627454383beca27dd02076, type: 2}
-    materialId: 0
-    sourceTextureGUID: b2ab3fabab2ee8047b12091fba5f2c10
-    extractRegion: 0
-    regionX: 0
-    regionY: 0
-    regionW: 0
-    regionH: 0
-    flipped: 0
-    complexGeometry: 0
-    colliderType: 0
-    colliderVertices: []
-    colliderIndicesFwd: 
-    colliderIndicesBack: 
-    colliderConvex: 0
-    colliderSmoothSphereCollisions: 0
-    attachPoints: []
-  - name: Pig01SideIdleBlink0003
-    boundsData:
-    - {x: .015625, y: -.58984375, z: 0}
-    - {x: 1.515625, y: .8203125, z: 0}
-    untrimmedBoundsData:
-    - {x: 0, y: 0, z: 0}
-    - {x: 2, y: 2, z: 0}
-    texelSize: {x: .0078125, y: .0078125}
-    positions:
-    - {x: -.7421875, y: -1, z: 0}
-    - {x: .7734375, y: -1, z: 0}
-    - {x: -.7421875, y: -.1796875, z: 0}
-    - {x: .7734375, y: -.1796875, z: 0}
-    normals: []
-    tangents: []
-    uvs:
-    - {x: .589845717, y: .189454108}
-    - {x: .968748033, y: .189454108}
-    - {x: .589845717, y: .291991204}
-    - {x: .968748033, y: .291991204}
-    indices: 000000000300000001000000020000000300000000000000
-    material: {fileID: 2100000, guid: 9c0980deba627454383beca27dd02076, type: 2}
-    materialId: 0
-    sourceTextureGUID: c1ae493b8c1d6e3489dc6e8d8cce9a4e
-    extractRegion: 0
-    regionX: 0
-    regionY: 0
-    regionW: 0
-    regionH: 0
-    flipped: 0
-    complexGeometry: 0
-    colliderType: 0
-    colliderVertices: []
-    colliderIndicesFwd: 
-    colliderIndicesBack: 
-    colliderConvex: 0
-    colliderSmoothSphereCollisions: 0
-    attachPoints: []
-  - name: Pig01Pickup0002
-    boundsData:
-    - {x: .00390625, y: -.6171875, z: 0}
-    - {x: 1.3984375, y: .765625, z: 0}
-    untrimmedBoundsData:
-    - {x: 0, y: 0, z: 0}
-    - {x: 2, y: 2, z: 0}
-    texelSize: {x: .0078125, y: .0078125}
-    positions:
-    - {x: -.6953125, y: -1, z: 0}
-    - {x: .703125, y: -1, z: 0}
-    - {x: -.6953125, y: -.234375, z: 0}
-    - {x: .703125, y: -.234375, z: 0}
-    normals: []
-    tangents: []
-    uvs:
-    - {x: .00390820298, y: .706055641}
-    - {x: .00390820298, y: .880858421}
-    - {x: .195310548, y: .706055641}
-    - {x: .195310548, y: .880858421}
-    indices: 000000000300000001000000020000000300000000000000
-    material: {fileID: 2100000, guid: 9c0980deba627454383beca27dd02076, type: 2}
-    materialId: 0
-    sourceTextureGUID: cd6773814b9ce2f469721056f262e14f
-    extractRegion: 0
-    regionX: 0
-    regionY: 0
-    regionW: 0
-    regionH: 0
-    flipped: 1
     complexGeometry: 0
     colliderType: 0
     colliderVertices: []
@@ -932,14 +134,90 @@ MonoBehaviour:
     normals: []
     tangents: []
     uvs:
-    - {x: .583986342, y: .512696266}
-    - {x: .955076158, y: .512696266}
-    - {x: .583986342, y: .615233421}
-    - {x: .955076158, y: .615233421}
+    - {x: .294922858, y: .302735358}
+    - {x: .294922858, y: .488280267}
+    - {x: .397459954, y: .302735358}
+    - {x: .397459954, y: .488280267}
     indices: 000000000300000001000000020000000300000000000000
     material: {fileID: 2100000, guid: 9c0980deba627454383beca27dd02076, type: 2}
     materialId: 0
-    sourceTextureGUID: e8c24e64c61d88542896f16530914b50
+    sourceTextureGUID: 09f82f5e142eb684fa64d55bf18acafd
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    attachPoints: []
+  - name: Pig01SideIdle0003
+    boundsData:
+    - {x: .015625, y: -.58984375, z: 0}
+    - {x: 1.515625, y: .8203125, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 2, y: 2, z: 0}
+    texelSize: {x: .0078125, y: .0078125}
+    positions:
+    - {x: -.7421875, y: -1, z: 0}
+    - {x: .7734375, y: -1, z: 0}
+    - {x: -.7421875, y: -.1796875, z: 0}
+    - {x: .7734375, y: -.1796875, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .00195410149, y: .121094726}
+    - {x: .00195410149, y: .310545892}
+    - {x: .104491211, y: .121094726}
+    - {x: .104491211, y: .310545892}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 9c0980deba627454383beca27dd02076, type: 2}
+    materialId: 0
+    sourceTextureGUID: 0dd9c36ea7bafd844a37668840903d93
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    attachPoints: []
+  - name: Pig01Pickup0002
+    boundsData:
+    - {x: .00390625, y: -.6171875, z: 0}
+    - {x: 1.3984375, y: .765625, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 2, y: 2, z: 0}
+    texelSize: {x: .0078125, y: .0078125}
+    positions:
+    - {x: -.6953125, y: -1, z: 0}
+    - {x: .703125, y: -1, z: 0}
+    - {x: -.6953125, y: -.234375, z: 0}
+    - {x: .703125, y: -.234375, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .401368171, y: .445313483}
+    - {x: .576170921, y: .445313483}
+    - {x: .401368171, y: .541014671}
+    - {x: .576170921, y: .541014671}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 9c0980deba627454383beca27dd02076, type: 2}
+    materialId: 0
+    sourceTextureGUID: 1ee500b5e08d96d4eb3347e34e88a157
     extractRegion: 0
     regionX: 0
     regionY: 0
@@ -954,30 +232,30 @@ MonoBehaviour:
     colliderConvex: 0
     colliderSmoothSphereCollisions: 0
     attachPoints: []
-  - name: Pig01SideIdle0002
+  - name: Pig01SideRun0000
     boundsData:
-    - {x: .01171875, y: -.58984375, z: 0}
-    - {x: 1.5078125, y: .8203125, z: 0}
+    - {x: .0078125, y: -.4296875, z: 0}
+    - {x: 1.453125, y: .875, z: 0}
     untrimmedBoundsData:
     - {x: 0, y: 0, z: 0}
     - {x: 2, y: 2, z: 0}
     texelSize: {x: .0078125, y: .0078125}
     positions:
-    - {x: -.7421875, y: -1, z: 0}
-    - {x: .765625, y: -1, z: 0}
-    - {x: -.7421875, y: -.1796875, z: 0}
-    - {x: .765625, y: -.1796875, z: 0}
+    - {x: -.71875, y: -.8671875, z: 0}
+    - {x: .734375, y: -.8671875, z: 0}
+    - {x: -.71875, y: .0078125, z: 0}
+    - {x: .734375, y: .0078125, z: 0}
     normals: []
     tangents: []
     uvs:
-    - {x: .589845717, y: .295899421}
-    - {x: .966794908, y: .295899421}
-    - {x: .589845717, y: .398436517}
-    - {x: .966794908, y: .398436517}
+    - {x: .369141608, y: .00195410149}
+    - {x: .550780296, y: .00195410149}
+    - {x: .369141608, y: .111327149}
+    - {x: .550780296, y: .111327149}
     indices: 000000000300000001000000020000000300000000000000
     material: {fileID: 2100000, guid: 9c0980deba627454383beca27dd02076, type: 2}
     materialId: 0
-    sourceTextureGUID: eab3f9a5dcb595c42ad1f793945db413
+    sourceTextureGUID: 3527c68a9797de04d8d1f18ed06bc9c4
     extractRegion: 0
     regionX: 0
     regionY: 0
@@ -1008,14 +286,470 @@ MonoBehaviour:
     normals: []
     tangents: []
     uvs:
-    - {x: .583986342, y: .512696266}
-    - {x: .955076158, y: .512696266}
-    - {x: .583986342, y: .615233421}
-    - {x: .955076158, y: .615233421}
+    - {x: .294922858, y: .302735358}
+    - {x: .294922858, y: .488280267}
+    - {x: .397459954, y: .302735358}
+    - {x: .397459954, y: .488280267}
     indices: 000000000300000001000000020000000300000000000000
     material: {fileID: 2100000, guid: 9c0980deba627454383beca27dd02076, type: 2}
     materialId: 0
-    sourceTextureGUID: ecc581630f960f645852639e5b975ae2
+    sourceTextureGUID: 355b85a04cf159e45b9344da70e42152
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    attachPoints: []
+  - name: Pig01SideWalk0003
+    boundsData:
+    - {x: .0078125, y: -.57421875, z: 0}
+    - {x: 1.453125, y: .8515625, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 2, y: 2, z: 0}
+    texelSize: {x: .0078125, y: .0078125}
+    positions:
+    - {x: -.71875, y: -1, z: 0}
+    - {x: .734375, y: -1, z: 0}
+    - {x: -.71875, y: -.1484375, z: 0}
+    - {x: .734375, y: -.1484375, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .479493171, y: .117188476}
+    - {x: .661131859, y: .117188476}
+    - {x: .479493171, y: .223631829}
+    - {x: .661131859, y: .223631829}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 9c0980deba627454383beca27dd02076, type: 2}
+    materialId: 0
+    sourceTextureGUID: 36f0175923693de49b7437f97635c93c
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    attachPoints: []
+  - name: Pig01Pickup0000
+    boundsData:
+    - {x: .02734375, y: -.609375, z: 0}
+    - {x: 1.5546875, y: .765625, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 2, y: 2, z: 0}
+    texelSize: {x: .0078125, y: .0078125}
+    positions:
+    - {x: -.75, y: -.9921875, z: 0}
+    - {x: .8046875, y: -.9921875, z: 0}
+    - {x: -.75, y: -.2265625, z: 0}
+    - {x: .8046875, y: -.2265625, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .00195410149, y: .500000954}
+    - {x: .00195410149, y: .694334984}
+    - {x: .097655274, y: .500000954}
+    - {x: .097655274, y: .694334984}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 9c0980deba627454383beca27dd02076, type: 2}
+    materialId: 0
+    sourceTextureGUID: 54171aa4fbf93f14ea2cc25ebefc5caf
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    attachPoints: []
+  - name: Pig01SideWalk0005
+    boundsData:
+    - {x: .0078125, y: -.5859375, z: 0}
+    - {x: 1.453125, y: .828125, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 2, y: 2, z: 0}
+    texelSize: {x: .0078125, y: .0078125}
+    positions:
+    - {x: -.71875, y: -1, z: 0}
+    - {x: .734375, y: -1, z: 0}
+    - {x: -.71875, y: -.171875, z: 0}
+    - {x: .734375, y: -.171875, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .769532204, y: .400391608}
+    - {x: .951170921, y: .400391608}
+    - {x: .769532204, y: .503905296}
+    - {x: .951170921, y: .503905296}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 9c0980deba627454383beca27dd02076, type: 2}
+    materialId: 0
+    sourceTextureGUID: 58309031d1835ff4f911948dab833810
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    attachPoints: []
+  - name: Pig01SideWalk0004
+    boundsData:
+    - {x: .0078125, y: -.58203125, z: 0}
+    - {x: 1.453125, y: .8359375, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 2, y: 2, z: 0}
+    texelSize: {x: .0078125, y: .0078125}
+    positions:
+    - {x: -.71875, y: -1, z: 0}
+    - {x: .734375, y: -1, z: 0}
+    - {x: -.71875, y: -.1640625, z: 0}
+    - {x: .734375, y: -.1640625, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .108399414, y: .305665046}
+    - {x: .290038079, y: .305665046}
+    - {x: .108399414, y: .410155267}
+    - {x: .290038079, y: .410155267}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 9c0980deba627454383beca27dd02076, type: 2}
+    materialId: 0
+    sourceTextureGUID: 6fd28bc7e4f84404b844633aa98ca44a
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    attachPoints: []
+  - name: Pig01SideWalk0000
+    boundsData:
+    - {x: .0078125, y: -.55859375, z: 0}
+    - {x: 1.453125, y: .8203125, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 2, y: 2, z: 0}
+    texelSize: {x: .0078125, y: .0078125}
+    positions:
+    - {x: -.71875, y: -.96875, z: 0}
+    - {x: .734375, y: -.96875, z: 0}
+    - {x: -.71875, y: -.1484375, z: 0}
+    - {x: .734375, y: -.1484375, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .00195410149, y: .314454108}
+    - {x: .00195410149, y: .496092767}
+    - {x: .104491211, y: .314454108}
+    - {x: .104491211, y: .496092767}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 9c0980deba627454383beca27dd02076, type: 2}
+    materialId: 0
+    sourceTextureGUID: 7203a98bb86b8844995ce026597febf9
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    attachPoints: []
+  - name: Pig01SideWalkBlink0001
+    boundsData:
+    - {x: .0078125, y: -.58203125, z: 0}
+    - {x: 1.453125, y: .8359375, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 2, y: 2, z: 0}
+    texelSize: {x: .0078125, y: .0078125}
+    positions:
+    - {x: -.71875, y: -1, z: 0}
+    - {x: .734375, y: -1, z: 0}
+    - {x: -.71875, y: -.1640625, z: 0}
+    - {x: .734375, y: -.1640625, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .108399414, y: .414063483}
+    - {x: .290038079, y: .414063483}
+    - {x: .108399414, y: .518553734}
+    - {x: .290038079, y: .518553734}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 9c0980deba627454383beca27dd02076, type: 2}
+    materialId: 0
+    sourceTextureGUID: 7490627666c870047a27fa4c11093b72
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    attachPoints: []
+  - name: Pig01FrontWalk0001
+    boundsData:
+    - {x: 0, y: -.5546875, z: 0}
+    - {x: 1.046875, y: .890625, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 2, y: 2, z: 0}
+    texelSize: {x: .0078125, y: .0078125}
+    positions:
+    - {x: -.5234375, y: -1, z: 0}
+    - {x: .5234375, y: -1, z: 0}
+    - {x: -.5234375, y: -.109375, z: 0}
+    - {x: .5234375, y: -.109375, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .101563476, y: .522461891}
+    - {x: .232420892, y: .522461891}
+    - {x: .101563476, y: .633788109}
+    - {x: .232420892, y: .633788109}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 9c0980deba627454383beca27dd02076, type: 2}
+    materialId: 0
+    sourceTextureGUID: 8738c6b2af8c0734ca81202510f6e050
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    attachPoints: []
+  - name: Pig01Pickup0003
+    boundsData:
+    - {x: .01171875, y: -.51953125, z: 0}
+    - {x: 1.4453125, y: .8984375, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 2, y: 2, z: 0}
+    texelSize: {x: .0078125, y: .0078125}
+    positions:
+    - {x: -.7109375, y: -.96875, z: 0}
+    - {x: .734375, y: -.96875, z: 0}
+    - {x: -.7109375, y: -.0703125, z: 0}
+    - {x: .734375, y: -.0703125, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .184571296, y: .00195410149}
+    - {x: .365233392, y: .00195410149}
+    - {x: .184571296, y: .114256836}
+    - {x: .365233392, y: .114256836}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 9c0980deba627454383beca27dd02076, type: 2}
+    materialId: 0
+    sourceTextureGUID: 89ead644ce4740c4b9205ff20d2c9e20
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    attachPoints: []
+  - name: Pig01SideIdleBlink0003
+    boundsData:
+    - {x: .015625, y: -.58984375, z: 0}
+    - {x: 1.515625, y: .8203125, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 2, y: 2, z: 0}
+    texelSize: {x: .0078125, y: .0078125}
+    positions:
+    - {x: -.7421875, y: -1, z: 0}
+    - {x: .7734375, y: -1, z: 0}
+    - {x: -.7421875, y: -.1796875, z: 0}
+    - {x: .7734375, y: -.1796875, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .735352516, y: .00195410149}
+    - {x: .924803734, y: .00195410149}
+    - {x: .735352516, y: .104491211}
+    - {x: .924803734, y: .104491211}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 9c0980deba627454383beca27dd02076, type: 2}
+    materialId: 0
+    sourceTextureGUID: 8c44a3ae205585c43976fed027d92ae8
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    attachPoints: []
+  - name: Pig01SideWalk0002
+    boundsData:
+    - {x: .0078125, y: -.5859375, z: 0}
+    - {x: 1.453125, y: .828125, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 2, y: 2, z: 0}
+    texelSize: {x: .0078125, y: .0078125}
+    positions:
+    - {x: -.71875, y: -1, z: 0}
+    - {x: .734375, y: -1, z: 0}
+    - {x: -.71875, y: -.171875, z: 0}
+    - {x: .734375, y: -.171875, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .769532204, y: .507813454}
+    - {x: .951170921, y: .507813454}
+    - {x: .769532204, y: .611327171}
+    - {x: .951170921, y: .611327171}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 9c0980deba627454383beca27dd02076, type: 2}
+    materialId: 0
+    sourceTextureGUID: 9e84342781cd474469978673ebc0186b
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    attachPoints: []
+  - name: Pig01SideWalkBlink0003
+    boundsData:
+    - {x: .0078125, y: -.57421875, z: 0}
+    - {x: 1.453125, y: .8515625, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 2, y: 2, z: 0}
+    texelSize: {x: .0078125, y: .0078125}
+    positions:
+    - {x: -.71875, y: -1, z: 0}
+    - {x: .734375, y: -1, z: 0}
+    - {x: -.71875, y: -.1484375, z: 0}
+    - {x: .734375, y: -.1484375, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .665040016, y: .214844733}
+    - {x: .846678734, y: .214844733}
+    - {x: .665040016, y: .321288079}
+    - {x: .846678734, y: .321288079}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 9c0980deba627454383beca27dd02076, type: 2}
+    materialId: 0
+    sourceTextureGUID: 9f5cac69fa5ced44ba2dbd1d7ed8f486
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    attachPoints: []
+  - name: Pig01FrontWalk0003
+    boundsData:
+    - {x: -.00390625, y: -.546875, z: 0}
+    - {x: 1.0390625, y: .90625, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 2, y: 2, z: 0}
+    texelSize: {x: .0078125, y: .0078125}
+    positions:
+    - {x: -.5234375, y: -1, z: 0}
+    - {x: .515625, y: -1, z: 0}
+    - {x: -.5234375, y: -.09375, z: 0}
+    - {x: .515625, y: -.09375, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .580079079, y: .518555641}
+    - {x: .709959984, y: .518555641}
+    - {x: .580079079, y: .631834984}
+    - {x: .709959984, y: .631834984}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 9c0980deba627454383beca27dd02076, type: 2}
+    materialId: 0
+    sourceTextureGUID: 9f72a9ad23a9bf047bdf1375c8833863
     extractRegion: 0
     regionX: 0
     regionY: 0
@@ -1046,20 +780,666 @@ MonoBehaviour:
     normals: []
     tangents: []
     uvs:
-    - {x: .589845717, y: .295899421}
-    - {x: .966794908, y: .295899421}
-    - {x: .589845717, y: .398436517}
-    - {x: .966794908, y: .398436517}
+    - {x: .735352516, y: .108399414}
+    - {x: .923827171, y: .108399414}
+    - {x: .735352516, y: .210936517}
+    - {x: .923827171, y: .210936517}
     indices: 000000000300000001000000020000000300000000000000
     material: {fileID: 2100000, guid: 9c0980deba627454383beca27dd02076, type: 2}
     materialId: 0
-    sourceTextureGUID: fe8c91397719f2e4c89f4028ea1f1a6b
+    sourceTextureGUID: a3613998da32d094999d0acde0690f57
     extractRegion: 0
     regionX: 0
     regionY: 0
     regionW: 0
     regionH: 0
     flipped: 0
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    attachPoints: []
+  - name: Pig01FrontRun0001
+    boundsData:
+    - {x: -.00390625, y: -.4140625, z: 0}
+    - {x: 1.0390625, y: .90625, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 2, y: 2, z: 0}
+    texelSize: {x: .0078125, y: .0078125}
+    positions:
+    - {x: -.5234375, y: -.8671875, z: 0}
+    - {x: .515625, y: -.8671875, z: 0}
+    - {x: -.5234375, y: .0390625, z: 0}
+    - {x: .515625, y: .0390625, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .713868141, y: .615235329}
+    - {x: .843749046, y: .615235329}
+    - {x: .713868141, y: .728514671}
+    - {x: .843749046, y: .728514671}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 9c0980deba627454383beca27dd02076, type: 2}
+    materialId: 0
+    sourceTextureGUID: a810de74326dc1a41b8786a7db8a600e
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    attachPoints: []
+  - name: Pig01SideWalkBlink0005
+    boundsData:
+    - {x: .0078125, y: -.5859375, z: 0}
+    - {x: 1.453125, y: .828125, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 2, y: 2, z: 0}
+    texelSize: {x: .0078125, y: .0078125}
+    positions:
+    - {x: -.71875, y: -1, z: 0}
+    - {x: .734375, y: -1, z: 0}
+    - {x: -.71875, y: -.171875, z: 0}
+    - {x: .734375, y: -.171875, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .769532204, y: .400391608}
+    - {x: .951170921, y: .400391608}
+    - {x: .769532204, y: .503905296}
+    - {x: .951170921, y: .503905296}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 9c0980deba627454383beca27dd02076, type: 2}
+    materialId: 0
+    sourceTextureGUID: a87a84baef47fb4429879029207e2674
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    attachPoints: []
+  - name: Pig01FrontRun0002
+    boundsData:
+    - {x: -.00390625, y: -.4609375, z: 0}
+    - {x: 1.0390625, y: .890625, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 2, y: 2, z: 0}
+    texelSize: {x: .0078125, y: .0078125}
+    positions:
+    - {x: -.5234375, y: -.90625, z: 0}
+    - {x: .515625, y: -.90625, z: 0}
+    - {x: -.5234375, y: -.015625, z: 0}
+    - {x: .515625, y: -.015625, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .236329108, y: .522461891}
+    - {x: .366209954, y: .522461891}
+    - {x: .236329108, y: .633788109}
+    - {x: .366209954, y: .633788109}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 9c0980deba627454383beca27dd02076, type: 2}
+    materialId: 0
+    sourceTextureGUID: ab17dcccccebaab4fafdcbc198e9c133
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    attachPoints: []
+  - name: Pig01SideWalkBlink0004
+    boundsData:
+    - {x: .0078125, y: -.58203125, z: 0}
+    - {x: 1.453125, y: .8359375, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 2, y: 2, z: 0}
+    texelSize: {x: .0078125, y: .0078125}
+    positions:
+    - {x: -.71875, y: -1, z: 0}
+    - {x: .734375, y: -1, z: 0}
+    - {x: -.71875, y: -.1640625, z: 0}
+    - {x: .734375, y: -.1640625, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .108399414, y: .305665046}
+    - {x: .290038079, y: .305665046}
+    - {x: .108399414, y: .410155267}
+    - {x: .290038079, y: .410155267}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 9c0980deba627454383beca27dd02076, type: 2}
+    materialId: 0
+    sourceTextureGUID: b06aec1f199a07f48aaa590bde552d03
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    attachPoints: []
+  - name: Pig01SideIdle0002
+    boundsData:
+    - {x: .01171875, y: -.58984375, z: 0}
+    - {x: 1.5078125, y: .8203125, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 2, y: 2, z: 0}
+    texelSize: {x: .0078125, y: .0078125}
+    positions:
+    - {x: -.7421875, y: -1, z: 0}
+    - {x: .765625, y: -1, z: 0}
+    - {x: -.7421875, y: -.1796875, z: 0}
+    - {x: .765625, y: -.1796875, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .735352516, y: .108399414}
+    - {x: .923827171, y: .108399414}
+    - {x: .735352516, y: .210936517}
+    - {x: .923827171, y: .210936517}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 9c0980deba627454383beca27dd02076, type: 2}
+    materialId: 0
+    sourceTextureGUID: b7c0872354dd4414c9e562e1d81c71ec
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    attachPoints: []
+  - name: Pig01SideIdleBlink0004
+    boundsData:
+    - {x: .015625, y: -.57421875, z: 0}
+    - {x: 1.46875, y: .8515625, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 2, y: 2, z: 0}
+    texelSize: {x: .0078125, y: .0078125}
+    positions:
+    - {x: -.71875, y: -1, z: 0}
+    - {x: .75, y: -1, z: 0}
+    - {x: -.71875, y: -.1484375, z: 0}
+    - {x: .75, y: -.1484375, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .184571296, y: .118165039}
+    - {x: .184571296, y: .301756829}
+    - {x: .291014642, y: .118165039}
+    - {x: .291014642, y: .301756829}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 9c0980deba627454383beca27dd02076, type: 2}
+    materialId: 0
+    sourceTextureGUID: b99eb887044bf1142856c183e65e10ab
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    attachPoints: []
+  - name: Pig01SideWalkBlink0002
+    boundsData:
+    - {x: .0078125, y: -.5859375, z: 0}
+    - {x: 1.453125, y: .828125, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 2, y: 2, z: 0}
+    texelSize: {x: .0078125, y: .0078125}
+    positions:
+    - {x: -.71875, y: -1, z: 0}
+    - {x: .734375, y: -1, z: 0}
+    - {x: -.71875, y: -.171875, z: 0}
+    - {x: .734375, y: -.171875, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .401368171, y: .337891608}
+    - {x: .583006859, y: .337891608}
+    - {x: .401368171, y: .441405267}
+    - {x: .583006859, y: .441405267}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 9c0980deba627454383beca27dd02076, type: 2}
+    materialId: 0
+    sourceTextureGUID: ba19ea09cd0dddb4c920cbbec8679187
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    attachPoints: []
+  - name: Pig01FrontRun0000
+    boundsData:
+    - {x: -.00390625, y: -.546875, z: 0}
+    - {x: 1.0390625, y: .859375, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 2, y: 2, z: 0}
+    texelSize: {x: .0078125, y: .0078125}
+    positions:
+    - {x: -.5234375, y: -.9765625, z: 0}
+    - {x: .515625, y: -.9765625, z: 0}
+    - {x: -.5234375, y: -.1171875, z: 0}
+    - {x: .515625, y: -.1171875, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .370118171, y: .544922829}
+    - {x: .499999017, y: .544922829}
+    - {x: .370118171, y: .652342796}
+    - {x: .499999017, y: .652342796}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 9c0980deba627454383beca27dd02076, type: 2}
+    materialId: 0
+    sourceTextureGUID: ca25cd0e2f5401a479ba4b6ea8fcbc28
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    attachPoints: []
+  - name: Pig01FrontWalk0000
+    boundsData:
+    - {x: -.00390625, y: -.55078125, z: 0}
+    - {x: 1.0390625, y: .8984375, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 2, y: 2, z: 0}
+    texelSize: {x: .0078125, y: .0078125}
+    positions:
+    - {x: -.5234375, y: -1, z: 0}
+    - {x: .515625, y: -1, z: 0}
+    - {x: -.5234375, y: -.1015625, z: 0}
+    - {x: .515625, y: -.1015625, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .847657204, y: .731446266}
+    - {x: .977538109, y: .731446266}
+    - {x: .847657204, y: .843749046}
+    - {x: .977538109, y: .843749046}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 9c0980deba627454383beca27dd02076, type: 2}
+    materialId: 0
+    sourceTextureGUID: d1af67ba2a433e642a8dbf6a50f159e1
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    attachPoints: []
+  - name: Pig01Pickup0001
+    boundsData:
+    - {x: .0234375, y: -.59765625, z: 0}
+    - {x: 1.515625, y: .8046875, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 2, y: 2, z: 0}
+    texelSize: {x: .0078125, y: .0078125}
+    positions:
+    - {x: -.734375, y: -1, z: 0}
+    - {x: .78125, y: -1, z: 0}
+    - {x: -.734375, y: -.1953125, z: 0}
+    - {x: .78125, y: -.1953125, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .665040016, y: .325196296}
+    - {x: .665040016, y: .514647484}
+    - {x: .765624046, y: .325196296}
+    - {x: .765624046, y: .514647484}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 9c0980deba627454383beca27dd02076, type: 2}
+    materialId: 0
+    sourceTextureGUID: d50d667760e45e24dabd1e10bb9432cd
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    attachPoints: []
+  - name: Pig01SideWalkBlink0000
+    boundsData:
+    - {x: .0078125, y: -.55859375, z: 0}
+    - {x: 1.453125, y: .8203125, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 2, y: 2, z: 0}
+    texelSize: {x: .0078125, y: .0078125}
+    positions:
+    - {x: -.71875, y: -.96875, z: 0}
+    - {x: .734375, y: -.96875, z: 0}
+    - {x: -.71875, y: -.1484375, z: 0}
+    - {x: .734375, y: -.1484375, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .00195410149, y: .314454108}
+    - {x: .00195410149, y: .496092767}
+    - {x: .104491211, y: .314454108}
+    - {x: .104491211, y: .496092767}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 9c0980deba627454383beca27dd02076, type: 2}
+    materialId: 0
+    sourceTextureGUID: e41d3b06c21579e4988a871996fb4988
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    attachPoints: []
+  - name: Pig01SideWalk0001
+    boundsData:
+    - {x: .0078125, y: -.58203125, z: 0}
+    - {x: 1.453125, y: .8359375, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 2, y: 2, z: 0}
+    texelSize: {x: .0078125, y: .0078125}
+    positions:
+    - {x: -.71875, y: -1, z: 0}
+    - {x: .734375, y: -1, z: 0}
+    - {x: -.71875, y: -.1640625, z: 0}
+    - {x: .734375, y: -.1640625, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .108399414, y: .414063483}
+    - {x: .290038079, y: .414063483}
+    - {x: .108399414, y: .518553734}
+    - {x: .290038079, y: .518553734}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 9c0980deba627454383beca27dd02076, type: 2}
+    materialId: 0
+    sourceTextureGUID: e420cce932a0ea74394ce8f4cb27af0b
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    attachPoints: []
+  - name: Pig01SideRun0001
+    boundsData:
+    - {x: -.01171875, y: -.46875, z: 0}
+    - {x: 1.4140625, y: .890625, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 2, y: 2, z: 0}
+    texelSize: {x: .0078125, y: .0078125}
+    positions:
+    - {x: -.71875, y: -.9140625, z: 0}
+    - {x: .6953125, y: -.9140625, z: 0}
+    - {x: -.71875, y: -.0234375, z: 0}
+    - {x: .6953125, y: -.0234375, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .554688454, y: .00195410149}
+    - {x: .731444359, y: .00195410149}
+    - {x: .554688454, y: .113280274}
+    - {x: .731444359, y: .113280274}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 9c0980deba627454383beca27dd02076, type: 2}
+    materialId: 0
+    sourceTextureGUID: e8de5a6d738799748aa1900eef1616b7
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    attachPoints: []
+  - name: Pig01Pickup0004
+    boundsData:
+    - {x: .00390625, y: -.5390625, z: 0}
+    - {x: 1.4296875, y: .921875, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 2, y: 2, z: 0}
+    texelSize: {x: .0078125, y: .0078125}
+    positions:
+    - {x: -.7109375, y: -1, z: 0}
+    - {x: .71875, y: -1, z: 0}
+    - {x: -.7109375, y: -.078125, z: 0}
+    - {x: .71875, y: -.078125, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .00195410149, y: .00195410149}
+    - {x: .180663079, y: .00195410149}
+    - {x: .00195410149, y: .117186524}
+    - {x: .180663079, y: .117186524}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 9c0980deba627454383beca27dd02076, type: 2}
+    materialId: 0
+    sourceTextureGUID: e913a5b272f77094cbd793a0251716d1
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    attachPoints: []
+  - name: Pig01SideIdle0000
+    boundsData:
+    - {x: .0078125, y: -.57421875, z: 0}
+    - {x: 1.453125, y: .8515625, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 2, y: 2, z: 0}
+    texelSize: {x: .0078125, y: .0078125}
+    positions:
+    - {x: -.71875, y: -1, z: 0}
+    - {x: .734375, y: -1, z: 0}
+    - {x: -.71875, y: -.1484375, z: 0}
+    - {x: .734375, y: -.1484375, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .850586891, y: .214844733}
+    - {x: .850586891, y: .396483392}
+    - {x: .957030296, y: .214844733}
+    - {x: .957030296, y: .396483392}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 9c0980deba627454383beca27dd02076, type: 2}
+    materialId: 0
+    sourceTextureGUID: ea417dd3187460249b89cedd583c1fac
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    attachPoints: []
+  - name: Pig01SideRun0002
+    boundsData:
+    - {x: .0078125, y: -.57421875, z: 0}
+    - {x: 1.453125, y: .8515625, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 2, y: 2, z: 0}
+    texelSize: {x: .0078125, y: .0078125}
+    positions:
+    - {x: -.71875, y: -1, z: 0}
+    - {x: .734375, y: -1, z: 0}
+    - {x: -.71875, y: -.1484375, z: 0}
+    - {x: .734375, y: -.1484375, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .479493171, y: .227540046}
+    - {x: .661131859, y: .227540046}
+    - {x: .479493171, y: .333983392}
+    - {x: .661131859, y: .333983392}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 9c0980deba627454383beca27dd02076, type: 2}
+    materialId: 0
+    sourceTextureGUID: ee3502c30c9a0b34080abc1319e258cb
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 0
+    complexGeometry: 0
+    colliderType: 0
+    colliderVertices: []
+    colliderIndicesFwd: 
+    colliderIndicesBack: 
+    colliderConvex: 0
+    colliderSmoothSphereCollisions: 0
+    attachPoints: []
+  - name: Pig01SideIdleBlink0000
+    boundsData:
+    - {x: .0078125, y: -.57421875, z: 0}
+    - {x: 1.453125, y: .8515625, z: 0}
+    untrimmedBoundsData:
+    - {x: 0, y: 0, z: 0}
+    - {x: 2, y: 2, z: 0}
+    texelSize: {x: .0078125, y: .0078125}
+    positions:
+    - {x: -.71875, y: -1, z: 0}
+    - {x: .734375, y: -1, z: 0}
+    - {x: -.71875, y: -.1484375, z: 0}
+    - {x: .734375, y: -.1484375, z: 0}
+    normals: []
+    tangents: []
+    uvs:
+    - {x: .850586891, y: .214844733}
+    - {x: .850586891, y: .396483392}
+    - {x: .957030296, y: .214844733}
+    - {x: .957030296, y: .396483392}
+    indices: 000000000300000001000000020000000300000000000000
+    material: {fileID: 2100000, guid: 9c0980deba627454383beca27dd02076, type: 2}
+    materialId: 0
+    sourceTextureGUID: f7783af65942872488d4096ae5df56bb
+    extractRegion: 0
+    regionX: 0
+    regionY: 0
+    regionW: 0
+    regionH: 0
+    flipped: 1
     complexGeometry: 0
     colliderType: 0
     colliderVertices: []
@@ -1081,7 +1461,7 @@ MonoBehaviour:
   loadable: 0
   invOrthoSize: 2
   halfTargetHeight: 64
-  buildKey: 480851228
+  buildKey: 320664520
   dataGuid: 26062ddd8c3ee1042ab9157a5bfd20db
   managedSpriteCollection: 0
   hasPlatformData: 0

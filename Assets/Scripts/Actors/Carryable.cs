@@ -3,9 +3,14 @@ using System.Collections;
 
 public class Carryable : MonoBehaviour
 {
-	public void StartCarry(Transform carrying)
+	public void StartLift(Transform carrying)
 	{
 		transform.parent = carrying;
+		gameObject.SendMessage("OnStartLift", SendMessageOptions.DontRequireReceiver);
+	}
+	
+	public void StartCarry()
+	{
 		gameObject.SendMessage("OnStartCarry", SendMessageOptions.DontRequireReceiver);
 	}
 	

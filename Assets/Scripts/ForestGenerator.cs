@@ -18,6 +18,9 @@ public class ForestGenerator : MonoBehaviour
 	public float vFencePerMeter;
 	public float grassTurfPerMeter;
 	
+	// mushrooms
+	public int totalMushrooms;
+	
 	// prefabs
 	public Transform playerPrefab;
 	public PolyMesh ground;
@@ -133,7 +136,6 @@ public class ForestGenerator : MonoBehaviour
 			grassTurfPrefab.Spawn(new Vector3(Rand.Float(-size.x, size.x), -.25f, Rand.Float(-size.y, size.y))).parent = grassRoot;
 		
 		// generate mushroom areas
-		int totalMushrooms = 20;
 		List<Vector3> mushroomSpawns = new List<Vector3>();
 		
 		for (float i = -size.x + fencePadding.x; i < size.x - fencePadding.x; i += 3)

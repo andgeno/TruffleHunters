@@ -338,6 +338,10 @@ Prefab:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 8636825}
+    - target: {fileID: 11400000, guid: bad71921777f8d64babb6b62c3ca1e91, type: 2}
+      propertyPath: exitFarmPrefab
+      value: 
+      objectReference: {fileID: 400000, guid: 844e0ded8f71f864c856c61fdce20464, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: bad71921777f8d64babb6b62c3ca1e91, type: 2}
   m_RootGameObject: {fileID: 1683392229}
@@ -696,6 +700,7 @@ MonoBehaviour:
   grassTurfPrefab: {fileID: 400002, guid: 65c99d6cbc8ea2f49b7d2d8f63ab2eed, type: 2}
   gatePrefab: {fileID: 400000, guid: d80c4f7ccd883af4aa5ecacfabede219, type: 2}
   mushroomPrefab: {fileID: 400002, guid: 4ce53c819e820704da1e40f32dfb533a, type: 2}
+  exitFarmPrefab: {fileID: 400000, guid: 844e0ded8f71f864c856c61fdce20464, type: 2}
   treeRoot: {fileID: 1700130707}
   rockRoot: {fileID: 827446539}
   grassRoot: {fileID: 2140500911}

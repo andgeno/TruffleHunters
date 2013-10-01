@@ -19950,7 +19950,7 @@ GameObject:
   - 33: {fileID: 410765770}
   - 23: {fileID: 410765769}
   - 114: {fileID: 410765768}
-  - 136: {fileID: 410765767}
+  - 65: {fileID: 410765767}
   m_Layer: 10
   m_Name: DeadTree
   m_TagString: Untagged
@@ -19958,20 +19958,19 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!136 &410765767
-CapsuleCollider:
+--- !u!65 &410765767
+BoxCollider:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 13600000, guid: d994f74bba53ece449613b3d1cbec95e,
+  m_PrefabParentObject: {fileID: 6500000, guid: d994f74bba53ece449613b3d1cbec95e,
     type: 2}
   m_PrefabInternal: {fileID: 1173440220}
   m_GameObject: {fileID: 410765766}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: .699999988
-  m_Height: 4
-  m_Direction: 1
-  m_Center: {x: 0, y: 1.29999995, z: 0}
+  serializedVersion: 2
+  m_Size: {x: 1, y: 4, z: 2}
+  m_Center: {x: 0, y: 2, z: 0}
 --- !u!114 &410765768
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -35975,7 +35974,7 @@ GameObject:
   - 33: {fileID: 761578749}
   - 23: {fileID: 761578748}
   - 114: {fileID: 761578747}
-  - 136: {fileID: 761578746}
+  - 65: {fileID: 761578746}
   m_Layer: 10
   m_Name: Stump
   m_TagString: Untagged
@@ -35983,20 +35982,19 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!136 &761578746
-CapsuleCollider:
+--- !u!65 &761578746
+BoxCollider:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 13600000, guid: 5fb1c2e15ef8fdb44918d94b8b602f7f,
+  m_PrefabParentObject: {fileID: 6500000, guid: 5fb1c2e15ef8fdb44918d94b8b602f7f,
     type: 2}
   m_PrefabInternal: {fileID: 170159831}
   m_GameObject: {fileID: 761578745}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: .699999988
-  m_Height: 4
-  m_Direction: 1
-  m_Center: {x: 0, y: 1.29999995, z: 0}
+  serializedVersion: 2
+  m_Size: {x: 1, y: 4, z: 2}
+  m_Center: {x: 0, y: 2, z: 0}
 --- !u!114 &761578747
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -73858,7 +73856,7 @@ GameObject:
   - 33: {fileID: 1492771068}
   - 23: {fileID: 1492771067}
   - 114: {fileID: 1492771066}
-  - 136: {fileID: 1492771065}
+  - 65: {fileID: 1492771065}
   m_Layer: 10
   m_Name: Stump
   m_TagString: Untagged
@@ -73866,20 +73864,19 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!136 &1492771065
-CapsuleCollider:
+--- !u!65 &1492771065
+BoxCollider:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 13600000, guid: 5fb1c2e15ef8fdb44918d94b8b602f7f,
+  m_PrefabParentObject: {fileID: 6500000, guid: 5fb1c2e15ef8fdb44918d94b8b602f7f,
     type: 2}
   m_PrefabInternal: {fileID: 1976408450}
   m_GameObject: {fileID: 1492771064}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: .699999988
-  m_Height: 4
-  m_Direction: 1
-  m_Center: {x: 0, y: 1.29999995, z: 0}
+  serializedVersion: 2
+  m_Size: {x: 1, y: 4, z: 2}
+  m_Center: {x: 0, y: 2, z: 0}
 --- !u!114 &1492771066
 MonoBehaviour:
   m_ObjectHideFlags: 0

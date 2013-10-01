@@ -57,27 +57,7 @@ public class Pig : MonoBehaviour
 		var distance = Vector3.Distance(transform.position, target);
 		var control = Calc.BezierControl(transform.position, target, distance);
 		yield return StartCoroutine(transform.CurveTo(control, target, 0.5f));
-		transform.position = target;
 		SetState(State.Idle);
-		
-		/*var duration = 0.5f;
-		var distance = 4f;
-		var heightMult = 2.5f;
-		
-		var start = body.localPosition;
-		var end = Vector3.zero;
-		var control = Calc.BezierControl(start, end, start.y * heightMult);
-		var velocity = direction * (Vector3.Distance(Vector3.zero, direction * distance) / duration);
-		
-		for (float time = 0; time < duration; time += Time.deltaTime)
-		{
-			body.localPosition = Calc.Bezier(start, control, end, time / duration);
-			controller.Move(velocity * Time.deltaTime);
-			yield return 0;
-		}
-		
-		body.localPosition = Vector3.zero;
-		SetState(State.Idle);*/
 	}
 	
 	void OnStartCarry()

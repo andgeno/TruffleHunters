@@ -251,12 +251,16 @@ MonoBehaviour:
   hFencePerMeter: 3.20000005
   vFencePerMeter: 2
   grassTurfPerMeter: .100000001
+  playerPrefab: {fileID: 400004, guid: 599ae8f61e075f44cbf30307ef12bb1b, type: 2}
   ground: {fileID: 11400002}
   treePrefab: {fileID: 400006, guid: e5b7ccf0ae8a7c94e8e9068496cd988e, type: 2}
+  deadTreePrefab: {fileID: 400002, guid: d994f74bba53ece449613b3d1cbec95e, type: 2}
+  stumpPrefab: {fileID: 400002, guid: 5fb1c2e15ef8fdb44918d94b8b602f7f, type: 2}
   rockPrefab: {fileID: 400002, guid: 6b8314217d8f10146958ed5894981532, type: 2}
   hFencePrefab: {fileID: 400008, guid: 652471dd17db0154ab5b882652a91ee3, type: 2}
   vFencePrefab: {fileID: 400006, guid: 81e01d1672bb63841bcfefba1ca10160, type: 2}
   grassTurfPrefab: {fileID: 400002, guid: 65c99d6cbc8ea2f49b7d2d8f63ab2eed, type: 2}
+  gatePrefab: {fileID: 400000, guid: d80c4f7ccd883af4aa5ecacfabede219, type: 2}
   treeRoot: {fileID: 400010}
   rockRoot: {fileID: 400008}
   grassRoot: {fileID: 400006}

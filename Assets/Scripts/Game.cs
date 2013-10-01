@@ -4,9 +4,13 @@ using System.Collections.Generic;
 using System.Xml.Serialization;
 using System.Xml;
 
+public enum GamePhase { BeforeHunt, Hunt, AfterHunt }
+
 public class Game : Singleton<Game>
 {
 	static XmlSerializer serializer;
+	
+	public static GamePhase phase = GamePhase.BeforeHunt;
 	
 	public GameData data = new GameData();
 	
@@ -14,6 +18,35 @@ public class Game : Singleton<Game>
 	{
 		base.Awake();
 		Load();
+	}
+	
+	void Start()
+	{
+		StartCoroutine(phase.ToString());
+	}
+	
+	IEnumerator BeforeHunt()
+	{
+		while (true)
+		{
+			yield return 0;
+		}
+	}
+	
+	IEnumerator Hunt()
+	{
+		while (true)
+		{
+			yield return 0;
+		}
+	}
+	
+	IEnumerator AfterHunt()
+	{
+		while (true)
+		{
+			yield return 0;
+		}
 	}
 	
 	public static void Save()

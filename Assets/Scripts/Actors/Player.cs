@@ -8,6 +8,7 @@ public class Player : Singleton<Player>
 	public float acceleration;
 	public float zSpeedMult;
 	public float grabRadius;
+	public LayerMask noThrowMask;
 	
 	CharacterController controller;
 	tk2dSpriteAnimator animator;
@@ -19,6 +20,7 @@ public class Player : Singleton<Player>
 	Vector3 velocity;
 	Carryable carrying;
 	Vector3 aimDirection;
+	
 	
 	protected override void Awake ()
 	{
@@ -159,9 +161,12 @@ public class Player : Singleton<Player>
 	{
 		if (carrying != null && Input.GetButtonDown("A"))
 		{
-			carrying.StopCarry(aimDirection);
-			carrying = null;
-			return true;
+			if (!Physics.CheckSphere(transform.position, controller.radius, noThrowMask))
+			{
+				carrying.StopCarry(aimDirection);
+				carrying = null;
+				return true;
+			}
 		}
 		return false;
 	}

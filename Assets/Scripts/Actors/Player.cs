@@ -104,7 +104,6 @@ public class Player : Singleton<Player>
 	
 	void LiftEnd(tk2dSpriteAnimator animator, tk2dSpriteAnimationClip clip)
 	{
-		Debug.Log("Lift end");
 		animator.AnimationCompleted = null;
 		carrying.StartCarry(transform);
 		SetState(State.Idle);

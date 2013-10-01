@@ -63,6 +63,7 @@ public class Pig : MonoBehaviour
 		var control = Calc.BezierControl(transform.position, target, distance * heightMult);
 		yield return StartCoroutine(transform.CurveTo(control, target, 0.5f));
 		SetState(State.Idle);
+		gameObject.SendMessage("OnThrowEnd", SendMessageOptions.DontRequireReceiver);
 	}
 	
 	void OnStartCarry()

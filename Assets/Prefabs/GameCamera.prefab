@@ -111,6 +111,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fc6fa4e42b5f4224998f3ba66fef8811, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  pixel: {fileID: 2800000, guid: 7a455a2ac6e56274287340cd5a34aff5, type: 3}
+  color: {r: 0, g: 0, b: 0, a: 0}
 --- !u!124 &12400000
 Behaviour:
   m_ObjectHideFlags: 1

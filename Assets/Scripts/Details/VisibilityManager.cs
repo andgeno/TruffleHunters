@@ -20,7 +20,7 @@ public class VisibilityManager : Singleton<VisibilityManager>
 			foreach (var obj in objects)
 			{
 				var pos = Camera.main.WorldToScreenPoint(obj.transform.localPosition);
-				obj.SetVisible(pos.y > -50);
+				obj.SetVisible(pos.y > -100);
 			}
 		}
 	}

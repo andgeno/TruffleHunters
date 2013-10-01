@@ -79,6 +79,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scene: FarmHouse
+  phase: 2
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1

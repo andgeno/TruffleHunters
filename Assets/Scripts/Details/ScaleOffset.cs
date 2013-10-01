@@ -11,6 +11,6 @@ public class ScaleOffset : MonoBehaviour
 	void Start () 
 	{
 		float scaleBy = Rand.Float(scaleOffsetMin, scaleOffsetMax);
-		transform.localScale = new Vector3(scaleBy, scaleBy, 1);
+		transform.localScale = new Vector3(transform.localScale.x * scaleBy, transform.localScale.y * scaleBy, 1);
 	}
 }

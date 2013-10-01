@@ -47,10 +47,10 @@ public class ForestGenerator : MonoBehaviour
 	IEnumerator Generate()
 	{
 		// generate the ground
-		ground.keyPoints[0] = new Vector3(size.x, size.y);
+		ground.keyPoints[0] = new Vector3(size.x, size.y + 20);
 		ground.keyPoints[1] = new Vector3(size.x , -size.y);
 		ground.keyPoints[2] = new Vector3(-size.x, -size.y);
-		ground.keyPoints[3] = new Vector3(-size.x, size.y);
+		ground.keyPoints[3] = new Vector3(-size.x, size.y + 20);
 		ground.BuildMesh();
 		
 		// top perimeter
@@ -83,7 +83,7 @@ public class ForestGenerator : MonoBehaviour
 		Vector2 treePerlinOffset = new Vector2(Rand.Float(10000), Rand.Float(10000));
 		for (float i = -size.x; i < size.x; i ++)
 		{
-			for (float j = - size.y; j < size.y; j += 2)
+			for (float j = - size.y; j < size.y + 20; j += 2)
 			{
 				// don't spawn near entrance
 				if (!(j > size.y - 20 && i > -4 && i < 4))

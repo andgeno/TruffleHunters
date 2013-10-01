@@ -32968,6 +32968,7 @@ GameObject:
   - 33: {fileID: 671444239}
   - 65: {fileID: 671444238}
   - 114: {fileID: 671444237}
+  - 114: {fileID: 671444241}
   m_Layer: 13
   m_Name: ExitZone
   m_TagString: Untagged
@@ -33017,6 +33018,18 @@ Transform:
   m_LocalScale: {x: 8.17056179, y: 1, z: 8.68384457}
   m_Children: []
   m_Father: {fileID: 0}
+--- !u!114 &671444241
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 671444236}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3834752bd7479c24cab28e30b7125abe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier: 
 --- !u!1 &673754308
 GameObject:
   m_ObjectHideFlags: 0

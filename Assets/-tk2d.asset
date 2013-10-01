@@ -72,6 +72,8 @@ MonoBehaviour:
     - Hole2
     - Hole0
     - Hole1
+    - TracksEnd
+    - Tracks
     spriteTextureGUIDs:
     - e24a7853e536dae4d970b251d26223d1
     - 324001d6406a2ba48b9993bb398ed8f0
@@ -99,6 +101,8 @@ MonoBehaviour:
     - 3f52937022b05dd48bcaf338a3314698
     - eb6985490d71fac47bd4859661ed547e
     - 88e7055cb877143449bbb814ae9af7b9
+    - 45f0f203a5c77c74e8add601bc31ca7b
+    - f9e119bb379e49f4195556c4051f7b9b
     spriteTextureTimeStamps:
     - 1380501274.78592
     - 1380501274.78392
@@ -126,6 +130,8 @@ MonoBehaviour:
     - 1380501274.77791
     - 1380501274.77591
     - 1380501274.77691
+    - 1380591840.4011
+    - 1380591840.3991
     managedSpriteCollection: 0
     loadable: 0
     assetName: 

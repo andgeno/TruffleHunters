@@ -47,10 +47,10 @@ public class ForestGenerator : MonoBehaviour
 	IEnumerator Generate()
 	{
 		// generate the ground
-		ground.keyPoints[0] = new Vector3(size.x, size.y + 20);
-		ground.keyPoints[1] = new Vector3(size.x , -size.y);
-		ground.keyPoints[2] = new Vector3(-size.x, -size.y);
-		ground.keyPoints[3] = new Vector3(-size.x, size.y + 20);
+		ground.keyPoints[0] = new Vector3(size.x + 20, size.y + 20);
+		ground.keyPoints[1] = new Vector3(size.x + 20 , -size.y - 20);
+		ground.keyPoints[2] = new Vector3(-size.x - 20, -size.y - 20);
+		ground.keyPoints[3] = new Vector3(-size.x - 20, size.y + 20);
 		ground.BuildMesh();
 		
 		// top perimeter
@@ -122,7 +122,7 @@ public class ForestGenerator : MonoBehaviour
 		// place random grass turf
 		float grassTurfCount = size.x * 2 * size.y * 2 * grassTurfPerMeter;
 		for (int i = 0; i < grassTurfCount; i ++)
-			grassTurfPrefab.Spawn(new Vector3(Rand.Float(-size.x, size.x), 0, Rand.Float(-size.y, size.y))).parent = grassRoot;
+			grassTurfPrefab.Spawn(new Vector3(Rand.Float(-size.x, size.x), -.25f, Rand.Float(-size.y, size.y))).parent = grassRoot;
 		
 		yield return 0;
 	}
@@ -132,7 +132,7 @@ public class ForestGenerator : MonoBehaviour
 		if (Rand.Chance(0.90f))
 			treePrefab.Spawn(position).parent = treeRoot;
 		else if (Rand.Chance(0.50f))
-			deadTreePrefab.Spawn(position).parent = treeRoot;
+			deadTreePrefab.Spawn(position + new Vector3(0, -0.15f)).parent = treeRoot;
 		else
 			stumpPrefab.Spawn(position).parent = treeRoot;
 	}

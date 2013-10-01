@@ -7,6 +7,6 @@ public class ForestGate : MonoBehaviour
 	void Start()
 	{
 		if (Game.phase != GamePhase.BeforeHunt)
-			GetComponent<Gate>().enabled = false;
+			collider.enabled = false;
 	}
 }

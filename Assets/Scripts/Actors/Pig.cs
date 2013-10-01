@@ -14,10 +14,16 @@ public class Pig : MonoBehaviour
 	public DustParticle dustParticlePrefab;
 	
 	CharacterController controller;
+	int dataIndex;
 	
 	void Awake()
 	{
 		controller = GetComponent<CharacterController>();
+	}
+	
+	public void SetData(int index)
+	{
+		dataIndex = index;
 		SetState(state);
 	}
 	
@@ -39,9 +45,7 @@ public class Pig : MonoBehaviour
 	IEnumerator Idle()
 	{
 		while (true)
-		{
-			yield return 0;	
-		}
+			yield return 0;
 	}
 	
 	IEnumerator Carry()
@@ -86,5 +90,18 @@ public class Pig : MonoBehaviour
 			throwDist = Mathf.MoveTowards(throwDist, 0, controller.radius);
 		}
 		SetState(State.Throw, new Vector3(transform.position.x, 0, transform.position.z));
+	}
+	
+	public PigData data
+	{
+		get { return Game.instance.data.pigs[dataIndex]; }
+	}
+	
+	public static Pig Spawn(Pig prefab, int dataIndex, Vector3 position)
+	{
+		var pig = prefab.Spawn(position);
+		pig.SetData(dataIndex);
+		pig.name += "(" + pig.data.name + ")";
+		return pig;
 	}
 }

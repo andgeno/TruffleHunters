@@ -9,7 +9,6 @@ public class GameCamera : Singleton<GameCamera>
 	
 	void Start()
 	{
-		//Camera.main.transparencySortMode = TransparencySortMode.Orthographic;
 		if (Player.exists)
 			FollowTarget(Player.transform);
 		StartCoroutine(FadeIn());

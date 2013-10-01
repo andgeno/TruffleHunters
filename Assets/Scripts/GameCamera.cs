@@ -29,12 +29,12 @@ public class GameCamera : Singleton<GameCamera>
 		}
 	}
 	
-	public void FadeToScene(string name)
+	public void FadeToScene(string name, GamePhase phase)
 	{
 		StopAllCoroutines();
-		StartCoroutine(DoFadeToScene(name));
+		StartCoroutine(DoFadeToScene(name, phase));
 	}
-	IEnumerator DoFadeToScene(string name)
+	IEnumerator DoFadeToScene(string name, GamePhase phase)
 	{
 		color = new Color(0, 0, 0, 0);
 		var fadeSpeed = 1 / fadeTime;
@@ -43,6 +43,7 @@ public class GameCamera : Singleton<GameCamera>
 			color.a = Mathf.MoveTowards(color.a, 1, fadeSpeed * Time.deltaTime);
 			yield return 0;
 		}
+		Game.phase = phase;
 		Application.LoadLevel(name);
 	}
 	

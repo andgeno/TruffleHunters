@@ -4,6 +4,7 @@ using System.Collections;
 public class Exit : MonoBehaviour
 {
 	public string scene;
+	public GamePhase phase;
 	
 	void Awake()
 	{
@@ -15,7 +16,7 @@ public class Exit : MonoBehaviour
 	{
 		if (other.GetComponent<Player>() != null)
 		{
-			GameCamera.instance.FadeToScene(scene);
+			GameCamera.instance.FadeToScene(scene, phase);
 			enabled = false;
 		}
 	}

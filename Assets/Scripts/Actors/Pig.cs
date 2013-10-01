@@ -11,6 +11,7 @@ public class Pig : MonoBehaviour
 	public float speed;
 	public float minPlayerDistance;
 	public LayerMask preventThrowMask;
+	public DustParticle dustParticlePrefab;
 	
 	CharacterController controller;
 	int dataIndex;
@@ -62,6 +63,7 @@ public class Pig : MonoBehaviour
 		var heightMult = 0.5f;
 		var control = Calc.BezierControl(transform.position, target, distance * heightMult);
 		yield return StartCoroutine(transform.CurveTo(control, target, 0.5f));
+		DustParticle.Create(dustParticlePrefab, transform, new Vector3(0, 0, -0.1f));
 		SetState(State.Idle);
 		gameObject.SendMessage("OnThrowEnd", SendMessageOptions.DontRequireReceiver);
 	}

@@ -33,6 +33,7 @@ public class ForestGenerator : MonoBehaviour
 	public Transform grassTurfPrefab;
 	public Transform gatePrefab;
 	public Transform mushroomPrefab;
+	public Transform exitFarmPrefab;
 	
 	// roots
 	public Transform treeRoot;
@@ -89,6 +90,9 @@ public class ForestGenerator : MonoBehaviour
 			vFencePrefab.Spawn(new Vector3(2, 0, size.y - i)).parent = fenceRoot;	
 		}
 		
+		// exit
+		exitFarmPrefab.Spawn(new Vector3(0, 0, size.y));
+		
 		gatePrefab.Spawn (new Vector3(-1.5f, 0, size.y));
 		
 		// generate trees and rocks
@@ -138,9 +142,9 @@ public class ForestGenerator : MonoBehaviour
 		// generate mushroom areas
 		List<Vector3> mushroomSpawns = new List<Vector3>();
 		
-		for (float i = -size.x + fencePadding.x; i < size.x - fencePadding.x; i += 3)
+		for (float i = -size.x + fencePadding.x; i < size.x - fencePadding.x; i += 1)
 		{
-			for (float j = -size.y + fencePadding.y; j < size.y - fencePadding.y; j += 5)
+			for (float j = -size.y + fencePadding.y; j < size.y - fencePadding.y; j += 2)
 			{
 				// don't spawn in entrance
 				if (!(j > size.y - 20 && i > -6 && i < 6))
@@ -148,7 +152,7 @@ public class ForestGenerator : MonoBehaviour
 					// only spawn mushrooms in non-tree areas
 					float sample = GetPerlinSample(i, j);
 					float difference = Mathf.Abs(sample - treeThreshold);
-					if (treeThreshold < sample && (difference > 0.05f && difference < 0.1f))
+					if (treeThreshold < sample && (difference > 0.05f && difference < 0.2f))
 					{
 						mushroomSpawns.Add (new Vector3(i, 0, j));
 					}
@@ -157,7 +161,7 @@ public class ForestGenerator : MonoBehaviour
 		}
 		
 		// place the mushrooms
-		for (int i = 0; i < totalMushrooms; i ++)
+		for (int i = 0; i < totalMushrooms && mushroomSpawns.Count > 0; i ++)
 		{
 			Vector3 spawn = mushroomSpawns.Choose();
 			mushroomSpawns.Remove(spawn);

@@ -263,6 +263,7 @@ MonoBehaviour:
   grassTurfPrefab: {fileID: 400002, guid: 65c99d6cbc8ea2f49b7d2d8f63ab2eed, type: 2}
   gatePrefab: {fileID: 400000, guid: d80c4f7ccd883af4aa5ecacfabede219, type: 2}
   mushroomPrefab: {fileID: 400002, guid: 4ce53c819e820704da1e40f32dfb533a, type: 2}
+  exitFarmPrefab: {fileID: 0}
   treeRoot: {fileID: 400010}
   rockRoot: {fileID: 400008}
   grassRoot: {fileID: 400006}

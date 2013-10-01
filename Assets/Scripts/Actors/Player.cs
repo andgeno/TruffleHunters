@@ -9,6 +9,7 @@ public class Player : Singleton<Player>
 	public float zSpeedMult;
 	public float grabRadius;
 	public LayerMask noThrowMask;
+	public SweatParticle sweatParticlePrefab;
 	
 	CharacterController controller;
 	tk2dSpriteAnimator animator;
@@ -28,7 +29,16 @@ public class Player : Singleton<Player>
 		controller = GetComponent<CharacterController>();
 		animator = GetComponentInChildren<tk2dSpriteAnimator>();
 		
+		sweatParticlePrefab.CreatePool();
+		InvokeRepeating("Sweat", 0.50f, 0.50f);
+		
 		SetState(State.Idle);
+	}
+	
+	void Sweat()
+	{
+		if (carrying != null)
+			SweatParticle.Create(sweatParticlePrefab, transform, new Vector3(0, 1f, -0.1f));
 	}
 	
 	void Update()
@@ -104,7 +114,6 @@ public class Player : Singleton<Player>
 	
 	void LiftEnd(tk2dSpriteAnimator animator, tk2dSpriteAnimationClip clip)
 	{
-		Debug.Log("Lift end");
 		animator.AnimationCompleted = null;
 		carrying.StartCarry(transform);
 		SetState(State.Idle);

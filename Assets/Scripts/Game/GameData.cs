@@ -14,8 +14,10 @@ public class GameData
 public class PigData
 {
 	public string name;
-	public int weight;
 	public int age;
-	public float smell;
+	public int weightTier;
+	public int weight;
 	public float speed;
+	public float smellRange;
+	
 }

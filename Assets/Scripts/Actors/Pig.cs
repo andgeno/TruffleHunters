@@ -65,6 +65,7 @@ public class Pig : MonoBehaviour
 		yield return StartCoroutine(transform.CurveTo(control, target, 0.5f));
 		DustParticle.Create(dustParticlePrefab, transform, new Vector3(0, 0, -0.1f));
 		SetState(State.Idle);
+		gameObject.SendMessage("OnThrowEnd", SendMessageOptions.DontRequireReceiver);
 	}
 	
 	void OnStartCarry()

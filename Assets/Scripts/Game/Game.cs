@@ -67,7 +67,7 @@ public class Game : Singleton<Game>
 		else
 			pig.weight = Rand.Int(36, 45);
 		
-		pig.speed = Calc.Map(pig.weight, 16, 44, 4, 2);
+		pig.speed = Calc.Map(pig.weight, 16, 44, 2, 1);
 		pig.smellRange = Rand.Float(8, 12);
 		
 		return pig;

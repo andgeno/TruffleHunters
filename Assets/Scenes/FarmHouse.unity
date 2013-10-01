@@ -83,7 +83,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 3077901}
   - 114: {fileID: 3077902}
-  - 136: {fileID: 3077903}
+  - 65: {fileID: 3077903}
   - 114: {fileID: 3077904}
   m_Layer: 10
   m_Name: Tree
@@ -121,20 +121,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scaleOffsetMin: .699999988
   scaleOffsetMax: 1
---- !u!136 &3077903
-CapsuleCollider:
+--- !u!65 &3077903
+BoxCollider:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 13600000, guid: e5b7ccf0ae8a7c94e8e9068496cd988e,
+  m_PrefabParentObject: {fileID: 6500000, guid: e5b7ccf0ae8a7c94e8e9068496cd988e,
     type: 2}
   m_PrefabInternal: {fileID: 454208862}
   m_GameObject: {fileID: 3077900}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: .699999988
-  m_Height: 4
-  m_Direction: 1
-  m_Center: {x: 0, y: 1.29999995, z: 0}
+  serializedVersion: 2
+  m_Size: {x: 1, y: 4, z: 2}
+  m_Center: {x: 0, y: 2, z: 0}
 --- !u!114 &3077904
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1358,7 +1357,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 24255007}
   - 114: {fileID: 24255008}
-  - 136: {fileID: 24255009}
+  - 65: {fileID: 24255009}
   - 114: {fileID: 24255010}
   m_Layer: 10
   m_Name: Tree
@@ -1396,20 +1395,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scaleOffsetMin: .699999988
   scaleOffsetMax: 1
---- !u!136 &24255009
-CapsuleCollider:
+--- !u!65 &24255009
+BoxCollider:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 13600000, guid: e5b7ccf0ae8a7c94e8e9068496cd988e,
+  m_PrefabParentObject: {fileID: 6500000, guid: e5b7ccf0ae8a7c94e8e9068496cd988e,
     type: 2}
   m_PrefabInternal: {fileID: 837792057}
   m_GameObject: {fileID: 24255006}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: .699999988
-  m_Height: 4
-  m_Direction: 1
-  m_Center: {x: 0, y: 1.29999995, z: 0}
+  serializedVersion: 2
+  m_Size: {x: 1, y: 4, z: 2}
+  m_Center: {x: 0, y: 2, z: 0}
 --- !u!114 &24255010
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1700,7 +1698,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 31928025}
   - 114: {fileID: 31928026}
-  - 136: {fileID: 31928027}
+  - 65: {fileID: 31928027}
   - 114: {fileID: 31928028}
   m_Layer: 10
   m_Name: Tree
@@ -1738,20 +1736,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scaleOffsetMin: .699999988
   scaleOffsetMax: 1
---- !u!136 &31928027
-CapsuleCollider:
+--- !u!65 &31928027
+BoxCollider:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 13600000, guid: e5b7ccf0ae8a7c94e8e9068496cd988e,
+  m_PrefabParentObject: {fileID: 6500000, guid: e5b7ccf0ae8a7c94e8e9068496cd988e,
     type: 2}
   m_PrefabInternal: {fileID: 45523704}
   m_GameObject: {fileID: 31928024}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: .699999988
-  m_Height: 4
-  m_Direction: 1
-  m_Center: {x: 0, y: 1.29999995, z: 0}
+  serializedVersion: 2
+  m_Size: {x: 1, y: 4, z: 2}
+  m_Center: {x: 0, y: 2, z: 0}
 --- !u!114 &31928028
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1829,7 +1826,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 35864239}
   - 114: {fileID: 35864240}
-  - 136: {fileID: 35864241}
+  - 65: {fileID: 35864241}
   - 114: {fileID: 35864242}
   m_Layer: 10
   m_Name: Tree
@@ -1867,20 +1864,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scaleOffsetMin: .699999988
   scaleOffsetMax: 1
---- !u!136 &35864241
-CapsuleCollider:
+--- !u!65 &35864241
+BoxCollider:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 13600000, guid: e5b7ccf0ae8a7c94e8e9068496cd988e,
+  m_PrefabParentObject: {fileID: 6500000, guid: e5b7ccf0ae8a7c94e8e9068496cd988e,
     type: 2}
   m_PrefabInternal: {fileID: 150660120}
   m_GameObject: {fileID: 35864238}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: .699999988
-  m_Height: 4
-  m_Direction: 1
-  m_Center: {x: 0, y: 1.29999995, z: 0}
+  serializedVersion: 2
+  m_Size: {x: 1, y: 4, z: 2}
+  m_Center: {x: 0, y: 2, z: 0}
 --- !u!114 &35864242
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3414,7 +3410,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 60913633}
   - 114: {fileID: 60913634}
-  - 136: {fileID: 60913635}
+  - 65: {fileID: 60913635}
   - 114: {fileID: 60913636}
   m_Layer: 10
   m_Name: Tree
@@ -3452,20 +3448,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scaleOffsetMin: .699999988
   scaleOffsetMax: 1
---- !u!136 &60913635
-CapsuleCollider:
+--- !u!65 &60913635
+BoxCollider:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 13600000, guid: e5b7ccf0ae8a7c94e8e9068496cd988e,
+  m_PrefabParentObject: {fileID: 6500000, guid: e5b7ccf0ae8a7c94e8e9068496cd988e,
     type: 2}
   m_PrefabInternal: {fileID: 34133769}
   m_GameObject: {fileID: 60913632}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: .699999988
-  m_Height: 4
-  m_Direction: 1
-  m_Center: {x: 0, y: 1.29999995, z: 0}
+  serializedVersion: 2
+  m_Size: {x: 1, y: 4, z: 2}
+  m_Center: {x: 0, y: 2, z: 0}
 --- !u!114 &60913636
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3673,7 +3668,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 64304320}
   - 114: {fileID: 64304321}
-  - 136: {fileID: 64304322}
+  - 65: {fileID: 64304322}
   - 114: {fileID: 64304323}
   m_Layer: 10
   m_Name: Tree
@@ -3711,20 +3706,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scaleOffsetMin: .699999988
   scaleOffsetMax: 1
---- !u!136 &64304322
-CapsuleCollider:
+--- !u!65 &64304322
+BoxCollider:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 13600000, guid: e5b7ccf0ae8a7c94e8e9068496cd988e,
+  m_PrefabParentObject: {fileID: 6500000, guid: e5b7ccf0ae8a7c94e8e9068496cd988e,
     type: 2}
   m_PrefabInternal: {fileID: 1676033325}
   m_GameObject: {fileID: 64304319}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: .699999988
-  m_Height: 4
-  m_Direction: 1
-  m_Center: {x: 0, y: 1.29999995, z: 0}
+  serializedVersion: 2
+  m_Size: {x: 1, y: 4, z: 2}
+  m_Center: {x: 0, y: 2, z: 0}
 --- !u!114 &64304323
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6601,7 +6595,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 110376262}
   - 114: {fileID: 110376263}
-  - 136: {fileID: 110376264}
+  - 65: {fileID: 110376264}
   - 114: {fileID: 110376265}
   m_Layer: 10
   m_Name: Tree
@@ -6639,20 +6633,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scaleOffsetMin: .699999988
   scaleOffsetMax: 1
---- !u!136 &110376264
-CapsuleCollider:
+--- !u!65 &110376264
+BoxCollider:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 13600000, guid: e5b7ccf0ae8a7c94e8e9068496cd988e,
+  m_PrefabParentObject: {fileID: 6500000, guid: e5b7ccf0ae8a7c94e8e9068496cd988e,
     type: 2}
   m_PrefabInternal: {fileID: 1236003541}
   m_GameObject: {fileID: 110376261}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: .699999988
-  m_Height: 4
-  m_Direction: 1
-  m_Center: {x: 0, y: 1.29999995, z: 0}
+  serializedVersion: 2
+  m_Size: {x: 1, y: 4, z: 2}
+  m_Center: {x: 0, y: 2, z: 0}
 --- !u!114 &110376265
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6674,7 +6667,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 110812869}
   - 114: {fileID: 110812870}
-  - 136: {fileID: 110812871}
+  - 65: {fileID: 110812871}
   - 114: {fileID: 110812872}
   m_Layer: 10
   m_Name: Tree
@@ -6712,20 +6705,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scaleOffsetMin: .699999988
   scaleOffsetMax: 1
---- !u!136 &110812871
-CapsuleCollider:
+--- !u!65 &110812871
+BoxCollider:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 13600000, guid: e5b7ccf0ae8a7c94e8e9068496cd988e,
+  m_PrefabParentObject: {fileID: 6500000, guid: e5b7ccf0ae8a7c94e8e9068496cd988e,
     type: 2}
   m_PrefabInternal: {fileID: 390454522}
   m_GameObject: {fileID: 110812868}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: .699999988
-  m_Height: 4
-  m_Direction: 1
-  m_Center: {x: 0, y: 1.29999995, z: 0}
+  serializedVersion: 2
+  m_Size: {x: 1, y: 4, z: 2}
+  m_Center: {x: 0, y: 2, z: 0}
 --- !u!114 &110812872
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6972,7 +6964,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 120521006}
   - 114: {fileID: 120521007}
-  - 136: {fileID: 120521008}
+  - 65: {fileID: 120521008}
   - 114: {fileID: 120521009}
   m_Layer: 10
   m_Name: Tree
@@ -7010,20 +7002,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scaleOffsetMin: .699999988
   scaleOffsetMax: 1
---- !u!136 &120521008
-CapsuleCollider:
+--- !u!65 &120521008
+BoxCollider:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 13600000, guid: e5b7ccf0ae8a7c94e8e9068496cd988e,
+  m_PrefabParentObject: {fileID: 6500000, guid: e5b7ccf0ae8a7c94e8e9068496cd988e,
     type: 2}
   m_PrefabInternal: {fileID: 1202299338}
   m_GameObject: {fileID: 120521005}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: .699999988
-  m_Height: 4
-  m_Direction: 1
-  m_Center: {x: 0, y: 1.29999995, z: 0}
+  serializedVersion: 2
+  m_Size: {x: 1, y: 4, z: 2}
+  m_Center: {x: 0, y: 2, z: 0}
 --- !u!114 &120521009
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7519,7 +7510,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 141683207}
   - 114: {fileID: 141683208}
-  - 136: {fileID: 141683209}
+  - 65: {fileID: 141683209}
   - 114: {fileID: 141683210}
   m_Layer: 10
   m_Name: Tree
@@ -7557,20 +7548,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scaleOffsetMin: .699999988
   scaleOffsetMax: 1
---- !u!136 &141683209
-CapsuleCollider:
+--- !u!65 &141683209
+BoxCollider:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 13600000, guid: e5b7ccf0ae8a7c94e8e9068496cd988e,
+  m_PrefabParentObject: {fileID: 6500000, guid: e5b7ccf0ae8a7c94e8e9068496cd988e,
     type: 2}
   m_PrefabInternal: {fileID: 980527341}
   m_GameObject: {fileID: 141683206}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: .699999988
-  m_Height: 4
-  m_Direction: 1
-  m_Center: {x: 0, y: 1.29999995, z: 0}
+  serializedVersion: 2
+  m_Size: {x: 1, y: 4, z: 2}
+  m_Center: {x: 0, y: 2, z: 0}
 --- !u!114 &141683210
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8116,7 +8106,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 155142796}
   - 114: {fileID: 155142797}
-  - 136: {fileID: 155142798}
+  - 65: {fileID: 155142798}
   - 114: {fileID: 155142799}
   m_Layer: 10
   m_Name: Tree
@@ -8154,20 +8144,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scaleOffsetMin: .699999988
   scaleOffsetMax: 1
---- !u!136 &155142798
-CapsuleCollider:
+--- !u!65 &155142798
+BoxCollider:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 13600000, guid: e5b7ccf0ae8a7c94e8e9068496cd988e,
+  m_PrefabParentObject: {fileID: 6500000, guid: e5b7ccf0ae8a7c94e8e9068496cd988e,
     type: 2}
   m_PrefabInternal: {fileID: 1858789204}
   m_GameObject: {fileID: 155142795}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: .699999988
-  m_Height: 4
-  m_Direction: 1
-  m_Center: {x: 0, y: 1.29999995, z: 0}
+  serializedVersion: 2
+  m_Size: {x: 1, y: 4, z: 2}
+  m_Center: {x: 0, y: 2, z: 0}
 --- !u!114 &155142799
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8748,7 +8737,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 185071754}
   - 114: {fileID: 185071755}
-  - 136: {fileID: 185071756}
+  - 65: {fileID: 185071756}
   - 114: {fileID: 185071757}
   m_Layer: 10
   m_Name: Tree
@@ -8786,20 +8775,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scaleOffsetMin: .699999988
   scaleOffsetMax: 1
---- !u!136 &185071756
-CapsuleCollider:
+--- !u!65 &185071756
+BoxCollider:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 13600000, guid: e5b7ccf0ae8a7c94e8e9068496cd988e,
+  m_PrefabParentObject: {fileID: 6500000, guid: e5b7ccf0ae8a7c94e8e9068496cd988e,
     type: 2}
   m_PrefabInternal: {fileID: 1637252920}
   m_GameObject: {fileID: 185071753}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: .699999988
-  m_Height: 4
-  m_Direction: 1
-  m_Center: {x: 0, y: 1.29999995, z: 0}
+  serializedVersion: 2
+  m_Size: {x: 1, y: 4, z: 2}
+  m_Center: {x: 0, y: 2, z: 0}
 --- !u!114 &185071757
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10702,7 +10690,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 225874189}
   - 114: {fileID: 225874190}
-  - 136: {fileID: 225874191}
+  - 65: {fileID: 225874191}
   - 114: {fileID: 225874192}
   m_Layer: 10
   m_Name: Tree
@@ -10740,20 +10728,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scaleOffsetMin: .699999988
   scaleOffsetMax: 1
---- !u!136 &225874191
-CapsuleCollider:
+--- !u!65 &225874191
+BoxCollider:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 13600000, guid: e5b7ccf0ae8a7c94e8e9068496cd988e,
+  m_PrefabParentObject: {fileID: 6500000, guid: e5b7ccf0ae8a7c94e8e9068496cd988e,
     type: 2}
   m_PrefabInternal: {fileID: 1999416513}
   m_GameObject: {fileID: 225874188}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: .699999988
-  m_Height: 4
-  m_Direction: 1
-  m_Center: {x: 0, y: 1.29999995, z: 0}
+  serializedVersion: 2
+  m_Size: {x: 1, y: 4, z: 2}
+  m_Center: {x: 0, y: 2, z: 0}
 --- !u!114 &225874192
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11153,7 +11140,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 232265284}
   - 114: {fileID: 232265285}
-  - 136: {fileID: 232265286}
+  - 65: {fileID: 232265286}
   - 114: {fileID: 232265287}
   m_Layer: 10
   m_Name: Tree
@@ -11191,20 +11178,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scaleOffsetMin: .699999988
   scaleOffsetMax: 1
---- !u!136 &232265286
-CapsuleCollider:
+--- !u!65 &232265286
+BoxCollider:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 13600000, guid: e5b7ccf0ae8a7c94e8e9068496cd988e,
+  m_PrefabParentObject: {fileID: 6500000, guid: e5b7ccf0ae8a7c94e8e9068496cd988e,
     type: 2}
   m_PrefabInternal: {fileID: 1955195625}
   m_GameObject: {fileID: 232265283}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: .699999988
-  m_Height: 4
-  m_Direction: 1
-  m_Center: {x: 0, y: 1.29999995, z: 0}
+  serializedVersion: 2
+  m_Size: {x: 1, y: 4, z: 2}
+  m_Center: {x: 0, y: 2, z: 0}
 --- !u!114 &232265287
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11226,7 +11212,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 233748015}
   - 114: {fileID: 233748016}
-  - 136: {fileID: 233748017}
+  - 65: {fileID: 233748017}
   - 114: {fileID: 233748018}
   m_Layer: 10
   m_Name: Tree
@@ -11264,20 +11250,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scaleOffsetMin: .699999988
   scaleOffsetMax: 1
---- !u!136 &233748017
-CapsuleCollider:
+--- !u!65 &233748017
+BoxCollider:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 13600000, guid: e5b7ccf0ae8a7c94e8e9068496cd988e,
+  m_PrefabParentObject: {fileID: 6500000, guid: e5b7ccf0ae8a7c94e8e9068496cd988e,
     type: 2}
   m_PrefabInternal: {fileID: 1252548378}
   m_GameObject: {fileID: 233748014}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: .699999988
-  m_Height: 4
-  m_Direction: 1
-  m_Center: {x: 0, y: 1.29999995, z: 0}
+  serializedVersion: 2
+  m_Size: {x: 1, y: 4, z: 2}
+  m_Center: {x: 0, y: 2, z: 0}
 --- !u!114 &233748018
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13698,7 +13683,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 308555705}
   - 114: {fileID: 308555706}
-  - 136: {fileID: 308555707}
+  - 65: {fileID: 308555707}
   - 114: {fileID: 308555708}
   m_Layer: 10
   m_Name: Tree
@@ -13736,20 +13721,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scaleOffsetMin: .699999988
   scaleOffsetMax: 1
---- !u!136 &308555707
-CapsuleCollider:
+--- !u!65 &308555707
+BoxCollider:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 13600000, guid: e5b7ccf0ae8a7c94e8e9068496cd988e,
+  m_PrefabParentObject: {fileID: 6500000, guid: e5b7ccf0ae8a7c94e8e9068496cd988e,
     type: 2}
   m_PrefabInternal: {fileID: 226038187}
   m_GameObject: {fileID: 308555704}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: .699999988
-  m_Height: 4
-  m_Direction: 1
-  m_Center: {x: 0, y: 1.29999995, z: 0}
+  serializedVersion: 2
+  m_Size: {x: 1, y: 4, z: 2}
+  m_Center: {x: 0, y: 2, z: 0}
 --- !u!114 &308555708
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13861,7 +13845,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 310333311}
   - 114: {fileID: 310333312}
-  - 136: {fileID: 310333313}
+  - 65: {fileID: 310333313}
   - 114: {fileID: 310333314}
   m_Layer: 10
   m_Name: Tree
@@ -13899,20 +13883,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scaleOffsetMin: .699999988
   scaleOffsetMax: 1
---- !u!136 &310333313
-CapsuleCollider:
+--- !u!65 &310333313
+BoxCollider:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 13600000, guid: e5b7ccf0ae8a7c94e8e9068496cd988e,
+  m_PrefabParentObject: {fileID: 6500000, guid: e5b7ccf0ae8a7c94e8e9068496cd988e,
     type: 2}
   m_PrefabInternal: {fileID: 1226229548}
   m_GameObject: {fileID: 310333310}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: .699999988
-  m_Height: 4
-  m_Direction: 1
-  m_Center: {x: 0, y: 1.29999995, z: 0}
+  serializedVersion: 2
+  m_Size: {x: 1, y: 4, z: 2}
+  m_Center: {x: 0, y: 2, z: 0}
 --- !u!114 &310333314
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14944,7 +14927,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 332714342}
   - 114: {fileID: 332714343}
-  - 136: {fileID: 332714344}
+  - 65: {fileID: 332714344}
   - 114: {fileID: 332714345}
   m_Layer: 10
   m_Name: Tree
@@ -14982,20 +14965,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scaleOffsetMin: .699999988
   scaleOffsetMax: 1
---- !u!136 &332714344
-CapsuleCollider:
+--- !u!65 &332714344
+BoxCollider:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 13600000, guid: e5b7ccf0ae8a7c94e8e9068496cd988e,
+  m_PrefabParentObject: {fileID: 6500000, guid: e5b7ccf0ae8a7c94e8e9068496cd988e,
     type: 2}
   m_PrefabInternal: {fileID: 1257395707}
   m_GameObject: {fileID: 332714341}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: .699999988
-  m_Height: 4
-  m_Direction: 1
-  m_Center: {x: 0, y: 1.29999995, z: 0}
+  serializedVersion: 2
+  m_Size: {x: 1, y: 4, z: 2}
+  m_Center: {x: 0, y: 2, z: 0}
 --- !u!114 &332714345
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15017,7 +14999,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 332718640}
   - 114: {fileID: 332718641}
-  - 136: {fileID: 332718642}
+  - 65: {fileID: 332718642}
   - 114: {fileID: 332718643}
   m_Layer: 10
   m_Name: Tree
@@ -15055,20 +15037,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scaleOffsetMin: .699999988
   scaleOffsetMax: 1
---- !u!136 &332718642
-CapsuleCollider:
+--- !u!65 &332718642
+BoxCollider:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 13600000, guid: e5b7ccf0ae8a7c94e8e9068496cd988e,
+  m_PrefabParentObject: {fileID: 6500000, guid: e5b7ccf0ae8a7c94e8e9068496cd988e,
     type: 2}
   m_PrefabInternal: {fileID: 928493064}
   m_GameObject: {fileID: 332718639}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: .699999988
-  m_Height: 4
-  m_Direction: 1
-  m_Center: {x: 0, y: 1.29999995, z: 0}
+  serializedVersion: 2
+  m_Size: {x: 1, y: 4, z: 2}
+  m_Center: {x: 0, y: 2, z: 0}
 --- !u!114 &332718643
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15090,7 +15071,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 332798549}
   - 114: {fileID: 332798550}
-  - 136: {fileID: 332798551}
+  - 65: {fileID: 332798551}
   - 114: {fileID: 332798552}
   m_Layer: 10
   m_Name: Tree
@@ -15128,20 +15109,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scaleOffsetMin: .699999988
   scaleOffsetMax: 1
---- !u!136 &332798551
-CapsuleCollider:
+--- !u!65 &332798551
+BoxCollider:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 13600000, guid: e5b7ccf0ae8a7c94e8e9068496cd988e,
+  m_PrefabParentObject: {fileID: 6500000, guid: e5b7ccf0ae8a7c94e8e9068496cd988e,
     type: 2}
   m_PrefabInternal: {fileID: 1371024790}
   m_GameObject: {fileID: 332798548}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: .699999988
-  m_Height: 4
-  m_Direction: 1
-  m_Center: {x: 0, y: 1.29999995, z: 0}
+  serializedVersion: 2
+  m_Size: {x: 1, y: 4, z: 2}
+  m_Center: {x: 0, y: 2, z: 0}
 --- !u!114 &332798552
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16630,7 +16610,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 368881995}
   - 114: {fileID: 368881996}
-  - 136: {fileID: 368881997}
+  - 65: {fileID: 368881997}
   - 114: {fileID: 368881998}
   m_Layer: 10
   m_Name: Tree
@@ -16668,20 +16648,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scaleOffsetMin: .699999988
   scaleOffsetMax: 1
---- !u!136 &368881997
-CapsuleCollider:
+--- !u!65 &368881997
+BoxCollider:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 13600000, guid: e5b7ccf0ae8a7c94e8e9068496cd988e,
+  m_PrefabParentObject: {fileID: 6500000, guid: e5b7ccf0ae8a7c94e8e9068496cd988e,
     type: 2}
   m_PrefabInternal: {fileID: 1516417449}
   m_GameObject: {fileID: 368881994}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: .699999988
-  m_Height: 4
-  m_Direction: 1
-  m_Center: {x: 0, y: 1.29999995, z: 0}
+  serializedVersion: 2
+  m_Size: {x: 1, y: 4, z: 2}
+  m_Center: {x: 0, y: 2, z: 0}
 --- !u!114 &368881998
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16809,104 +16788,104 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 550095658}
-  - {fileID: 60913633}
-  - {fileID: 1370048853}
-  - {fileID: 31928025}
-  - {fileID: 380417913}
-  - {fileID: 35864239}
-  - {fileID: 860198297}
-  - {fileID: 1050101779}
-  - {fileID: 1200927605}
-  - {fileID: 444054673}
-  - {fileID: 308555705}
-  - {fileID: 753363729}
-  - {fileID: 1068417242}
-  - {fileID: 1746205670}
-  - {fileID: 110812869}
-  - {fileID: 805986472}
-  - {fileID: 901727827}
-  - {fileID: 493532674}
-  - {fileID: 3077901}
-  - {fileID: 1371116883}
-  - {fileID: 1198362583}
-  - {fileID: 1769102165}
-  - {fileID: 1453282290}
-  - {fileID: 993379867}
-  - {fileID: 1153785445}
-  - {fileID: 1248559296}
-  - {fileID: 24255007}
-  - {fileID: 1421414901}
-  - {fileID: 332718640}
   - {fileID: 704663340}
-  - {fileID: 1008404794}
-  - {fileID: 141683207}
-  - {fileID: 2108829914}
-  - {fileID: 469106199}
-  - {fileID: 1732342966}
-  - {fileID: 1223032761}
-  - {fileID: 1631375568}
-  - {fileID: 1567363891}
-  - {fileID: 544106793}
-  - {fileID: 1886058927}
-  - {fileID: 889663406}
-  - {fileID: 1837899678}
-  - {fileID: 2125584695}
-  - {fileID: 1440641637}
-  - {fileID: 404911770}
-  - {fileID: 120521006}
-  - {fileID: 310333311}
-  - {fileID: 110376262}
-  - {fileID: 233748015}
-  - {fileID: 332714342}
-  - {fileID: 497056884}
-  - {fileID: 776369515}
-  - {fileID: 1658100857}
-  - {fileID: 1545538734}
-  - {fileID: 332798549}
-  - {fileID: 1774898303}
-  - {fileID: 829530933}
-  - {fileID: 2118446113}
-  - {fileID: 1730367101}
-  - {fileID: 948423036}
-  - {fileID: 1160996280}
-  - {fileID: 368881995}
-  - {fileID: 607300619}
+  - {fileID: 1202894702}
   - {fileID: 1188723538}
-  - {fileID: 556092592}
-  - {fileID: 185071754}
-  - {fileID: 796515711}
-  - {fileID: 420857615}
-  - {fileID: 64304320}
-  - {fileID: 1437035461}
-  - {fileID: 1707332865}
+  - {fileID: 544106793}
+  - {fileID: 332798549}
+  - {fileID: 1421414901}
+  - {fileID: 1732342966}
+  - {fileID: 1767901101}
+  - {fileID: 1567363891}
+  - {fileID: 1354558873}
+  - {fileID: 1008404794}
+  - {fileID: 24255007}
+  - {fileID: 1200927605}
+  - {fileID: 993379867}
+  - {fileID: 1658100857}
+  - {fileID: 308555705}
+  - {fileID: 607300619}
+  - {fileID: 1198362583}
+  - {fileID: 497056884}
+  - {fileID: 444054673}
   - {fileID: 505739273}
-  - {fileID: 787518761}
-  - {fileID: 1662008206}
+  - {fileID: 1159351619}
+  - {fileID: 225874189}
+  - {fileID: 599810567}
+  - {fileID: 420857615}
+  - {fileID: 1160996280}
+  - {fileID: 1709266297}
+  - {fileID: 469106199}
+  - {fileID: 556092592}
+  - {fileID: 948423036}
+  - {fileID: 368881995}
   - {fileID: 1265885167}
   - {fileID: 1820364172}
-  - {fileID: 476972193}
-  - {fileID: 1137229130}
-  - {fileID: 448339027}
-  - {fileID: 155142796}
-  - {fileID: 1202894702}
-  - {fileID: 692578705}
-  - {fileID: 1754242430}
-  - {fileID: 1974018222}
-  - {fileID: 232265284}
-  - {fileID: 1354558873}
-  - {fileID: 1184045352}
-  - {fileID: 599810567}
-  - {fileID: 1841022702}
-  - {fileID: 225874189}
-  - {fileID: 597731408}
-  - {fileID: 2113433239}
-  - {fileID: 1767901101}
-  - {fileID: 825737044}
-  - {fileID: 1709266297}
+  - {fileID: 787518761}
+  - {fileID: 1453282290}
+  - {fileID: 1746205670}
+  - {fileID: 776369515}
+  - {fileID: 1631375568}
+  - {fileID: 3077901}
+  - {fileID: 1707332865}
+  - {fileID: 141683207}
+  - {fileID: 310333311}
+  - {fileID: 2118446113}
+  - {fileID: 332718640}
   - {fileID: 984469914}
+  - {fileID: 1837899678}
+  - {fileID: 1223032761}
+  - {fileID: 233748015}
   - {fileID: 1199364584}
-  - {fileID: 1159351619}
+  - {fileID: 1730367101}
+  - {fileID: 1886058927}
+  - {fileID: 2125584695}
+  - {fileID: 692578705}
+  - {fileID: 1662008206}
+  - {fileID: 1774898303}
+  - {fileID: 31928025}
+  - {fileID: 901727827}
+  - {fileID: 110376262}
+  - {fileID: 185071754}
+  - {fileID: 1974018222}
+  - {fileID: 1437035461}
+  - {fileID: 1545538734}
+  - {fileID: 829530933}
+  - {fileID: 860198297}
+  - {fileID: 1248559296}
+  - {fileID: 232265284}
+  - {fileID: 1370048853}
+  - {fileID: 825737044}
+  - {fileID: 1769102165}
+  - {fileID: 476972193}
+  - {fileID: 1754242430}
+  - {fileID: 120521006}
+  - {fileID: 1841022702}
+  - {fileID: 550095658}
+  - {fileID: 2113433239}
+  - {fileID: 332714342}
+  - {fileID: 889663406}
+  - {fileID: 448339027}
+  - {fileID: 1440641637}
+  - {fileID: 1137229130}
+  - {fileID: 796515711}
+  - {fileID: 404911770}
+  - {fileID: 1184045352}
+  - {fileID: 597731408}
+  - {fileID: 805986472}
+  - {fileID: 1371116883}
+  - {fileID: 753363729}
+  - {fileID: 380417913}
+  - {fileID: 1050101779}
+  - {fileID: 110812869}
+  - {fileID: 35864239}
+  - {fileID: 60913633}
+  - {fileID: 1153785445}
+  - {fileID: 493532674}
+  - {fileID: 2108829914}
+  - {fileID: 155142796}
+  - {fileID: 1068417242}
+  - {fileID: 64304320}
   m_Father: {fileID: 0}
 --- !u!1 &380417912
 GameObject:
@@ -16917,7 +16896,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 380417913}
   - 114: {fileID: 380417914}
-  - 136: {fileID: 380417915}
+  - 65: {fileID: 380417915}
   - 114: {fileID: 380417916}
   m_Layer: 10
   m_Name: Tree
@@ -16955,20 +16934,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scaleOffsetMin: .699999988
   scaleOffsetMax: 1
---- !u!136 &380417915
-CapsuleCollider:
+--- !u!65 &380417915
+BoxCollider:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 13600000, guid: e5b7ccf0ae8a7c94e8e9068496cd988e,
+  m_PrefabParentObject: {fileID: 6500000, guid: e5b7ccf0ae8a7c94e8e9068496cd988e,
     type: 2}
   m_PrefabInternal: {fileID: 100810906}
   m_GameObject: {fileID: 380417912}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: .699999988
-  m_Height: 4
-  m_Direction: 1
-  m_Center: {x: 0, y: 1.29999995, z: 0}
+  serializedVersion: 2
+  m_Size: {x: 1, y: 4, z: 2}
+  m_Center: {x: 0, y: 2, z: 0}
 --- !u!114 &380417916
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18192,7 +18170,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 404911770}
   - 114: {fileID: 404911771}
-  - 136: {fileID: 404911772}
+  - 65: {fileID: 404911772}
   - 114: {fileID: 404911773}
   m_Layer: 10
   m_Name: Tree
@@ -18230,20 +18208,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scaleOffsetMin: .699999988
   scaleOffsetMax: 1
---- !u!136 &404911772
-CapsuleCollider:
+--- !u!65 &404911772
+BoxCollider:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 13600000, guid: e5b7ccf0ae8a7c94e8e9068496cd988e,
+  m_PrefabParentObject: {fileID: 6500000, guid: e5b7ccf0ae8a7c94e8e9068496cd988e,
     type: 2}
   m_PrefabInternal: {fileID: 1200554073}
   m_GameObject: {fileID: 404911769}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: .699999988
-  m_Height: 4
-  m_Direction: 1
-  m_Center: {x: 0, y: 1.29999995, z: 0}
+  serializedVersion: 2
+  m_Size: {x: 1, y: 4, z: 2}
+  m_Center: {x: 0, y: 2, z: 0}
 --- !u!114 &404911773
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18908,7 +18885,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 420857615}
   - 114: {fileID: 420857616}
-  - 136: {fileID: 420857617}
+  - 65: {fileID: 420857617}
   - 114: {fileID: 420857618}
   m_Layer: 10
   m_Name: Tree
@@ -18946,20 +18923,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scaleOffsetMin: .699999988
   scaleOffsetMax: 1
---- !u!136 &420857617
-CapsuleCollider:
+--- !u!65 &420857617
+BoxCollider:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 13600000, guid: e5b7ccf0ae8a7c94e8e9068496cd988e,
+  m_PrefabParentObject: {fileID: 6500000, guid: e5b7ccf0ae8a7c94e8e9068496cd988e,
     type: 2}
   m_PrefabInternal: {fileID: 1654481404}
   m_GameObject: {fileID: 420857614}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: .699999988
-  m_Height: 4
-  m_Direction: 1
-  m_Center: {x: 0, y: 1.29999995, z: 0}
+  serializedVersion: 2
+  m_Size: {x: 1, y: 4, z: 2}
+  m_Center: {x: 0, y: 2, z: 0}
 --- !u!114 &420857618
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19922,7 +19898,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 444054673}
   - 114: {fileID: 444054674}
-  - 136: {fileID: 444054675}
+  - 65: {fileID: 444054675}
   - 114: {fileID: 444054676}
   m_Layer: 10
   m_Name: Tree
@@ -19960,20 +19936,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scaleOffsetMin: .699999988
   scaleOffsetMax: 1
---- !u!136 &444054675
-CapsuleCollider:
+--- !u!65 &444054675
+BoxCollider:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 13600000, guid: e5b7ccf0ae8a7c94e8e9068496cd988e,
+  m_PrefabParentObject: {fileID: 6500000, guid: e5b7ccf0ae8a7c94e8e9068496cd988e,
     type: 2}
   m_PrefabInternal: {fileID: 211284118}
   m_GameObject: {fileID: 444054672}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: .699999988
-  m_Height: 4
-  m_Direction: 1
-  m_Center: {x: 0, y: 1.29999995, z: 0}
+  serializedVersion: 2
+  m_Size: {x: 1, y: 4, z: 2}
+  m_Center: {x: 0, y: 2, z: 0}
 --- !u!114 &444054676
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20134,7 +20109,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 448339027}
   - 114: {fileID: 448339028}
-  - 136: {fileID: 448339029}
+  - 65: {fileID: 448339029}
   - 114: {fileID: 448339030}
   m_Layer: 10
   m_Name: Tree
@@ -20172,20 +20147,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scaleOffsetMin: .699999988
   scaleOffsetMax: 1
---- !u!136 &448339029
-CapsuleCollider:
+--- !u!65 &448339029
+BoxCollider:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 13600000, guid: e5b7ccf0ae8a7c94e8e9068496cd988e,
+  m_PrefabParentObject: {fileID: 6500000, guid: e5b7ccf0ae8a7c94e8e9068496cd988e,
     type: 2}
   m_PrefabInternal: {fileID: 1857908170}
   m_GameObject: {fileID: 448339026}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: .699999988
-  m_Height: 4
-  m_Direction: 1
-  m_Center: {x: 0, y: 1.29999995, z: 0}
+  serializedVersion: 2
+  m_Size: {x: 1, y: 4, z: 2}
+  m_Center: {x: 0, y: 2, z: 0}
 --- !u!114 &448339030
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21007,7 +20981,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 469106199}
   - 114: {fileID: 469106200}
-  - 136: {fileID: 469106201}
+  - 65: {fileID: 469106201}
   - 114: {fileID: 469106202}
   m_Layer: 10
   m_Name: Tree
@@ -21045,20 +21019,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scaleOffsetMin: .699999988
   scaleOffsetMax: 1
---- !u!136 &469106201
-CapsuleCollider:
+--- !u!65 &469106201
+BoxCollider:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 13600000, guid: e5b7ccf0ae8a7c94e8e9068496cd988e,
+  m_PrefabParentObject: {fileID: 6500000, guid: e5b7ccf0ae8a7c94e8e9068496cd988e,
     type: 2}
   m_PrefabInternal: {fileID: 1012842562}
   m_GameObject: {fileID: 469106198}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: .699999988
-  m_Height: 4
-  m_Direction: 1
-  m_Center: {x: 0, y: 1.29999995, z: 0}
+  serializedVersion: 2
+  m_Size: {x: 1, y: 4, z: 2}
+  m_Center: {x: 0, y: 2, z: 0}
 --- !u!114 &469106202
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21266,7 +21239,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 476972193}
   - 114: {fileID: 476972194}
-  - 136: {fileID: 476972195}
+  - 65: {fileID: 476972195}
   - 114: {fileID: 476972196}
   m_Layer: 10
   m_Name: Tree
@@ -21304,20 +21277,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scaleOffsetMin: .699999988
   scaleOffsetMax: 1
---- !u!136 &476972195
-CapsuleCollider:
+--- !u!65 &476972195
+BoxCollider:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 13600000, guid: e5b7ccf0ae8a7c94e8e9068496cd988e,
+  m_PrefabParentObject: {fileID: 6500000, guid: e5b7ccf0ae8a7c94e8e9068496cd988e,
     type: 2}
   m_PrefabInternal: {fileID: 1820530798}
   m_GameObject: {fileID: 476972192}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: .699999988
-  m_Height: 4
-  m_Direction: 1
-  m_Center: {x: 0, y: 1.29999995, z: 0}
+  serializedVersion: 2
+  m_Size: {x: 1, y: 4, z: 2}
+  m_Center: {x: 0, y: 2, z: 0}
 --- !u!114 &476972196
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21815,7 +21787,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 493532674}
   - 114: {fileID: 493532675}
-  - 136: {fileID: 493532676}
+  - 65: {fileID: 493532676}
   - 114: {fileID: 493532677}
   m_Layer: 10
   m_Name: Tree
@@ -21853,20 +21825,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scaleOffsetMin: .699999988
   scaleOffsetMax: 1
---- !u!136 &493532676
-CapsuleCollider:
+--- !u!65 &493532676
+BoxCollider:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 13600000, guid: e5b7ccf0ae8a7c94e8e9068496cd988e,
+  m_PrefabParentObject: {fileID: 6500000, guid: e5b7ccf0ae8a7c94e8e9068496cd988e,
     type: 2}
   m_PrefabInternal: {fileID: 422467201}
   m_GameObject: {fileID: 493532673}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: .699999988
-  m_Height: 4
-  m_Direction: 1
-  m_Center: {x: 0, y: 1.29999995, z: 0}
+  serializedVersion: 2
+  m_Size: {x: 1, y: 4, z: 2}
+  m_Center: {x: 0, y: 2, z: 0}
 --- !u!114 &493532677
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -22040,7 +22011,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 497056884}
   - 114: {fileID: 497056885}
-  - 136: {fileID: 497056886}
+  - 65: {fileID: 497056886}
   - 114: {fileID: 497056887}
   m_Layer: 10
   m_Name: Tree
@@ -22078,20 +22049,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scaleOffsetMin: .699999988
   scaleOffsetMax: 1
---- !u!136 &497056886
-CapsuleCollider:
+--- !u!65 &497056886
+BoxCollider:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 13600000, guid: e5b7ccf0ae8a7c94e8e9068496cd988e,
+  m_PrefabParentObject: {fileID: 6500000, guid: e5b7ccf0ae8a7c94e8e9068496cd988e,
     type: 2}
   m_PrefabInternal: {fileID: 1296682696}
   m_GameObject: {fileID: 497056883}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: .699999988
-  m_Height: 4
-  m_Direction: 1
-  m_Center: {x: 0, y: 1.29999995, z: 0}
+  serializedVersion: 2
+  m_Size: {x: 1, y: 4, z: 2}
+  m_Center: {x: 0, y: 2, z: 0}
 --- !u!114 &497056887
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -22113,7 +22083,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 505739273}
   - 114: {fileID: 505739274}
-  - 136: {fileID: 505739275}
+  - 65: {fileID: 505739275}
   - 114: {fileID: 505739276}
   m_Layer: 10
   m_Name: Tree
@@ -22151,20 +22121,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scaleOffsetMin: .699999988
   scaleOffsetMax: 1
---- !u!136 &505739275
-CapsuleCollider:
+--- !u!65 &505739275
+BoxCollider:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 13600000, guid: e5b7ccf0ae8a7c94e8e9068496cd988e,
+  m_PrefabParentObject: {fileID: 6500000, guid: e5b7ccf0ae8a7c94e8e9068496cd988e,
     type: 2}
   m_PrefabInternal: {fileID: 1726820490}
   m_GameObject: {fileID: 505739272}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: .699999988
-  m_Height: 4
-  m_Direction: 1
-  m_Center: {x: 0, y: 1.29999995, z: 0}
+  serializedVersion: 2
+  m_Size: {x: 1, y: 4, z: 2}
+  m_Center: {x: 0, y: 2, z: 0}
 --- !u!114 &505739276
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -24133,7 +24102,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 544106793}
   - 114: {fileID: 544106794}
-  - 136: {fileID: 544106795}
+  - 65: {fileID: 544106795}
   - 114: {fileID: 544106796}
   m_Layer: 10
   m_Name: Tree
@@ -24171,20 +24140,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scaleOffsetMin: .699999988
   scaleOffsetMax: 1
---- !u!136 &544106795
-CapsuleCollider:
+--- !u!65 &544106795
+BoxCollider:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 13600000, guid: e5b7ccf0ae8a7c94e8e9068496cd988e,
+  m_PrefabParentObject: {fileID: 6500000, guid: e5b7ccf0ae8a7c94e8e9068496cd988e,
     type: 2}
   m_PrefabInternal: {fileID: 1125898561}
   m_GameObject: {fileID: 544106792}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: .699999988
-  m_Height: 4
-  m_Direction: 1
-  m_Center: {x: 0, y: 1.29999995, z: 0}
+  serializedVersion: 2
+  m_Size: {x: 1, y: 4, z: 2}
+  m_Center: {x: 0, y: 2, z: 0}
 --- !u!114 &544106796
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -24672,7 +24640,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 550095658}
   - 114: {fileID: 550095659}
-  - 136: {fileID: 550095660}
+  - 65: {fileID: 550095660}
   - 114: {fileID: 550095661}
   m_Layer: 10
   m_Name: Tree
@@ -24710,20 +24678,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scaleOffsetMin: .699999988
   scaleOffsetMax: 1
---- !u!136 &550095660
-CapsuleCollider:
+--- !u!65 &550095660
+BoxCollider:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 13600000, guid: e5b7ccf0ae8a7c94e8e9068496cd988e,
+  m_PrefabParentObject: {fileID: 6500000, guid: e5b7ccf0ae8a7c94e8e9068496cd988e,
     type: 2}
   m_PrefabInternal: {fileID: 18719017}
   m_GameObject: {fileID: 550095657}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: .699999988
-  m_Height: 4
-  m_Direction: 1
-  m_Center: {x: 0, y: 1.29999995, z: 0}
+  serializedVersion: 2
+  m_Size: {x: 1, y: 4, z: 2}
+  m_Center: {x: 0, y: 2, z: 0}
 --- !u!114 &550095661
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -24931,7 +24898,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 556092592}
   - 114: {fileID: 556092593}
-  - 136: {fileID: 556092594}
+  - 65: {fileID: 556092594}
   - 114: {fileID: 556092595}
   m_Layer: 10
   m_Name: Tree
@@ -24969,20 +24936,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scaleOffsetMin: .699999988
   scaleOffsetMax: 1
---- !u!136 &556092594
-CapsuleCollider:
+--- !u!65 &556092594
+BoxCollider:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 13600000, guid: e5b7ccf0ae8a7c94e8e9068496cd988e,
+  m_PrefabParentObject: {fileID: 6500000, guid: e5b7ccf0ae8a7c94e8e9068496cd988e,
     type: 2}
   m_PrefabInternal: {fileID: 1619252987}
   m_GameObject: {fileID: 556092591}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: .699999988
-  m_Height: 4
-  m_Direction: 1
-  m_Center: {x: 0, y: 1.29999995, z: 0}
+  serializedVersion: 2
+  m_Size: {x: 1, y: 4, z: 2}
+  m_Center: {x: 0, y: 2, z: 0}
 --- !u!114 &556092595
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -26845,7 +26811,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 597731408}
   - 114: {fileID: 597731409}
-  - 136: {fileID: 597731410}
+  - 65: {fileID: 597731410}
   - 114: {fileID: 597731411}
   m_Layer: 10
   m_Name: Tree
@@ -26883,20 +26849,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scaleOffsetMin: .699999988
   scaleOffsetMax: 1
---- !u!136 &597731410
-CapsuleCollider:
+--- !u!65 &597731410
+BoxCollider:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 13600000, guid: e5b7ccf0ae8a7c94e8e9068496cd988e,
+  m_PrefabParentObject: {fileID: 6500000, guid: e5b7ccf0ae8a7c94e8e9068496cd988e,
     type: 2}
   m_PrefabInternal: {fileID: 2028309220}
   m_GameObject: {fileID: 597731407}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: .699999988
-  m_Height: 4
-  m_Direction: 1
-  m_Center: {x: 0, y: 1.29999995, z: 0}
+  serializedVersion: 2
+  m_Size: {x: 1, y: 4, z: 2}
+  m_Center: {x: 0, y: 2, z: 0}
 --- !u!114 &597731411
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -27008,7 +26973,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 599810567}
   - 114: {fileID: 599810568}
-  - 136: {fileID: 599810569}
+  - 65: {fileID: 599810569}
   - 114: {fileID: 599810570}
   m_Layer: 10
   m_Name: Tree
@@ -27046,20 +27011,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scaleOffsetMin: .699999988
   scaleOffsetMax: 1
---- !u!136 &599810569
-CapsuleCollider:
+--- !u!65 &599810569
+BoxCollider:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 13600000, guid: e5b7ccf0ae8a7c94e8e9068496cd988e,
+  m_PrefabParentObject: {fileID: 6500000, guid: e5b7ccf0ae8a7c94e8e9068496cd988e,
     type: 2}
   m_PrefabInternal: {fileID: 1969839294}
   m_GameObject: {fileID: 599810566}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: .699999988
-  m_Height: 4
-  m_Direction: 1
-  m_Center: {x: 0, y: 1.29999995, z: 0}
+  serializedVersion: 2
+  m_Size: {x: 1, y: 4, z: 2}
+  m_Center: {x: 0, y: 2, z: 0}
 --- !u!114 &599810570
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -27613,7 +27577,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 607300619}
   - 114: {fileID: 607300620}
-  - 136: {fileID: 607300621}
+  - 65: {fileID: 607300621}
   - 114: {fileID: 607300622}
   m_Layer: 10
   m_Name: Tree
@@ -27651,20 +27615,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scaleOffsetMin: .699999988
   scaleOffsetMax: 1
---- !u!136 &607300621
-CapsuleCollider:
+--- !u!65 &607300621
+BoxCollider:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 13600000, guid: e5b7ccf0ae8a7c94e8e9068496cd988e,
+  m_PrefabParentObject: {fileID: 6500000, guid: e5b7ccf0ae8a7c94e8e9068496cd988e,
     type: 2}
   m_PrefabInternal: {fileID: 1557423296}
   m_GameObject: {fileID: 607300618}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: .699999988
-  m_Height: 4
-  m_Direction: 1
-  m_Center: {x: 0, y: 1.29999995, z: 0}
+  serializedVersion: 2
+  m_Size: {x: 1, y: 4, z: 2}
+  m_Center: {x: 0, y: 2, z: 0}
 --- !u!114 &607300622
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -30297,7 +30260,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 692578705}
   - 114: {fileID: 692578706}
-  - 136: {fileID: 692578707}
+  - 65: {fileID: 692578707}
   - 114: {fileID: 692578708}
   m_Layer: 10
   m_Name: Tree
@@ -30335,20 +30298,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scaleOffsetMin: .699999988
   scaleOffsetMax: 1
---- !u!136 &692578707
-CapsuleCollider:
+--- !u!65 &692578707
+BoxCollider:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 13600000, guid: e5b7ccf0ae8a7c94e8e9068496cd988e,
+  m_PrefabParentObject: {fileID: 6500000, guid: e5b7ccf0ae8a7c94e8e9068496cd988e,
     type: 2}
   m_PrefabInternal: {fileID: 1861284264}
   m_GameObject: {fileID: 692578704}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: .699999988
-  m_Height: 4
-  m_Direction: 1
-  m_Center: {x: 0, y: 1.29999995, z: 0}
+  serializedVersion: 2
+  m_Size: {x: 1, y: 4, z: 2}
+  m_Center: {x: 0, y: 2, z: 0}
 --- !u!114 &692578708
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -30556,7 +30518,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 704663340}
   - 114: {fileID: 704663341}
-  - 136: {fileID: 704663342}
+  - 65: {fileID: 704663342}
   - 114: {fileID: 704663343}
   m_Layer: 10
   m_Name: Tree
@@ -30594,20 +30556,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scaleOffsetMin: .699999988
   scaleOffsetMax: 1
---- !u!136 &704663342
-CapsuleCollider:
+--- !u!65 &704663342
+BoxCollider:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 13600000, guid: e5b7ccf0ae8a7c94e8e9068496cd988e,
+  m_PrefabParentObject: {fileID: 6500000, guid: e5b7ccf0ae8a7c94e8e9068496cd988e,
     type: 2}
   m_PrefabInternal: {fileID: 942472120}
   m_GameObject: {fileID: 704663339}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: .699999988
-  m_Height: 4
-  m_Direction: 1
-  m_Center: {x: 0, y: 1.29999995, z: 0}
+  serializedVersion: 2
+  m_Size: {x: 1, y: 4, z: 2}
+  m_Center: {x: 0, y: 2, z: 0}
 --- !u!114 &704663343
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -31893,7 +31854,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 753363729}
   - 114: {fileID: 753363730}
-  - 136: {fileID: 753363731}
+  - 65: {fileID: 753363731}
   - 114: {fileID: 753363732}
   m_Layer: 10
   m_Name: Tree
@@ -31931,20 +31892,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scaleOffsetMin: .699999988
   scaleOffsetMax: 1
---- !u!136 &753363731
-CapsuleCollider:
+--- !u!65 &753363731
+BoxCollider:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 13600000, guid: e5b7ccf0ae8a7c94e8e9068496cd988e,
+  m_PrefabParentObject: {fileID: 6500000, guid: e5b7ccf0ae8a7c94e8e9068496cd988e,
     type: 2}
   m_PrefabInternal: {fileID: 282490259}
   m_GameObject: {fileID: 753363728}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: .699999988
-  m_Height: 4
-  m_Direction: 1
-  m_Center: {x: 0, y: 1.29999995, z: 0}
+  serializedVersion: 2
+  m_Size: {x: 1, y: 4, z: 2}
+  m_Center: {x: 0, y: 2, z: 0}
 --- !u!114 &753363732
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -32958,7 +32918,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 776369515}
   - 114: {fileID: 776369516}
-  - 136: {fileID: 776369517}
+  - 65: {fileID: 776369517}
   - 114: {fileID: 776369518}
   m_Layer: 10
   m_Name: Tree
@@ -32996,20 +32956,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scaleOffsetMin: .699999988
   scaleOffsetMax: 1
---- !u!136 &776369517
-CapsuleCollider:
+--- !u!65 &776369517
+BoxCollider:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 13600000, guid: e5b7ccf0ae8a7c94e8e9068496cd988e,
+  m_PrefabParentObject: {fileID: 6500000, guid: e5b7ccf0ae8a7c94e8e9068496cd988e,
     type: 2}
   m_PrefabInternal: {fileID: 1297152364}
   m_GameObject: {fileID: 776369514}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: .699999988
-  m_Height: 4
-  m_Direction: 1
-  m_Center: {x: 0, y: 1.29999995, z: 0}
+  serializedVersion: 2
+  m_Size: {x: 1, y: 4, z: 2}
+  m_Center: {x: 0, y: 2, z: 0}
 --- !u!114 &776369518
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -33481,7 +33440,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 787518761}
   - 114: {fileID: 787518762}
-  - 136: {fileID: 787518763}
+  - 65: {fileID: 787518763}
   - 114: {fileID: 787518764}
   m_Layer: 10
   m_Name: Tree
@@ -33519,20 +33478,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scaleOffsetMin: .699999988
   scaleOffsetMax: 1
---- !u!136 &787518763
-CapsuleCollider:
+--- !u!65 &787518763
+BoxCollider:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 13600000, guid: e5b7ccf0ae8a7c94e8e9068496cd988e,
+  m_PrefabParentObject: {fileID: 6500000, guid: e5b7ccf0ae8a7c94e8e9068496cd988e,
     type: 2}
   m_PrefabInternal: {fileID: 1760107056}
   m_GameObject: {fileID: 787518760}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: .699999988
-  m_Height: 4
-  m_Direction: 1
-  m_Center: {x: 0, y: 1.29999995, z: 0}
+  serializedVersion: 2
+  m_Size: {x: 1, y: 4, z: 2}
+  m_Center: {x: 0, y: 2, z: 0}
 --- !u!114 &787518764
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -33932,7 +33890,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 796515711}
   - 114: {fileID: 796515712}
-  - 136: {fileID: 796515713}
+  - 65: {fileID: 796515713}
   - 114: {fileID: 796515714}
   m_Layer: 10
   m_Name: Tree
@@ -33970,20 +33928,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scaleOffsetMin: .699999988
   scaleOffsetMax: 1
---- !u!136 &796515713
-CapsuleCollider:
+--- !u!65 &796515713
+BoxCollider:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 13600000, guid: e5b7ccf0ae8a7c94e8e9068496cd988e,
+  m_PrefabParentObject: {fileID: 6500000, guid: e5b7ccf0ae8a7c94e8e9068496cd988e,
     type: 2}
   m_PrefabInternal: {fileID: 1651799253}
   m_GameObject: {fileID: 796515710}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: .699999988
-  m_Height: 4
-  m_Direction: 1
-  m_Center: {x: 0, y: 1.29999995, z: 0}
+  serializedVersion: 2
+  m_Size: {x: 1, y: 4, z: 2}
+  m_Center: {x: 0, y: 2, z: 0}
 --- !u!114 &796515714
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -34363,7 +34320,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 805986472}
   - 114: {fileID: 805986473}
-  - 136: {fileID: 805986474}
+  - 65: {fileID: 805986474}
   - 114: {fileID: 805986475}
   m_Layer: 10
   m_Name: Tree
@@ -34401,20 +34358,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scaleOffsetMin: .699999988
   scaleOffsetMax: 1
---- !u!136 &805986474
-CapsuleCollider:
+--- !u!65 &805986474
+BoxCollider:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 13600000, guid: e5b7ccf0ae8a7c94e8e9068496cd988e,
+  m_PrefabParentObject: {fileID: 6500000, guid: e5b7ccf0ae8a7c94e8e9068496cd988e,
     type: 2}
   m_PrefabInternal: {fileID: 404869675}
   m_GameObject: {fileID: 805986471}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: .699999988
-  m_Height: 4
-  m_Direction: 1
-  m_Center: {x: 0, y: 1.29999995, z: 0}
+  serializedVersion: 2
+  m_Size: {x: 1, y: 4, z: 2}
+  m_Center: {x: 0, y: 2, z: 0}
 --- !u!114 &805986475
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -35327,7 +35283,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 825737044}
   - 114: {fileID: 825737045}
-  - 136: {fileID: 825737046}
+  - 65: {fileID: 825737046}
   - 114: {fileID: 825737047}
   m_Layer: 10
   m_Name: Tree
@@ -35365,20 +35321,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scaleOffsetMin: .699999988
   scaleOffsetMax: 1
---- !u!136 &825737046
-CapsuleCollider:
+--- !u!65 &825737046
+BoxCollider:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 13600000, guid: e5b7ccf0ae8a7c94e8e9068496cd988e,
+  m_PrefabParentObject: {fileID: 6500000, guid: e5b7ccf0ae8a7c94e8e9068496cd988e,
     type: 2}
   m_PrefabInternal: {fileID: 2058484483}
   m_GameObject: {fileID: 825737043}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: .699999988
-  m_Height: 4
-  m_Direction: 1
-  m_Center: {x: 0, y: 1.29999995, z: 0}
+  serializedVersion: 2
+  m_Size: {x: 1, y: 4, z: 2}
+  m_Center: {x: 0, y: 2, z: 0}
 --- !u!114 &825737047
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -35648,7 +35603,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 829530933}
   - 114: {fileID: 829530934}
-  - 136: {fileID: 829530935}
+  - 65: {fileID: 829530935}
   - 114: {fileID: 829530936}
   m_Layer: 10
   m_Name: Tree
@@ -35686,20 +35641,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scaleOffsetMin: .699999988
   scaleOffsetMax: 1
---- !u!136 &829530935
-CapsuleCollider:
+--- !u!65 &829530935
+BoxCollider:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 13600000, guid: e5b7ccf0ae8a7c94e8e9068496cd988e,
+  m_PrefabParentObject: {fileID: 6500000, guid: e5b7ccf0ae8a7c94e8e9068496cd988e,
     type: 2}
   m_PrefabInternal: {fileID: 1427680008}
   m_GameObject: {fileID: 829530932}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: .699999988
-  m_Height: 4
-  m_Direction: 1
-  m_Center: {x: 0, y: 1.29999995, z: 0}
+  serializedVersion: 2
+  m_Size: {x: 1, y: 4, z: 2}
+  m_Center: {x: 0, y: 2, z: 0}
 --- !u!114 &829530936
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -37208,7 +37162,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 860198297}
   - 114: {fileID: 860198298}
-  - 136: {fileID: 860198299}
+  - 65: {fileID: 860198299}
   - 114: {fileID: 860198300}
   m_Layer: 10
   m_Name: Tree
@@ -37246,20 +37200,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scaleOffsetMin: .699999988
   scaleOffsetMax: 1
---- !u!136 &860198299
-CapsuleCollider:
+--- !u!65 &860198299
+BoxCollider:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 13600000, guid: e5b7ccf0ae8a7c94e8e9068496cd988e,
+  m_PrefabParentObject: {fileID: 6500000, guid: e5b7ccf0ae8a7c94e8e9068496cd988e,
     type: 2}
   m_PrefabInternal: {fileID: 168876784}
   m_GameObject: {fileID: 860198296}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: .699999988
-  m_Height: 4
-  m_Direction: 1
-  m_Center: {x: 0, y: 1.29999995, z: 0}
+  serializedVersion: 2
+  m_Size: {x: 1, y: 4, z: 2}
+  m_Center: {x: 0, y: 2, z: 0}
 --- !u!114 &860198300
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -38278,7 +38231,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 889663406}
   - 114: {fileID: 889663407}
-  - 136: {fileID: 889663408}
+  - 65: {fileID: 889663408}
   - 114: {fileID: 889663409}
   m_Layer: 10
   m_Name: Tree
@@ -38316,20 +38269,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scaleOffsetMin: .699999988
   scaleOffsetMax: 1
---- !u!136 &889663408
-CapsuleCollider:
+--- !u!65 &889663408
+BoxCollider:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 13600000, guid: e5b7ccf0ae8a7c94e8e9068496cd988e,
+  m_PrefabParentObject: {fileID: 6500000, guid: e5b7ccf0ae8a7c94e8e9068496cd988e,
     type: 2}
   m_PrefabInternal: {fileID: 1152907923}
   m_GameObject: {fileID: 889663405}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: .699999988
-  m_Height: 4
-  m_Direction: 1
-  m_Center: {x: 0, y: 1.29999995, z: 0}
+  serializedVersion: 2
+  m_Size: {x: 1, y: 4, z: 2}
+  m_Center: {x: 0, y: 2, z: 0}
 --- !u!114 &889663409
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -38754,7 +38706,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 901727827}
   - 114: {fileID: 901727828}
-  - 136: {fileID: 901727829}
+  - 65: {fileID: 901727829}
   - 114: {fileID: 901727830}
   m_Layer: 10
   m_Name: Tree
@@ -38792,20 +38744,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scaleOffsetMin: .699999988
   scaleOffsetMax: 1
---- !u!136 &901727829
-CapsuleCollider:
+--- !u!65 &901727829
+BoxCollider:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 13600000, guid: e5b7ccf0ae8a7c94e8e9068496cd988e,
+  m_PrefabParentObject: {fileID: 6500000, guid: e5b7ccf0ae8a7c94e8e9068496cd988e,
     type: 2}
   m_PrefabInternal: {fileID: 412361668}
   m_GameObject: {fileID: 901727826}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: .699999988
-  m_Height: 4
-  m_Direction: 1
-  m_Center: {x: 0, y: 1.29999995, z: 0}
+  serializedVersion: 2
+  m_Size: {x: 1, y: 4, z: 2}
+  m_Center: {x: 0, y: 2, z: 0}
 --- !u!114 &901727830
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -40949,7 +40900,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 948423036}
   - 114: {fileID: 948423037}
-  - 136: {fileID: 948423038}
+  - 65: {fileID: 948423038}
   - 114: {fileID: 948423039}
   m_Layer: 10
   m_Name: Tree
@@ -40987,20 +40938,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scaleOffsetMin: .699999988
   scaleOffsetMax: 1
---- !u!136 &948423038
-CapsuleCollider:
+--- !u!65 &948423038
+BoxCollider:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 13600000, guid: e5b7ccf0ae8a7c94e8e9068496cd988e,
+  m_PrefabParentObject: {fileID: 6500000, guid: e5b7ccf0ae8a7c94e8e9068496cd988e,
     type: 2}
   m_PrefabInternal: {fileID: 1492985682}
   m_GameObject: {fileID: 948423035}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: .699999988
-  m_Height: 4
-  m_Direction: 1
-  m_Center: {x: 0, y: 1.29999995, z: 0}
+  serializedVersion: 2
+  m_Size: {x: 1, y: 4, z: 2}
+  m_Center: {x: 0, y: 2, z: 0}
 --- !u!114 &948423039
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -42894,7 +42844,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 984469914}
   - 114: {fileID: 984469915}
-  - 136: {fileID: 984469916}
+  - 65: {fileID: 984469916}
   - 114: {fileID: 984469917}
   m_Layer: 10
   m_Name: Tree
@@ -42932,20 +42882,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scaleOffsetMin: .699999988
   scaleOffsetMax: 1
---- !u!136 &984469916
-CapsuleCollider:
+--- !u!65 &984469916
+BoxCollider:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 13600000, guid: e5b7ccf0ae8a7c94e8e9068496cd988e,
+  m_PrefabParentObject: {fileID: 6500000, guid: e5b7ccf0ae8a7c94e8e9068496cd988e,
     type: 2}
   m_PrefabInternal: {fileID: 2076091889}
   m_GameObject: {fileID: 984469913}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: .699999988
-  m_Height: 4
-  m_Direction: 1
-  m_Center: {x: 0, y: 1.29999995, z: 0}
+  serializedVersion: 2
+  m_Size: {x: 1, y: 4, z: 2}
+  m_Center: {x: 0, y: 2, z: 0}
 --- !u!114 &984469917
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -43200,7 +43149,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 993379867}
   - 114: {fileID: 993379868}
-  - 136: {fileID: 993379869}
+  - 65: {fileID: 993379869}
   - 114: {fileID: 993379870}
   m_Layer: 10
   m_Name: Tree
@@ -43238,20 +43187,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scaleOffsetMin: .699999988
   scaleOffsetMax: 1
---- !u!136 &993379869
-CapsuleCollider:
+--- !u!65 &993379869
+BoxCollider:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 13600000, guid: e5b7ccf0ae8a7c94e8e9068496cd988e,
+  m_PrefabParentObject: {fileID: 6500000, guid: e5b7ccf0ae8a7c94e8e9068496cd988e,
     type: 2}
   m_PrefabInternal: {fileID: 776180216}
   m_GameObject: {fileID: 993379866}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: .699999988
-  m_Height: 4
-  m_Direction: 1
-  m_Center: {x: 0, y: 1.29999995, z: 0}
+  serializedVersion: 2
+  m_Size: {x: 1, y: 4, z: 2}
+  m_Center: {x: 0, y: 2, z: 0}
 --- !u!114 &993379870
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -43932,7 +43880,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1008404794}
   - 114: {fileID: 1008404795}
-  - 136: {fileID: 1008404796}
+  - 65: {fileID: 1008404796}
   - 114: {fileID: 1008404797}
   m_Layer: 10
   m_Name: Tree
@@ -43970,20 +43918,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scaleOffsetMin: .699999988
   scaleOffsetMax: 1
---- !u!136 &1008404796
-CapsuleCollider:
+--- !u!65 &1008404796
+BoxCollider:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 13600000, guid: e5b7ccf0ae8a7c94e8e9068496cd988e,
+  m_PrefabParentObject: {fileID: 6500000, guid: e5b7ccf0ae8a7c94e8e9068496cd988e,
     type: 2}
   m_PrefabInternal: {fileID: 977202565}
   m_GameObject: {fileID: 1008404793}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: .699999988
-  m_Height: 4
-  m_Direction: 1
-  m_Center: {x: 0, y: 1.29999995, z: 0}
+  serializedVersion: 2
+  m_Size: {x: 1, y: 4, z: 2}
+  m_Center: {x: 0, y: 2, z: 0}
 --- !u!114 &1008404797
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -46050,7 +45997,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1050101779}
   - 114: {fileID: 1050101780}
-  - 136: {fileID: 1050101781}
+  - 65: {fileID: 1050101781}
   - 114: {fileID: 1050101782}
   m_Layer: 10
   m_Name: Tree
@@ -46088,20 +46035,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scaleOffsetMin: .699999988
   scaleOffsetMax: 1
---- !u!136 &1050101781
-CapsuleCollider:
+--- !u!65 &1050101781
+BoxCollider:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 13600000, guid: e5b7ccf0ae8a7c94e8e9068496cd988e,
+  m_PrefabParentObject: {fileID: 6500000, guid: e5b7ccf0ae8a7c94e8e9068496cd988e,
     type: 2}
   m_PrefabInternal: {fileID: 174053051}
   m_GameObject: {fileID: 1050101778}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: .699999988
-  m_Height: 4
-  m_Direction: 1
-  m_Center: {x: 0, y: 1.29999995, z: 0}
+  serializedVersion: 2
+  m_Size: {x: 1, y: 4, z: 2}
+  m_Center: {x: 0, y: 2, z: 0}
 --- !u!114 &1050101782
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -46488,7 +46434,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1068417242}
   - 114: {fileID: 1068417243}
-  - 136: {fileID: 1068417244}
+  - 65: {fileID: 1068417244}
   - 114: {fileID: 1068417245}
   m_Layer: 10
   m_Name: Tree
@@ -46526,20 +46472,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scaleOffsetMin: .699999988
   scaleOffsetMax: 1
---- !u!136 &1068417244
-CapsuleCollider:
+--- !u!65 &1068417244
+BoxCollider:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 13600000, guid: e5b7ccf0ae8a7c94e8e9068496cd988e,
+  m_PrefabParentObject: {fileID: 6500000, guid: e5b7ccf0ae8a7c94e8e9068496cd988e,
     type: 2}
   m_PrefabInternal: {fileID: 297529280}
   m_GameObject: {fileID: 1068417241}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: .699999988
-  m_Height: 4
-  m_Direction: 1
-  m_Center: {x: 0, y: 1.29999995, z: 0}
+  serializedVersion: 2
+  m_Size: {x: 1, y: 4, z: 2}
+  m_Center: {x: 0, y: 2, z: 0}
 --- !u!114 &1068417245
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -49551,7 +49496,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1137229130}
   - 114: {fileID: 1137229131}
-  - 136: {fileID: 1137229132}
+  - 65: {fileID: 1137229132}
   - 114: {fileID: 1137229133}
   m_Layer: 10
   m_Name: Tree
@@ -49589,20 +49534,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scaleOffsetMin: .699999988
   scaleOffsetMax: 1
---- !u!136 &1137229132
-CapsuleCollider:
+--- !u!65 &1137229132
+BoxCollider:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 13600000, guid: e5b7ccf0ae8a7c94e8e9068496cd988e,
+  m_PrefabParentObject: {fileID: 6500000, guid: e5b7ccf0ae8a7c94e8e9068496cd988e,
     type: 2}
   m_PrefabInternal: {fileID: 1829601903}
   m_GameObject: {fileID: 1137229129}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: .699999988
-  m_Height: 4
-  m_Direction: 1
-  m_Center: {x: 0, y: 1.29999995, z: 0}
+  serializedVersion: 2
+  m_Size: {x: 1, y: 4, z: 2}
+  m_Center: {x: 0, y: 2, z: 0}
 --- !u!114 &1137229133
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -50431,7 +50375,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1153785445}
   - 114: {fileID: 1153785446}
-  - 136: {fileID: 1153785447}
+  - 65: {fileID: 1153785447}
   - 114: {fileID: 1153785448}
   m_Layer: 10
   m_Name: Tree
@@ -50469,20 +50413,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scaleOffsetMin: .699999988
   scaleOffsetMax: 1
---- !u!136 &1153785447
-CapsuleCollider:
+--- !u!65 &1153785447
+BoxCollider:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 13600000, guid: e5b7ccf0ae8a7c94e8e9068496cd988e,
+  m_PrefabParentObject: {fileID: 6500000, guid: e5b7ccf0ae8a7c94e8e9068496cd988e,
     type: 2}
   m_PrefabInternal: {fileID: 797111116}
   m_GameObject: {fileID: 1153785444}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: .699999988
-  m_Height: 4
-  m_Direction: 1
-  m_Center: {x: 0, y: 1.29999995, z: 0}
+  serializedVersion: 2
+  m_Size: {x: 1, y: 4, z: 2}
+  m_Center: {x: 0, y: 2, z: 0}
 --- !u!114 &1153785448
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -50742,7 +50685,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1159351619}
   - 114: {fileID: 1159351620}
-  - 136: {fileID: 1159351621}
+  - 65: {fileID: 1159351621}
   - 114: {fileID: 1159351622}
   m_Layer: 10
   m_Name: Tree
@@ -50780,20 +50723,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scaleOffsetMin: .699999988
   scaleOffsetMax: 1
---- !u!136 &1159351621
-CapsuleCollider:
+--- !u!65 &1159351621
+BoxCollider:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 13600000, guid: e5b7ccf0ae8a7c94e8e9068496cd988e,
+  m_PrefabParentObject: {fileID: 6500000, guid: e5b7ccf0ae8a7c94e8e9068496cd988e,
     type: 2}
   m_PrefabInternal: {fileID: 2111618381}
   m_GameObject: {fileID: 1159351618}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: .699999988
-  m_Height: 4
-  m_Direction: 1
-  m_Center: {x: 0, y: 1.29999995, z: 0}
+  serializedVersion: 2
+  m_Size: {x: 1, y: 4, z: 2}
+  m_Center: {x: 0, y: 2, z: 0}
 --- !u!114 &1159351622
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -50905,7 +50847,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1160996280}
   - 114: {fileID: 1160996281}
-  - 136: {fileID: 1160996282}
+  - 65: {fileID: 1160996282}
   - 114: {fileID: 1160996283}
   m_Layer: 10
   m_Name: Tree
@@ -50943,20 +50885,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scaleOffsetMin: .699999988
   scaleOffsetMax: 1
---- !u!136 &1160996282
-CapsuleCollider:
+--- !u!65 &1160996282
+BoxCollider:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 13600000, guid: e5b7ccf0ae8a7c94e8e9068496cd988e,
+  m_PrefabParentObject: {fileID: 6500000, guid: e5b7ccf0ae8a7c94e8e9068496cd988e,
     type: 2}
   m_PrefabInternal: {fileID: 1507724195}
   m_GameObject: {fileID: 1160996279}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: .699999988
-  m_Height: 4
-  m_Direction: 1
-  m_Center: {x: 0, y: 1.29999995, z: 0}
+  serializedVersion: 2
+  m_Size: {x: 1, y: 4, z: 2}
+  m_Center: {x: 0, y: 2, z: 0}
 --- !u!114 &1160996283
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -51893,7 +51834,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1184045352}
   - 114: {fileID: 1184045353}
-  - 136: {fileID: 1184045354}
+  - 65: {fileID: 1184045354}
   - 114: {fileID: 1184045355}
   m_Layer: 10
   m_Name: Tree
@@ -51931,20 +51872,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scaleOffsetMin: .699999988
   scaleOffsetMax: 1
---- !u!136 &1184045354
-CapsuleCollider:
+--- !u!65 &1184045354
+BoxCollider:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 13600000, guid: e5b7ccf0ae8a7c94e8e9068496cd988e,
+  m_PrefabParentObject: {fileID: 6500000, guid: e5b7ccf0ae8a7c94e8e9068496cd988e,
     type: 2}
   m_PrefabInternal: {fileID: 1962563984}
   m_GameObject: {fileID: 1184045351}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: .699999988
-  m_Height: 4
-  m_Direction: 1
-  m_Center: {x: 0, y: 1.29999995, z: 0}
+  serializedVersion: 2
+  m_Size: {x: 1, y: 4, z: 2}
+  m_Center: {x: 0, y: 2, z: 0}
 --- !u!114 &1184045355
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -52308,7 +52248,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1188723538}
   - 114: {fileID: 1188723539}
-  - 136: {fileID: 1188723540}
+  - 65: {fileID: 1188723540}
   - 114: {fileID: 1188723541}
   m_Layer: 10
   m_Name: Tree
@@ -52346,20 +52286,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scaleOffsetMin: .699999988
   scaleOffsetMax: 1
---- !u!136 &1188723540
-CapsuleCollider:
+--- !u!65 &1188723540
+BoxCollider:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 13600000, guid: e5b7ccf0ae8a7c94e8e9068496cd988e,
+  m_PrefabParentObject: {fileID: 6500000, guid: e5b7ccf0ae8a7c94e8e9068496cd988e,
     type: 2}
   m_PrefabInternal: {fileID: 1616800802}
   m_GameObject: {fileID: 1188723537}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: .699999988
-  m_Height: 4
-  m_Direction: 1
-  m_Center: {x: 0, y: 1.29999995, z: 0}
+  serializedVersion: 2
+  m_Size: {x: 1, y: 4, z: 2}
+  m_Center: {x: 0, y: 2, z: 0}
 --- !u!114 &1188723541
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -52634,7 +52573,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1198362583}
   - 114: {fileID: 1198362584}
-  - 136: {fileID: 1198362585}
+  - 65: {fileID: 1198362585}
   - 114: {fileID: 1198362586}
   m_Layer: 10
   m_Name: Tree
@@ -52672,20 +52611,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scaleOffsetMin: .699999988
   scaleOffsetMax: 1
---- !u!136 &1198362585
-CapsuleCollider:
+--- !u!65 &1198362585
+BoxCollider:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 13600000, guid: e5b7ccf0ae8a7c94e8e9068496cd988e,
+  m_PrefabParentObject: {fileID: 6500000, guid: e5b7ccf0ae8a7c94e8e9068496cd988e,
     type: 2}
   m_PrefabInternal: {fileID: 576338497}
   m_GameObject: {fileID: 1198362582}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: .699999988
-  m_Height: 4
-  m_Direction: 1
-  m_Center: {x: 0, y: 1.29999995, z: 0}
+  serializedVersion: 2
+  m_Size: {x: 1, y: 4, z: 2}
+  m_Center: {x: 0, y: 2, z: 0}
 --- !u!114 &1198362586
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -52707,7 +52645,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1199364584}
   - 114: {fileID: 1199364585}
-  - 136: {fileID: 1199364586}
+  - 65: {fileID: 1199364586}
   - 114: {fileID: 1199364587}
   m_Layer: 10
   m_Name: Tree
@@ -52745,20 +52683,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scaleOffsetMin: .699999988
   scaleOffsetMax: 1
---- !u!136 &1199364586
-CapsuleCollider:
+--- !u!65 &1199364586
+BoxCollider:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 13600000, guid: e5b7ccf0ae8a7c94e8e9068496cd988e,
+  m_PrefabParentObject: {fileID: 6500000, guid: e5b7ccf0ae8a7c94e8e9068496cd988e,
     type: 2}
   m_PrefabInternal: {fileID: 2087866734}
   m_GameObject: {fileID: 1199364583}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: .699999988
-  m_Height: 4
-  m_Direction: 1
-  m_Center: {x: 0, y: 1.29999995, z: 0}
+  serializedVersion: 2
+  m_Size: {x: 1, y: 4, z: 2}
+  m_Center: {x: 0, y: 2, z: 0}
 --- !u!114 &1199364587
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -52836,7 +52773,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1200927605}
   - 114: {fileID: 1200927606}
-  - 136: {fileID: 1200927607}
+  - 65: {fileID: 1200927607}
   - 114: {fileID: 1200927608}
   m_Layer: 10
   m_Name: Tree
@@ -52874,20 +52811,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scaleOffsetMin: .699999988
   scaleOffsetMax: 1
---- !u!136 &1200927607
-CapsuleCollider:
+--- !u!65 &1200927607
+BoxCollider:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 13600000, guid: e5b7ccf0ae8a7c94e8e9068496cd988e,
+  m_PrefabParentObject: {fileID: 6500000, guid: e5b7ccf0ae8a7c94e8e9068496cd988e,
     type: 2}
   m_PrefabInternal: {fileID: 188756837}
   m_GameObject: {fileID: 1200927604}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: .699999988
-  m_Height: 4
-  m_Direction: 1
-  m_Center: {x: 0, y: 1.29999995, z: 0}
+  serializedVersion: 2
+  m_Size: {x: 1, y: 4, z: 2}
+  m_Center: {x: 0, y: 2, z: 0}
 --- !u!114 &1200927608
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -53008,7 +52944,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1202894702}
   - 114: {fileID: 1202894703}
-  - 136: {fileID: 1202894704}
+  - 65: {fileID: 1202894704}
   - 114: {fileID: 1202894705}
   m_Layer: 10
   m_Name: Tree
@@ -53046,20 +52982,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scaleOffsetMin: .699999988
   scaleOffsetMax: 1
---- !u!136 &1202894704
-CapsuleCollider:
+--- !u!65 &1202894704
+BoxCollider:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 13600000, guid: e5b7ccf0ae8a7c94e8e9068496cd988e,
+  m_PrefabParentObject: {fileID: 6500000, guid: e5b7ccf0ae8a7c94e8e9068496cd988e,
     type: 2}
   m_PrefabInternal: {fileID: 1861249804}
   m_GameObject: {fileID: 1202894701}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: .699999988
-  m_Height: 4
-  m_Direction: 1
-  m_Center: {x: 0, y: 1.29999995, z: 0}
+  serializedVersion: 2
+  m_Size: {x: 1, y: 4, z: 2}
+  m_Center: {x: 0, y: 2, z: 0}
 --- !u!114 &1202894705
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -53459,7 +53394,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1223032761}
   - 114: {fileID: 1223032762}
-  - 136: {fileID: 1223032763}
+  - 65: {fileID: 1223032763}
   - 114: {fileID: 1223032764}
   m_Layer: 10
   m_Name: Tree
@@ -53497,20 +53432,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scaleOffsetMin: .699999988
   scaleOffsetMax: 1
---- !u!136 &1223032763
-CapsuleCollider:
+--- !u!65 &1223032763
+BoxCollider:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 13600000, guid: e5b7ccf0ae8a7c94e8e9068496cd988e,
+  m_PrefabParentObject: {fileID: 6500000, guid: e5b7ccf0ae8a7c94e8e9068496cd988e,
     type: 2}
   m_PrefabInternal: {fileID: 1041472822}
   m_GameObject: {fileID: 1223032760}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: .699999988
-  m_Height: 4
-  m_Direction: 1
-  m_Center: {x: 0, y: 1.29999995, z: 0}
+  serializedVersion: 2
+  m_Size: {x: 1, y: 4, z: 2}
+  m_Center: {x: 0, y: 2, z: 0}
 --- !u!114 &1223032764
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -54862,7 +54796,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1248559296}
   - 114: {fileID: 1248559297}
-  - 136: {fileID: 1248559298}
+  - 65: {fileID: 1248559298}
   - 114: {fileID: 1248559299}
   m_Layer: 10
   m_Name: Tree
@@ -54900,20 +54834,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scaleOffsetMin: .699999988
   scaleOffsetMax: 1
---- !u!136 &1248559298
-CapsuleCollider:
+--- !u!65 &1248559298
+BoxCollider:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 13600000, guid: e5b7ccf0ae8a7c94e8e9068496cd988e,
+  m_PrefabParentObject: {fileID: 6500000, guid: e5b7ccf0ae8a7c94e8e9068496cd988e,
     type: 2}
   m_PrefabInternal: {fileID: 827191942}
   m_GameObject: {fileID: 1248559295}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: .699999988
-  m_Height: 4
-  m_Direction: 1
-  m_Center: {x: 0, y: 1.29999995, z: 0}
+  serializedVersion: 2
+  m_Size: {x: 1, y: 4, z: 2}
+  m_Center: {x: 0, y: 2, z: 0}
 --- !u!114 &1248559299
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -55589,7 +55522,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1265885167}
   - 114: {fileID: 1265885168}
-  - 136: {fileID: 1265885169}
+  - 65: {fileID: 1265885169}
   - 114: {fileID: 1265885170}
   m_Layer: 10
   m_Name: Tree
@@ -55627,20 +55560,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scaleOffsetMin: .699999988
   scaleOffsetMax: 1
---- !u!136 &1265885169
-CapsuleCollider:
+--- !u!65 &1265885169
+BoxCollider:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 13600000, guid: e5b7ccf0ae8a7c94e8e9068496cd988e,
+  m_PrefabParentObject: {fileID: 6500000, guid: e5b7ccf0ae8a7c94e8e9068496cd988e,
     type: 2}
   m_PrefabInternal: {fileID: 1783586075}
   m_GameObject: {fileID: 1265885166}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: .699999988
-  m_Height: 4
-  m_Direction: 1
-  m_Center: {x: 0, y: 1.29999995, z: 0}
+  serializedVersion: 2
+  m_Size: {x: 1, y: 4, z: 2}
+  m_Center: {x: 0, y: 2, z: 0}
 --- !u!114 &1265885170
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -59385,7 +59317,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1354558873}
   - 114: {fileID: 1354558874}
-  - 136: {fileID: 1354558875}
+  - 65: {fileID: 1354558875}
   - 114: {fileID: 1354558876}
   m_Layer: 10
   m_Name: Tree
@@ -59423,20 +59355,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scaleOffsetMin: .699999988
   scaleOffsetMax: 1
---- !u!136 &1354558875
-CapsuleCollider:
+--- !u!65 &1354558875
+BoxCollider:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 13600000, guid: e5b7ccf0ae8a7c94e8e9068496cd988e,
+  m_PrefabParentObject: {fileID: 6500000, guid: e5b7ccf0ae8a7c94e8e9068496cd988e,
     type: 2}
   m_PrefabInternal: {fileID: 1956263695}
   m_GameObject: {fileID: 1354558872}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: .699999988
-  m_Height: 4
-  m_Direction: 1
-  m_Center: {x: 0, y: 1.29999995, z: 0}
+  serializedVersion: 2
+  m_Size: {x: 1, y: 4, z: 2}
+  m_Center: {x: 0, y: 2, z: 0}
 --- !u!114 &1354558876
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -59715,7 +59646,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1370048853}
   - 114: {fileID: 1370048854}
-  - 136: {fileID: 1370048855}
+  - 65: {fileID: 1370048855}
   - 114: {fileID: 1370048856}
   m_Layer: 10
   m_Name: Tree
@@ -59753,20 +59684,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scaleOffsetMin: .699999988
   scaleOffsetMax: 1
---- !u!136 &1370048855
-CapsuleCollider:
+--- !u!65 &1370048855
+BoxCollider:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 13600000, guid: e5b7ccf0ae8a7c94e8e9068496cd988e,
+  m_PrefabParentObject: {fileID: 6500000, guid: e5b7ccf0ae8a7c94e8e9068496cd988e,
     type: 2}
   m_PrefabInternal: {fileID: 40532129}
   m_GameObject: {fileID: 1370048852}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: .699999988
-  m_Height: 4
-  m_Direction: 1
-  m_Center: {x: 0, y: 1.29999995, z: 0}
+  serializedVersion: 2
+  m_Size: {x: 1, y: 4, z: 2}
+  m_Center: {x: 0, y: 2, z: 0}
 --- !u!114 &1370048856
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -59940,7 +59870,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1371116883}
   - 114: {fileID: 1371116884}
-  - 136: {fileID: 1371116885}
+  - 65: {fileID: 1371116885}
   - 114: {fileID: 1371116886}
   m_Layer: 10
   m_Name: Tree
@@ -59978,20 +59908,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scaleOffsetMin: .699999988
   scaleOffsetMax: 1
---- !u!136 &1371116885
-CapsuleCollider:
+--- !u!65 &1371116885
+BoxCollider:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 13600000, guid: e5b7ccf0ae8a7c94e8e9068496cd988e,
+  m_PrefabParentObject: {fileID: 6500000, guid: e5b7ccf0ae8a7c94e8e9068496cd988e,
     type: 2}
   m_PrefabInternal: {fileID: 494531038}
   m_GameObject: {fileID: 1371116882}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: .699999988
-  m_Height: 4
-  m_Direction: 1
-  m_Center: {x: 0, y: 1.29999995, z: 0}
+  serializedVersion: 2
+  m_Size: {x: 1, y: 4, z: 2}
+  m_Center: {x: 0, y: 2, z: 0}
 --- !u!114 &1371116886
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -62187,7 +62116,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1421414901}
   - 114: {fileID: 1421414902}
-  - 136: {fileID: 1421414903}
+  - 65: {fileID: 1421414903}
   - 114: {fileID: 1421414904}
   m_Layer: 10
   m_Name: Tree
@@ -62225,20 +62154,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scaleOffsetMin: .699999988
   scaleOffsetMax: 1
---- !u!136 &1421414903
-CapsuleCollider:
+--- !u!65 &1421414903
+BoxCollider:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 13600000, guid: e5b7ccf0ae8a7c94e8e9068496cd988e,
+  m_PrefabParentObject: {fileID: 6500000, guid: e5b7ccf0ae8a7c94e8e9068496cd988e,
     type: 2}
   m_PrefabInternal: {fileID: 862137068}
   m_GameObject: {fileID: 1421414900}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: .699999988
-  m_Height: 4
-  m_Direction: 1
-  m_Center: {x: 0, y: 1.29999995, z: 0}
+  serializedVersion: 2
+  m_Size: {x: 1, y: 4, z: 2}
+  m_Center: {x: 0, y: 2, z: 0}
 --- !u!114 &1421414904
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -63031,7 +62959,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1437035461}
   - 114: {fileID: 1437035462}
-  - 136: {fileID: 1437035463}
+  - 65: {fileID: 1437035463}
   - 114: {fileID: 1437035464}
   m_Layer: 10
   m_Name: Tree
@@ -63069,20 +62997,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scaleOffsetMin: .699999988
   scaleOffsetMax: 1
---- !u!136 &1437035463
-CapsuleCollider:
+--- !u!65 &1437035463
+BoxCollider:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 13600000, guid: e5b7ccf0ae8a7c94e8e9068496cd988e,
+  m_PrefabParentObject: {fileID: 6500000, guid: e5b7ccf0ae8a7c94e8e9068496cd988e,
     type: 2}
   m_PrefabInternal: {fileID: 1692863339}
   m_GameObject: {fileID: 1437035460}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: .699999988
-  m_Height: 4
-  m_Direction: 1
-  m_Center: {x: 0, y: 1.29999995, z: 0}
+  serializedVersion: 2
+  m_Size: {x: 1, y: 4, z: 2}
+  m_Center: {x: 0, y: 2, z: 0}
 --- !u!114 &1437035464
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -63194,7 +63121,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1440641637}
   - 114: {fileID: 1440641638}
-  - 136: {fileID: 1440641639}
+  - 65: {fileID: 1440641639}
   - 114: {fileID: 1440641640}
   m_Layer: 10
   m_Name: Tree
@@ -63232,20 +63159,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scaleOffsetMin: .699999988
   scaleOffsetMax: 1
---- !u!136 &1440641639
-CapsuleCollider:
+--- !u!65 &1440641639
+BoxCollider:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 13600000, guid: e5b7ccf0ae8a7c94e8e9068496cd988e,
+  m_PrefabParentObject: {fileID: 6500000, guid: e5b7ccf0ae8a7c94e8e9068496cd988e,
     type: 2}
   m_PrefabInternal: {fileID: 1197253716}
   m_GameObject: {fileID: 1440641636}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: .699999988
-  m_Height: 4
-  m_Direction: 1
-  m_Center: {x: 0, y: 1.29999995, z: 0}
+  serializedVersion: 2
+  m_Size: {x: 1, y: 4, z: 2}
+  m_Center: {x: 0, y: 2, z: 0}
 --- !u!114 &1440641640
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -63621,7 +63547,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1453282290}
   - 114: {fileID: 1453282291}
-  - 136: {fileID: 1453282292}
+  - 65: {fileID: 1453282292}
   - 114: {fileID: 1453282293}
   m_Layer: 10
   m_Name: Tree
@@ -63659,20 +63585,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scaleOffsetMin: .699999988
   scaleOffsetMax: 1
---- !u!136 &1453282292
-CapsuleCollider:
+--- !u!65 &1453282292
+BoxCollider:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 13600000, guid: e5b7ccf0ae8a7c94e8e9068496cd988e,
+  m_PrefabParentObject: {fileID: 6500000, guid: e5b7ccf0ae8a7c94e8e9068496cd988e,
     type: 2}
   m_PrefabInternal: {fileID: 709424633}
   m_GameObject: {fileID: 1453282289}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: .699999988
-  m_Height: 4
-  m_Direction: 1
-  m_Center: {x: 0, y: 1.29999995, z: 0}
+  serializedVersion: 2
+  m_Size: {x: 1, y: 4, z: 2}
+  m_Center: {x: 0, y: 2, z: 0}
 --- !u!114 &1453282293
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -67833,7 +67758,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1545538734}
   - 114: {fileID: 1545538735}
-  - 136: {fileID: 1545538736}
+  - 65: {fileID: 1545538736}
   - 114: {fileID: 1545538737}
   m_Layer: 10
   m_Name: Tree
@@ -67871,20 +67796,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scaleOffsetMin: .699999988
   scaleOffsetMax: 1
---- !u!136 &1545538736
-CapsuleCollider:
+--- !u!65 &1545538736
+BoxCollider:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 13600000, guid: e5b7ccf0ae8a7c94e8e9068496cd988e,
+  m_PrefabParentObject: {fileID: 6500000, guid: e5b7ccf0ae8a7c94e8e9068496cd988e,
     type: 2}
   m_PrefabInternal: {fileID: 1353526211}
   m_GameObject: {fileID: 1545538733}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: .699999988
-  m_Height: 4
-  m_Direction: 1
-  m_Center: {x: 0, y: 1.29999995, z: 0}
+  serializedVersion: 2
+  m_Size: {x: 1, y: 4, z: 2}
+  m_Center: {x: 0, y: 2, z: 0}
 --- !u!114 &1545538737
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -68652,7 +68576,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1567363891}
   - 114: {fileID: 1567363892}
-  - 136: {fileID: 1567363893}
+  - 65: {fileID: 1567363893}
   - 114: {fileID: 1567363894}
   m_Layer: 10
   m_Name: Tree
@@ -68690,20 +68614,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scaleOffsetMin: .699999988
   scaleOffsetMax: 1
---- !u!136 &1567363893
-CapsuleCollider:
+--- !u!65 &1567363893
+BoxCollider:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 13600000, guid: e5b7ccf0ae8a7c94e8e9068496cd988e,
+  m_PrefabParentObject: {fileID: 6500000, guid: e5b7ccf0ae8a7c94e8e9068496cd988e,
     type: 2}
   m_PrefabInternal: {fileID: 1101570679}
   m_GameObject: {fileID: 1567363890}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: .699999988
-  m_Height: 4
-  m_Direction: 1
-  m_Center: {x: 0, y: 1.29999995, z: 0}
+  serializedVersion: 2
+  m_Size: {x: 1, y: 4, z: 2}
+  m_Center: {x: 0, y: 2, z: 0}
 --- !u!114 &1567363894
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -71950,7 +71873,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1631375568}
   - 114: {fileID: 1631375569}
-  - 136: {fileID: 1631375570}
+  - 65: {fileID: 1631375570}
   - 114: {fileID: 1631375571}
   m_Layer: 10
   m_Name: Tree
@@ -71988,20 +71911,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scaleOffsetMin: .699999988
   scaleOffsetMax: 1
---- !u!136 &1631375570
-CapsuleCollider:
+--- !u!65 &1631375570
+BoxCollider:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 13600000, guid: e5b7ccf0ae8a7c94e8e9068496cd988e,
+  m_PrefabParentObject: {fileID: 6500000, guid: e5b7ccf0ae8a7c94e8e9068496cd988e,
     type: 2}
   m_PrefabInternal: {fileID: 1047194143}
   m_GameObject: {fileID: 1631375567}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: .699999988
-  m_Height: 4
-  m_Direction: 1
-  m_Center: {x: 0, y: 1.29999995, z: 0}
+  serializedVersion: 2
+  m_Size: {x: 1, y: 4, z: 2}
+  m_Center: {x: 0, y: 2, z: 0}
 --- !u!114 &1631375571
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -74027,7 +73949,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1658100857}
   - 114: {fileID: 1658100858}
-  - 136: {fileID: 1658100859}
+  - 65: {fileID: 1658100859}
   - 114: {fileID: 1658100860}
   m_Layer: 10
   m_Name: Tree
@@ -74065,20 +73987,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scaleOffsetMin: .699999988
   scaleOffsetMax: 1
---- !u!136 &1658100859
-CapsuleCollider:
+--- !u!65 &1658100859
+BoxCollider:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 13600000, guid: e5b7ccf0ae8a7c94e8e9068496cd988e,
+  m_PrefabParentObject: {fileID: 6500000, guid: e5b7ccf0ae8a7c94e8e9068496cd988e,
     type: 2}
   m_PrefabInternal: {fileID: 1336189522}
   m_GameObject: {fileID: 1658100856}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: .699999988
-  m_Height: 4
-  m_Direction: 1
-  m_Center: {x: 0, y: 1.29999995, z: 0}
+  serializedVersion: 2
+  m_Size: {x: 1, y: 4, z: 2}
+  m_Center: {x: 0, y: 2, z: 0}
 --- !u!114 &1658100860
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -74190,7 +74111,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1662008206}
   - 114: {fileID: 1662008207}
-  - 136: {fileID: 1662008208}
+  - 65: {fileID: 1662008208}
   - 114: {fileID: 1662008209}
   m_Layer: 10
   m_Name: Tree
@@ -74228,20 +74149,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scaleOffsetMin: .699999988
   scaleOffsetMax: 1
---- !u!136 &1662008208
-CapsuleCollider:
+--- !u!65 &1662008208
+BoxCollider:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 13600000, guid: e5b7ccf0ae8a7c94e8e9068496cd988e,
+  m_PrefabParentObject: {fileID: 6500000, guid: e5b7ccf0ae8a7c94e8e9068496cd988e,
     type: 2}
   m_PrefabInternal: {fileID: 1781385645}
   m_GameObject: {fileID: 1662008205}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: .699999988
-  m_Height: 4
-  m_Direction: 1
-  m_Center: {x: 0, y: 1.29999995, z: 0}
+  serializedVersion: 2
+  m_Size: {x: 1, y: 4, z: 2}
+  m_Center: {x: 0, y: 2, z: 0}
 --- !u!114 &1662008209
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -76131,7 +76051,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1707332865}
   - 114: {fileID: 1707332866}
-  - 136: {fileID: 1707332867}
+  - 65: {fileID: 1707332867}
   - 114: {fileID: 1707332868}
   m_Layer: 10
   m_Name: Tree
@@ -76169,20 +76089,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scaleOffsetMin: .699999988
   scaleOffsetMax: 1
---- !u!136 &1707332867
-CapsuleCollider:
+--- !u!65 &1707332867
+BoxCollider:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 13600000, guid: e5b7ccf0ae8a7c94e8e9068496cd988e,
+  m_PrefabParentObject: {fileID: 6500000, guid: e5b7ccf0ae8a7c94e8e9068496cd988e,
     type: 2}
   m_PrefabInternal: {fileID: 1717442042}
   m_GameObject: {fileID: 1707332864}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: .699999988
-  m_Height: 4
-  m_Direction: 1
-  m_Center: {x: 0, y: 1.29999995, z: 0}
+  serializedVersion: 2
+  m_Size: {x: 1, y: 4, z: 2}
+  m_Center: {x: 0, y: 2, z: 0}
 --- !u!114 &1707332868
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -76204,7 +76123,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1709266297}
   - 114: {fileID: 1709266298}
-  - 136: {fileID: 1709266299}
+  - 65: {fileID: 1709266299}
   - 114: {fileID: 1709266300}
   m_Layer: 10
   m_Name: Tree
@@ -76242,20 +76161,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scaleOffsetMin: .699999988
   scaleOffsetMax: 1
---- !u!136 &1709266299
-CapsuleCollider:
+--- !u!65 &1709266299
+BoxCollider:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 13600000, guid: e5b7ccf0ae8a7c94e8e9068496cd988e,
+  m_PrefabParentObject: {fileID: 6500000, guid: e5b7ccf0ae8a7c94e8e9068496cd988e,
     type: 2}
   m_PrefabInternal: {fileID: 2075993042}
   m_GameObject: {fileID: 1709266296}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: .699999988
-  m_Height: 4
-  m_Direction: 1
-  m_Center: {x: 0, y: 1.29999995, z: 0}
+  serializedVersion: 2
+  m_Size: {x: 1, y: 4, z: 2}
+  m_Center: {x: 0, y: 2, z: 0}
 --- !u!114 &1709266300
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -77101,7 +77019,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1730367101}
   - 114: {fileID: 1730367102}
-  - 136: {fileID: 1730367103}
+  - 65: {fileID: 1730367103}
   - 114: {fileID: 1730367104}
   m_Layer: 10
   m_Name: Tree
@@ -77139,20 +77057,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scaleOffsetMin: .699999988
   scaleOffsetMax: 1
---- !u!136 &1730367103
-CapsuleCollider:
+--- !u!65 &1730367103
+BoxCollider:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 13600000, guid: e5b7ccf0ae8a7c94e8e9068496cd988e,
+  m_PrefabParentObject: {fileID: 6500000, guid: e5b7ccf0ae8a7c94e8e9068496cd988e,
     type: 2}
   m_PrefabInternal: {fileID: 1464554427}
   m_GameObject: {fileID: 1730367100}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: .699999988
-  m_Height: 4
-  m_Direction: 1
-  m_Center: {x: 0, y: 1.29999995, z: 0}
+  serializedVersion: 2
+  m_Size: {x: 1, y: 4, z: 2}
+  m_Center: {x: 0, y: 2, z: 0}
 --- !u!114 &1730367104
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -77270,7 +77187,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1732342966}
   - 114: {fileID: 1732342967}
-  - 136: {fileID: 1732342968}
+  - 65: {fileID: 1732342968}
   - 114: {fileID: 1732342969}
   m_Layer: 10
   m_Name: Tree
@@ -77308,20 +77225,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scaleOffsetMin: .699999988
   scaleOffsetMax: 1
---- !u!136 &1732342968
-CapsuleCollider:
+--- !u!65 &1732342968
+BoxCollider:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 13600000, guid: e5b7ccf0ae8a7c94e8e9068496cd988e,
+  m_PrefabParentObject: {fileID: 6500000, guid: e5b7ccf0ae8a7c94e8e9068496cd988e,
     type: 2}
   m_PrefabInternal: {fileID: 1037809127}
   m_GameObject: {fileID: 1732342965}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: .699999988
-  m_Height: 4
-  m_Direction: 1
-  m_Center: {x: 0, y: 1.29999995, z: 0}
+  serializedVersion: 2
+  m_Size: {x: 1, y: 4, z: 2}
+  m_Center: {x: 0, y: 2, z: 0}
 --- !u!114 &1732342969
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -77529,7 +77445,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1746205670}
   - 114: {fileID: 1746205671}
-  - 136: {fileID: 1746205672}
+  - 65: {fileID: 1746205672}
   - 114: {fileID: 1746205673}
   m_Layer: 10
   m_Name: Tree
@@ -77567,20 +77483,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scaleOffsetMin: .699999988
   scaleOffsetMax: 1
---- !u!136 &1746205672
-CapsuleCollider:
+--- !u!65 &1746205672
+BoxCollider:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 13600000, guid: e5b7ccf0ae8a7c94e8e9068496cd988e,
+  m_PrefabParentObject: {fileID: 6500000, guid: e5b7ccf0ae8a7c94e8e9068496cd988e,
     type: 2}
   m_PrefabInternal: {fileID: 342417140}
   m_GameObject: {fileID: 1746205669}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: .699999988
-  m_Height: 4
-  m_Direction: 1
-  m_Center: {x: 0, y: 1.29999995, z: 0}
+  serializedVersion: 2
+  m_Size: {x: 1, y: 4, z: 2}
+  m_Center: {x: 0, y: 2, z: 0}
 --- !u!114 &1746205673
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -78011,7 +77926,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1754242430}
   - 114: {fileID: 1754242431}
-  - 136: {fileID: 1754242432}
+  - 65: {fileID: 1754242432}
   - 114: {fileID: 1754242433}
   m_Layer: 10
   m_Name: Tree
@@ -78049,20 +77964,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scaleOffsetMin: .699999988
   scaleOffsetMax: 1
---- !u!136 &1754242432
-CapsuleCollider:
+--- !u!65 &1754242432
+BoxCollider:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 13600000, guid: e5b7ccf0ae8a7c94e8e9068496cd988e,
+  m_PrefabParentObject: {fileID: 6500000, guid: e5b7ccf0ae8a7c94e8e9068496cd988e,
     type: 2}
   m_PrefabInternal: {fileID: 1908918642}
   m_GameObject: {fileID: 1754242429}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: .699999988
-  m_Height: 4
-  m_Direction: 1
-  m_Center: {x: 0, y: 1.29999995, z: 0}
+  serializedVersion: 2
+  m_Size: {x: 1, y: 4, z: 2}
+  m_Center: {x: 0, y: 2, z: 0}
 --- !u!114 &1754242433
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -78499,7 +78413,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1767901101}
   - 114: {fileID: 1767901102}
-  - 136: {fileID: 1767901103}
+  - 65: {fileID: 1767901103}
   - 114: {fileID: 1767901104}
   m_Layer: 10
   m_Name: Tree
@@ -78537,20 +78451,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scaleOffsetMin: .699999988
   scaleOffsetMax: 1
---- !u!136 &1767901103
-CapsuleCollider:
+--- !u!65 &1767901103
+BoxCollider:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 13600000, guid: e5b7ccf0ae8a7c94e8e9068496cd988e,
+  m_PrefabParentObject: {fileID: 6500000, guid: e5b7ccf0ae8a7c94e8e9068496cd988e,
     type: 2}
   m_PrefabInternal: {fileID: 2032081348}
   m_GameObject: {fileID: 1767901100}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: .699999988
-  m_Height: 4
-  m_Direction: 1
-  m_Center: {x: 0, y: 1.29999995, z: 0}
+  serializedVersion: 2
+  m_Size: {x: 1, y: 4, z: 2}
+  m_Center: {x: 0, y: 2, z: 0}
 --- !u!114 &1767901104
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -78572,7 +78485,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1769102165}
   - 114: {fileID: 1769102166}
-  - 136: {fileID: 1769102167}
+  - 65: {fileID: 1769102167}
   - 114: {fileID: 1769102168}
   m_Layer: 10
   m_Name: Tree
@@ -78610,20 +78523,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scaleOffsetMin: .699999988
   scaleOffsetMax: 1
---- !u!136 &1769102167
-CapsuleCollider:
+--- !u!65 &1769102167
+BoxCollider:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 13600000, guid: e5b7ccf0ae8a7c94e8e9068496cd988e,
+  m_PrefabParentObject: {fileID: 6500000, guid: e5b7ccf0ae8a7c94e8e9068496cd988e,
     type: 2}
   m_PrefabInternal: {fileID: 681303587}
   m_GameObject: {fileID: 1769102164}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: .699999988
-  m_Height: 4
-  m_Direction: 1
-  m_Center: {x: 0, y: 1.29999995, z: 0}
+  serializedVersion: 2
+  m_Size: {x: 1, y: 4, z: 2}
+  m_Center: {x: 0, y: 2, z: 0}
 --- !u!114 &1769102168
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -78735,7 +78647,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1774898303}
   - 114: {fileID: 1774898304}
-  - 136: {fileID: 1774898305}
+  - 65: {fileID: 1774898305}
   - 114: {fileID: 1774898306}
   m_Layer: 10
   m_Name: Tree
@@ -78773,20 +78685,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scaleOffsetMin: .699999988
   scaleOffsetMax: 1
---- !u!136 &1774898305
-CapsuleCollider:
+--- !u!65 &1774898305
+BoxCollider:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 13600000, guid: e5b7ccf0ae8a7c94e8e9068496cd988e,
+  m_PrefabParentObject: {fileID: 6500000, guid: e5b7ccf0ae8a7c94e8e9068496cd988e,
     type: 2}
   m_PrefabInternal: {fileID: 1422896009}
   m_GameObject: {fileID: 1774898302}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: .699999988
-  m_Height: 4
-  m_Direction: 1
-  m_Center: {x: 0, y: 1.29999995, z: 0}
+  serializedVersion: 2
+  m_Size: {x: 1, y: 4, z: 2}
+  m_Center: {x: 0, y: 2, z: 0}
 --- !u!114 &1774898306
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -80194,7 +80105,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1820364172}
   - 114: {fileID: 1820364173}
-  - 136: {fileID: 1820364174}
+  - 65: {fileID: 1820364174}
   - 114: {fileID: 1820364175}
   m_Layer: 10
   m_Name: Tree
@@ -80232,20 +80143,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scaleOffsetMin: .699999988
   scaleOffsetMax: 1
---- !u!136 &1820364174
-CapsuleCollider:
+--- !u!65 &1820364174
+BoxCollider:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 13600000, guid: e5b7ccf0ae8a7c94e8e9068496cd988e,
+  m_PrefabParentObject: {fileID: 6500000, guid: e5b7ccf0ae8a7c94e8e9068496cd988e,
     type: 2}
   m_PrefabInternal: {fileID: 1807310299}
   m_GameObject: {fileID: 1820364171}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: .699999988
-  m_Height: 4
-  m_Direction: 1
-  m_Center: {x: 0, y: 1.29999995, z: 0}
+  serializedVersion: 2
+  m_Size: {x: 1, y: 4, z: 2}
+  m_Center: {x: 0, y: 2, z: 0}
 --- !u!114 &1820364175
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -80957,7 +80867,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1837899678}
   - 114: {fileID: 1837899679}
-  - 136: {fileID: 1837899680}
+  - 65: {fileID: 1837899680}
   - 114: {fileID: 1837899681}
   m_Layer: 10
   m_Name: Tree
@@ -80995,20 +80905,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scaleOffsetMin: .699999988
   scaleOffsetMax: 1
---- !u!136 &1837899680
-CapsuleCollider:
+--- !u!65 &1837899680
+BoxCollider:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 13600000, guid: e5b7ccf0ae8a7c94e8e9068496cd988e,
+  m_PrefabParentObject: {fileID: 6500000, guid: e5b7ccf0ae8a7c94e8e9068496cd988e,
     type: 2}
   m_PrefabInternal: {fileID: 1163075225}
   m_GameObject: {fileID: 1837899677}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: .699999988
-  m_Height: 4
-  m_Direction: 1
-  m_Center: {x: 0, y: 1.29999995, z: 0}
+  serializedVersion: 2
+  m_Size: {x: 1, y: 4, z: 2}
+  m_Center: {x: 0, y: 2, z: 0}
 --- !u!114 &1837899681
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -81082,7 +80991,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1841022702}
   - 114: {fileID: 1841022703}
-  - 136: {fileID: 1841022704}
+  - 65: {fileID: 1841022704}
   - 114: {fileID: 1841022705}
   m_Layer: 10
   m_Name: Tree
@@ -81120,20 +81029,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scaleOffsetMin: .699999988
   scaleOffsetMax: 1
---- !u!136 &1841022704
-CapsuleCollider:
+--- !u!65 &1841022704
+BoxCollider:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 13600000, guid: e5b7ccf0ae8a7c94e8e9068496cd988e,
+  m_PrefabParentObject: {fileID: 6500000, guid: e5b7ccf0ae8a7c94e8e9068496cd988e,
     type: 2}
   m_PrefabInternal: {fileID: 1982516314}
   m_GameObject: {fileID: 1841022701}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: .699999988
-  m_Height: 4
-  m_Direction: 1
-  m_Center: {x: 0, y: 1.29999995, z: 0}
+  serializedVersion: 2
+  m_Size: {x: 1, y: 4, z: 2}
+  m_Center: {x: 0, y: 2, z: 0}
 --- !u!114 &1841022705
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -82978,7 +82886,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1886058927}
   - 114: {fileID: 1886058928}
-  - 136: {fileID: 1886058929}
+  - 65: {fileID: 1886058929}
   - 114: {fileID: 1886058930}
   m_Layer: 10
   m_Name: Tree
@@ -83016,20 +82924,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scaleOffsetMin: .699999988
   scaleOffsetMax: 1
---- !u!136 &1886058929
-CapsuleCollider:
+--- !u!65 &1886058929
+BoxCollider:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 13600000, guid: e5b7ccf0ae8a7c94e8e9068496cd988e,
+  m_PrefabParentObject: {fileID: 6500000, guid: e5b7ccf0ae8a7c94e8e9068496cd988e,
     type: 2}
   m_PrefabInternal: {fileID: 1132865335}
   m_GameObject: {fileID: 1886058926}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: .699999988
-  m_Height: 4
-  m_Direction: 1
-  m_Center: {x: 0, y: 1.29999995, z: 0}
+  serializedVersion: 2
+  m_Size: {x: 1, y: 4, z: 2}
+  m_Center: {x: 0, y: 2, z: 0}
 --- !u!114 &1886058930
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -86372,7 +86279,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1974018222}
   - 114: {fileID: 1974018223}
-  - 136: {fileID: 1974018224}
+  - 65: {fileID: 1974018224}
   - 114: {fileID: 1974018225}
   m_Layer: 10
   m_Name: Tree
@@ -86410,20 +86317,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scaleOffsetMin: .699999988
   scaleOffsetMax: 1
---- !u!136 &1974018224
-CapsuleCollider:
+--- !u!65 &1974018224
+BoxCollider:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 13600000, guid: e5b7ccf0ae8a7c94e8e9068496cd988e,
+  m_PrefabParentObject: {fileID: 6500000, guid: e5b7ccf0ae8a7c94e8e9068496cd988e,
     type: 2}
   m_PrefabInternal: {fileID: 1934655906}
   m_GameObject: {fileID: 1974018221}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: .699999988
-  m_Height: 4
-  m_Direction: 1
-  m_Center: {x: 0, y: 1.29999995, z: 0}
+  serializedVersion: 2
+  m_Size: {x: 1, y: 4, z: 2}
+  m_Center: {x: 0, y: 2, z: 0}
 --- !u!114 &1974018225
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -91358,7 +91264,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 2108829914}
   - 114: {fileID: 2108829915}
-  - 136: {fileID: 2108829916}
+  - 65: {fileID: 2108829916}
   - 114: {fileID: 2108829917}
   m_Layer: 10
   m_Name: Tree
@@ -91396,20 +91302,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scaleOffsetMin: .699999988
   scaleOffsetMax: 1
---- !u!136 &2108829916
-CapsuleCollider:
+--- !u!65 &2108829916
+BoxCollider:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 13600000, guid: e5b7ccf0ae8a7c94e8e9068496cd988e,
+  m_PrefabParentObject: {fileID: 6500000, guid: e5b7ccf0ae8a7c94e8e9068496cd988e,
     type: 2}
   m_PrefabInternal: {fileID: 1000088785}
   m_GameObject: {fileID: 2108829913}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: .699999988
-  m_Height: 4
-  m_Direction: 1
-  m_Center: {x: 0, y: 1.29999995, z: 0}
+  serializedVersion: 2
+  m_Size: {x: 1, y: 4, z: 2}
+  m_Center: {x: 0, y: 2, z: 0}
 --- !u!114 &2108829917
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -91583,7 +91488,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 2113433239}
   - 114: {fileID: 2113433240}
-  - 136: {fileID: 2113433241}
+  - 65: {fileID: 2113433241}
   - 114: {fileID: 2113433242}
   m_Layer: 10
   m_Name: Tree
@@ -91621,20 +91526,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scaleOffsetMin: .699999988
   scaleOffsetMax: 1
---- !u!136 &2113433241
-CapsuleCollider:
+--- !u!65 &2113433241
+BoxCollider:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 13600000, guid: e5b7ccf0ae8a7c94e8e9068496cd988e,
+  m_PrefabParentObject: {fileID: 6500000, guid: e5b7ccf0ae8a7c94e8e9068496cd988e,
     type: 2}
   m_PrefabInternal: {fileID: 2028337832}
   m_GameObject: {fileID: 2113433238}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: .699999988
-  m_Height: 4
-  m_Direction: 1
-  m_Center: {x: 0, y: 1.29999995, z: 0}
+  serializedVersion: 2
+  m_Size: {x: 1, y: 4, z: 2}
+  m_Center: {x: 0, y: 2, z: 0}
 --- !u!114 &2113433242
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -91910,7 +91814,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 2118446113}
   - 114: {fileID: 2118446114}
-  - 136: {fileID: 2118446115}
+  - 65: {fileID: 2118446115}
   - 114: {fileID: 2118446116}
   m_Layer: 10
   m_Name: Tree
@@ -91948,20 +91852,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scaleOffsetMin: .699999988
   scaleOffsetMax: 1
---- !u!136 &2118446115
-CapsuleCollider:
+--- !u!65 &2118446115
+BoxCollider:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 13600000, guid: e5b7ccf0ae8a7c94e8e9068496cd988e,
+  m_PrefabParentObject: {fileID: 6500000, guid: e5b7ccf0ae8a7c94e8e9068496cd988e,
     type: 2}
   m_PrefabInternal: {fileID: 1443563854}
   m_GameObject: {fileID: 2118446112}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: .699999988
-  m_Height: 4
-  m_Direction: 1
-  m_Center: {x: 0, y: 1.29999995, z: 0}
+  serializedVersion: 2
+  m_Size: {x: 1, y: 4, z: 2}
+  m_Center: {x: 0, y: 2, z: 0}
 --- !u!114 &2118446116
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -92156,7 +92059,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 2125584695}
   - 114: {fileID: 2125584696}
-  - 136: {fileID: 2125584697}
+  - 65: {fileID: 2125584697}
   - 114: {fileID: 2125584698}
   m_Layer: 10
   m_Name: Tree
@@ -92194,20 +92097,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scaleOffsetMin: .699999988
   scaleOffsetMax: 1
---- !u!136 &2125584697
-CapsuleCollider:
+--- !u!65 &2125584697
+BoxCollider:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 13600000, guid: e5b7ccf0ae8a7c94e8e9068496cd988e,
+  m_PrefabParentObject: {fileID: 6500000, guid: e5b7ccf0ae8a7c94e8e9068496cd988e,
     type: 2}
   m_PrefabInternal: {fileID: 1197138775}
   m_GameObject: {fileID: 2125584694}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: .699999988
-  m_Height: 4
-  m_Direction: 1
-  m_Center: {x: 0, y: 1.29999995, z: 0}
+  serializedVersion: 2
+  m_Size: {x: 1, y: 4, z: 2}
+  m_Center: {x: 0, y: 2, z: 0}
 --- !u!114 &2125584698
 MonoBehaviour:
   m_ObjectHideFlags: 0

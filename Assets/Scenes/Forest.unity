@@ -342,6 +342,10 @@ Prefab:
       propertyPath: exitFarmPrefab
       value: 
       objectReference: {fileID: 400000, guid: 844e0ded8f71f864c856c61fdce20464, type: 2}
+    - target: {fileID: 11400000, guid: bad71921777f8d64babb6b62c3ca1e91, type: 2}
+      propertyPath: pigPrefab
+      value: 
+      objectReference: {fileID: 400004, guid: 825cb55f75d5f344b864c90601288a70, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: bad71921777f8d64babb6b62c3ca1e91, type: 2}
   m_RootGameObject: {fileID: 1683392229}
@@ -701,6 +705,7 @@ MonoBehaviour:
   gatePrefab: {fileID: 400000, guid: d80c4f7ccd883af4aa5ecacfabede219, type: 2}
   mushroomPrefab: {fileID: 400002, guid: 4ce53c819e820704da1e40f32dfb533a, type: 2}
   exitFarmPrefab: {fileID: 400000, guid: 844e0ded8f71f864c856c61fdce20464, type: 2}
+  pigPrefab: {fileID: 400004, guid: 825cb55f75d5f344b864c90601288a70, type: 2}
   treeRoot: {fileID: 1700130707}
   rockRoot: {fileID: 827446539}
   grassRoot: {fileID: 2140500911}
@@ -920,6 +925,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 2146691878}
   - 114: {fileID: 2146691877}
+  - 114: {fileID: 2146691879}
   m_Layer: 0
   m_Name: Game
   m_TagString: Untagged
@@ -943,6 +949,8 @@ MonoBehaviour:
     day: 0
     money: 0
     pigs: []
+  startingPigs: 2
+  huntDuration: 60
 --- !u!4 &2146691878
 Transform:
   m_ObjectHideFlags: 0
@@ -954,3 +962,17 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
+--- !u!114 &2146691879
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400002, guid: 3b9bdd002d6f4f044a2f582299a032db,
+    type: 2}
+  m_PrefabInternal: {fileID: 2111824349}
+  m_GameObject: {fileID: 2146691876}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4bcffae35a4ebdd4b920f21315a365ca, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maleNamesAsset: {fileID: 4900000, guid: a07c47d211fc37e47b85aa754e947d62, type: 3}
+  femaleNamesAsset: {fileID: 4900000, guid: ebdb230a57e6c204db15af4b995f2706, type: 3}

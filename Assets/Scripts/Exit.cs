@@ -16,7 +16,15 @@ public class Exit : MonoBehaviour
 	{
 		if (other.GetComponent<Player>() != null)
 		{
-			GameCamera.instance.FadeToScene(scene, phase);
+			if(phase==GamePhase.ExitGame)
+			{
+				Debug.Log("Goodbye!");
+				Application.Quit();
+			}
+			else
+			{
+				GameCamera.instance.FadeToScene(scene, phase);
+			}
 			enabled = false;
 		}
 	}

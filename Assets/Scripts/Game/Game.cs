@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Xml.Serialization;
 using System.Xml;
 
-public enum GamePhase { BeforeHunt, Hunt, AfterHunt }
+public enum GamePhase { BeforeHunt, Hunt, AfterHunt, ExitGame }
 
 public class Game : Singleton<Game>
 {

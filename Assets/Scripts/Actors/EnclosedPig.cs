@@ -10,11 +10,13 @@ public class EnclosedPig : MonoBehaviour
 	
 	CharacterController controller;
 	Pig pig;
+	tk2dSpriteAnimator animator;
 	
 	void Start()
 	{
 		controller = GetComponent<CharacterController>();
 		pig = GetComponent<Pig>();
+		animator = GetComponentInChildren<tk2dSpriteAnimator>();
 		
 		StartCoroutine(Wander());
 	}
@@ -24,11 +26,20 @@ public class EnclosedPig : MonoBehaviour
 		Vector3 target;
 		while (true)
 		{
+			animator.Play("PigSideIdle");
+			
 			yield return StartCoroutine(Auto.Wait(Rand.Float(minPauseTime, maxPauseTime)));
 			while (!TryFindTargetPosition(out target))
 				yield return 0;
 			while (!transform.IsAt(target))
 			{
+				animator.Play("PigSideWalk");
+				
+				if (transform.position.x - target.x < 0)
+					animator.Sprite.FlipX = true;
+				else
+					animator.Sprite.FlipX = false;
+				
 				transform.MoveTowards(target, pig.data.speed * Time.deltaTime);
 				yield return 0;
 			}

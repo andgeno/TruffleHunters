@@ -34,6 +34,7 @@ public class ForestGenerator : MonoBehaviour
 	public Transform gatePrefab;
 	public Transform mushroomPrefab;
 	public Transform exitFarmPrefab;
+	public Transform pigPrefab;
 	
 	// roots
 	public Transform treeRoot;
@@ -166,6 +167,11 @@ public class ForestGenerator : MonoBehaviour
 			Vector3 spawn = mushroomSpawns.Choose();
 			mushroomSpawns.Remove(spawn);
 			mushroomPrefab.Spawn(spawn);
+		}
+		
+		for (int i = 0; i < 2; i ++)
+		{
+			pigPrefab.Spawn(new Vector3(-1 + i * 2, 0, size.y - fencePadding.y));	
 		}
 		
 		yield return 0;
